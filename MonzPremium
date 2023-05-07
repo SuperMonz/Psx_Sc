@@ -106,7 +106,7 @@ local msg = {
         }
       }
     }
-  },
+  }
   ["attachments"] = {}
 },
 local Webhook = _G.Webhook
