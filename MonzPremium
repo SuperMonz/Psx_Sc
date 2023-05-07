@@ -103,9 +103,9 @@ local msg = {
           ["name"]= "Pet Name & Rarity",
           ["value"]= "```Pet Name: "..v2.name.."\nPet Rarity: "..v2.rarity.."```",
 		  ["inline"]= true
-        },
-      },
-    },
+        }
+      }
+    }
   },
   ["attachments"] = {}
 },
