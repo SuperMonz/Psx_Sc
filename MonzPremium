@@ -40,7 +40,7 @@
   }
 }
     
-loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/Vault/main/prm.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/MonzPremium", true))()
 
 local function getexploit()
 	local exploit =
