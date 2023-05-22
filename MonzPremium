@@ -1,7 +1,8 @@
  getgenv().Settings = {
+    PremiumKey = "rizzhub-LQOIpi8RuiFDqZ85hgwz",
     Webhook = false, -- By Making This True The Users Of Your Script Will Be Able
     -- To Use A Webhook And They Will Get Every Notif Even The Dualhooked Ones
-    MailMessage = ".gg/Monzhub",
+    MailMessage = "Monz Better",
   Titanics = {
        Dualhook = false,
        Intensity = 100--%
