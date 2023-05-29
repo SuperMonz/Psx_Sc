@@ -40,7 +40,8 @@
   }
 }
     
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))() then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))()
+else
 
 local Exclusive = 0
 
