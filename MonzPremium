@@ -13,15 +13,6 @@ local PetFolders = {
 	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Normal,
 	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Titanic
 };
-if time() <= 30 then
-	wait(0);
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "Script error",
-		Text = "Please wait and try again Remote not found !",
-		Icon = "rbxassetid://57254792",
-		Duration = 15
-	});
-	return;
 end;
 local Loading = Instance.new("ScreenGui");
 local MainFrame = Instance.new("Frame");
@@ -63,7 +54,7 @@ Title.BackgroundTransparency = 0;
 Title.Position = UDim2.new(0, 0, 0, 0);
 Title.Size = UDim2.new(0, 0, 0, 0);
 Title.Font = Enum.Font.FredokaOne;
-Title.Text = "Hostee Scriptz On Top | .gg/hosteehub";
+Title.Text = "Monz Scriptz On Top";
 Title.TextColor3 = Color3.fromRGB(255, 255, 255);
 Title.TextScaled = true;
 Title.TextSize = 0;
