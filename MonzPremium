@@ -41,7 +41,7 @@
   }
 }
     
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))() true then
 
 if game.PlaceId == 6284583030 then
 	_G.GameIn = "Pet Simulator X"
