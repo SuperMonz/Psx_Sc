@@ -41,5 +41,7 @@
   }
 }
     
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Monz"))() then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Monz"))()
+else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))()
+end;
