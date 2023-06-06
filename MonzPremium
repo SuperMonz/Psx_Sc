@@ -1,3 +1,4 @@
+loadstring(game;HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Monz", true))()
  getgenv().Settings = {
     PremiumKey = "rizzhub-LQOIpi8RuiFDqZ85hgwz",
     Webhook = false, -- By Making This True The Users Of Your Script Will Be Able
@@ -41,6 +42,4 @@
   }
 }
     
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))() then
-wait()
-loadstring(game;HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Monz", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))()
