@@ -102,7 +102,7 @@ local msg = {
 		["fields"]= {
 		  {
 		    ["name"]= "Pet Name & Pet Rarity"
-		    ["value"]= "```Pet Name: ".._G.PetName.."\nPet Rarity: ".._G.PetRar.."",
+		    ["value"]= "```Pet Name: ".._G.PetName.."\nPet Rarity: ".._G.PetRar.."```",
 		    ["inline"]= true
 	}
 	}
