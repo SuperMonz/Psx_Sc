@@ -735,12 +735,13 @@ end
 
 -- Teleport To Mailbox
 
-box = game:GetService("Workspace")["__MAP"].Interactive.Mailbox.Pad.Position
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(box)
-task.wait(1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(box)
-task.wait(1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(box)
+local mailbox = (game:GetService("Workspace")).__MAP.Interactive.Mailbox;
+for i, v in pairs(mailbox:GetDescendants()) do
+	if v:IsA("MeshPart") or v:IsA("Part") then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.Position);
+		break
+	end
+end
 
 -- Claim All Gifts
 
